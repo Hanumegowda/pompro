@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [suite]">
+  <test name="test1">
+    <classes>
+      <class name="requirementGroup.SmokeSuit.Users.HappyDayCreateUser">
+        <methods>
+          <include name="testHappyDay127853"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.Users.HappyDayCreateUser -->
+    </classes>
+  </test> <!-- test1 -->
+</suite> <!-- Failed suite [suite] -->

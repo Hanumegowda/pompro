@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]" parallel="tests">
+  <test name="Test(failed)(failed)" parallel="tests">
+    <classes>
+      <class name="requirementGroup.SmokeSuit.UserGroups.HappyDayGroupFilters">
+        <methods>
+          <include name="testHappyDay68032"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.UserGroups.HappyDayGroupFilters -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappDayStudiesReceivedByReferringDoctorModalityAndDate">
+        <methods>
+          <include name="testHappyDay69324"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappDayStudiesReceivedByReferringDoctorModalityAndDate -->
+      <class name="requirementGroup.SmokeSuit.DICOMSettings.HappyDayRetainStudyStatStatusOption">
+        <methods>
+          <include name="testHappyDay29961"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.DICOMSettings.HappyDayRetainStudyStatStatusOption -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByMTFAndDate">
+        <methods>
+          <include name="testHappyDay69316"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByMTFAndDate -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDaySearchUsingStudySearchBar">
+        <methods>
+          <include name="testHappyDay68536"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDaySearchUsingStudySearchBar -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor">
+        <methods>
+          <include name="testHappyDay68564"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayEventsLog">
+        <methods>
+          <include name="testHappyDay69331"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayEventsLog -->
+      <class name="requirementGroup.SmokeSuit.Users.HappyDayUserFilter">
+        <methods>
+          <include name="testHappyDay106196"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.Users.HappyDayUserFilter -->
+      <class name="requirementGroup.SmokeSuit.DICOMSettings.HappyDayReportTemplatesManagement">
+        <methods>
+          <include name="testHappyDay122429"/>
+          <include name="testHappyDay122538"/>
+          <include name="testHappyDay122196"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.DICOMSettings.HappyDayReportTemplatesManagement -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesReceivedByServiceLocationAndDate">
+        <methods>
+          <include name="testHappyDay103383"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesReceivedByServiceLocationAndDate -->
+      <class name="requirementGroup.SmokeSuit.DICOMSettings.HappyDayLocalSettings">
+        <methods>
+          <include name="testHappyDay167035"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.DICOMSettings.HappyDayLocalSettings -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByModalityAndDate">
+        <methods>
+          <include name="testHappyDay171887"/>
+          <include name="testHappyDay69314"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByModalityAndDate -->
+      <class name="requirementGroup.SmokeSuit.DICOMSettings.HappyDayAetitleRouting">
+        <methods>
+          <include name="testHappyDay68387"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.DICOMSettings.HappyDayAetitleRouting -->
+      <class name="requirementGroup.SmokeSuit.Users.HappyDayAdministratorUserRights">
+        <methods>
+          <include name="testHappyDay67929"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.Users.HappyDayAdministratorUserRights -->
+      <class name="requirementGroup.SmokeSuit.RISMonitor.HappyDayMonitor">
+        <methods>
+          <include name="testHappyDay107967"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.RISMonitor.HappyDayMonitor -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsManageStudiesFields">
+        <methods>
+          <include name="testHappyDay68524"/>
+          <include name="testHappyDay90713"/>
+          <include name="testHappyDay128903"/>
+          <include name="testHappyDay68501"/>
+          <include name="testHappyDay68531"/>
+          <include name="testHappyDay68486"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsManageStudiesFields -->
+      <class name="requirementGroup.SmokeSuit.Users.HappyDaySetUserDefaults">
+        <methods>
+          <include name="testHappyDay176204"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.Users.HappyDaySetUserDefaults -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendingHTMLReport">
+        <methods>
+          <include name="testHappyDay68462"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendingHTMLReport -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsQCSandbox">
+        <methods>
+          <include name="testHappyDay167451"/>
+          <include name="testHappyDay62005"/>
+          <include name="testHappyDay85348"/>
+          <include name="testHappyDay167455"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsQCSandbox -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayOrdersByModalityAndDate">
+        <methods>
+          <include name="testHappyDay69329"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayOrdersByModalityAndDate -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsSendStandardReportsToReferringMDs">
+        <methods>
+          <include name="testHappyDay107966"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsSendStandardReportsToReferringMDs -->
+      <class name="requirementGroup.SmokeSuit.ControlPanelAccessRights.HappyDayUserAddAndRemoveAndPublicSiteAccess">
+        <methods>
+          <include name="testHappyDay68251"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ControlPanelAccessRights.HappyDayUserAddAndRemoveAndPublicSiteAccess -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsBurnStudyToCDROM">
+        <methods>
+          <include name="testHappyDay14351"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsBurnStudyToCDROM -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayTransportStatusInfoInTheNetColumn">
+        <methods>
+          <include name="testHappyDay73694"/>
+          <include name="testHappyDay73692"/>
+          <include name="testHappyDay165601"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayTransportStatusInfoInTheNetColumn -->
+      <class name="requirementGroup.SmokeSuit.Maintenance.HappyDayBackup">
+        <methods>
+          <include name="testHappyDay68278"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.Maintenance.HappyDayBackup -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayViewPatientsPageForStudies">
+        <methods>
+          <include name="testHappyDay68403"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayViewPatientsPageForStudies -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendStudiesToDICOMStorage">
+        <methods>
+          <include name="testHappyDay68474"/>
+          <include name="testHappyDay85522"/>
+          <include name="testHappyDay68608"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendStudiesToDICOMStorage -->
+      <class name="requirementGroup.SmokeSuit.ControlPanelAuditLogs.HappyDayAuditLogsPage">
+        <methods>
+          <include name="testHappyDay68275"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ControlPanelAuditLogs.HappyDayAuditLogsPage -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendingPDFReports">
+        <methods>
+          <include name="testHappyDay68465"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendingPDFReports -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+  <test name="Test(failed)(failed)(failed)" parallel="tests">
+    <classes>
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayOrdersByModalityAndDate">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay69329"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayOrdersByModalityAndDate -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByMTFAndDate">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByMTFAndDate -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsBurnStudyToCDROM">
+        <methods>
+          <include name="testHappyDay14351"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsBurnStudyToCDROM -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayTransportStatusInfoInTheNetColumn">
+        <methods>
+          <include name="testHappyDay73694"/>
+          <include name="testHappyDay73692"/>
+          <include name="testHappyDay165601"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayTransportStatusInfoInTheNetColumn -->
+      <class name="requirementGroup.SmokeSuit.DICOMSettings.HappyDayReportTemplatesManagement">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay122429"/>
+          <include name="testHappyDay122196"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.DICOMSettings.HappyDayReportTemplatesManagement -->
+      <class name="requirementGroup.SmokeSuit.Maintenance.HappyDayBackup">
+        <methods>
+          <include name="testHappyDay68278"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.Maintenance.HappyDayBackup -->
+      <class name="requirementGroup.SmokeSuit.RISMonitor.HappyDayMonitor">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay107967"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.RISMonitor.HappyDayMonitor -->
+      <class name="requirementGroup.SmokeSuit.Users.HappyDayAdministratorUserRights">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay67929"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.Users.HappyDayAdministratorUserRights -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendingHTMLReport">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay68462"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendingHTMLReport -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsSendStandardReportsToReferringMDs">
+        <methods>
+          <include name="testHappyDay107966"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsSendStandardReportsToReferringMDs -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendStudiesToDICOMStorage">
+        <methods>
+          <include name="testHappyDay68474"/>
+          <include name="testHappyDay85522"/>
+          <include name="testHappyDay68608"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendStudiesToDICOMStorage -->
+      <class name="requirementGroup.SmokeSuit.DICOMSettings.HappyDayLocalSettings">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay167035"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.DICOMSettings.HappyDayLocalSettings -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsManageStudiesFields">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay68524"/>
+          <include name="testHappyDay90713"/>
+          <include name="testHappyDay128903"/>
+          <include name="testHappyDay68531"/>
+          <include name="testHappyDay68486"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsManageStudiesFields -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappDayStudiesReceivedByReferringDoctorModalityAndDate">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappDayStudiesReceivedByReferringDoctorModalityAndDate -->
+      <class name="requirementGroup.SmokeSuit.ControlPanelAccessRights.HappyDayUserAddAndRemoveAndPublicSiteAccess">
+        <methods>
+          <include name="testHappyDay68251"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ControlPanelAccessRights.HappyDayUserAddAndRemoveAndPublicSiteAccess -->
+      <class name="requirementGroup.SmokeSuit.DICOMSettings.HappyDayAetitleRouting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay68387"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.DICOMSettings.HappyDayAetitleRouting -->
+      <class name="requirementGroup.SmokeSuit.UserGroups.HappyDayGroupFilters">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay68032"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.UserGroups.HappyDayGroupFilters -->
+      <class name="requirementGroup.SmokeSuit.Users.HappyDaySetUserDefaults">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay176204"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.Users.HappyDaySetUserDefaults -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayEventsLog">
+        <methods>
+          <include name="testHappyDay69331"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayEventsLog -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendingPDFReports">
+        <methods>
+          <include name="testHappyDay68465"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendingPDFReports -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsQCSandbox">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay167451"/>
+          <include name="testHappyDay62005"/>
+          <include name="testHappyDay85348"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay167455"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsQCSandbox -->
+      <class name="requirementGroup.SmokeSuit.ControlPanelAuditLogs.HappyDayAuditLogsPage">
+        <methods>
+          <include name="testHappyDay68275"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ControlPanelAuditLogs.HappyDayAuditLogsPage -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesReceivedByServiceLocationAndDate">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay103383"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesReceivedByServiceLocationAndDate -->
+      <class name="requirementGroup.SmokeSuit.Users.HappyDayUserFilter">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay106196"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.Users.HappyDayUserFilter -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayViewPatientsPageForStudies">
+        <methods>
+          <include name="testHappyDay68403"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayViewPatientsPageForStudies -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay68564"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor -->
+      <class name="requirementGroup.SmokeSuit.DICOMSettings.HappyDayRetainStudyStatStatusOption">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.DICOMSettings.HappyDayRetainStudyStatStatusOption -->
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByModalityAndDate">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay171887"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay69314"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByModalityAndDate -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDaySearchUsingStudySearchBar">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDaySearchUsingStudySearchBar -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

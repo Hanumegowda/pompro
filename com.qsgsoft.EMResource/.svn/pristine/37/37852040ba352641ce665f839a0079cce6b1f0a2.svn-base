@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Failed suite [Smoke_Suite]</th></tr><tr><td><a href="#t0">Smoke</a></td><td class="num">2</td><td class="num attn">4</td><td class="num attn">10</td><td class="num">2,471,978</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">Smoke(failed)</a></td><td class="num">1</td><td class="num attn">4</td><td class="num attn">9</td><td class="num">2,057,017</td><td></td><td></td></tr><tr><th>Total</th><th class="num">3</th><th class="num attn">8</th><th class="num attn">19</th><th class="num">4,528,995</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Failed suite [Smoke_Suite]</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Smoke &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">RequirementGroups.Smoke.CreatingAndManagingEvents</td><td><a href="#m0">Smoke185941</a></td><td rowspan="1">1469692768446</td><td rowspan="1">349491</td></tr><tr class="failedodd"><td rowspan="2">RequirementGroups.Smoke.CreatingAndManagingForms</td><td><a href="#m1">Smoke186197</a></td><td rowspan="1">1469691910576</td><td rowspan="1">210187</td></tr><tr class="failedodd"><td><a href="#m2">Smoke187097</a></td><td rowspan="1">1469692121150</td><td rowspan="1">185703</td></tr><tr class="failedeven"><td rowspan="2">RequirementGroups.Smoke.CreatingAndManagingViews</td><td><a href="#m3">Smoke186243</a></td><td rowspan="1">1469692354363</td><td rowspan="1">198942</td></tr><tr class="failedeven"><td><a href="#m4">Smoke186259</a></td><td rowspan="1">1469692553578</td><td rowspan="1">184797</td></tr><tr class="failedodd"><td rowspan="1">RequirementGroups.Smoke.IntegrationWithEMTrack</td><td><a href="#m5">Smoke186230</a></td><td rowspan="1">1469693150316</td><td rowspan="1">65813</td></tr><tr class="failedeven"><td rowspan="1">RequirementGroups.Smoke.IntegrationWithEics</td><td><a href="#m6">Smoke186548</a></td><td rowspan="1">1469691532152</td><td rowspan="1">346037</td></tr><tr class="failedodd"><td rowspan="3">RequirementGroups.Smoke.SetupUsers</td><td><a href="#m7">Smoke183487</a></td><td rowspan="1">1469693450651</td><td rowspan="1">17098</td></tr><tr class="failedodd"><td><a href="#m8">Smoke183488</a></td><td rowspan="1">1469693467979</td><td rowspan="1">490194</td></tr><tr class="failedodd"><td><a href="#m9">Smoke183489</a></td><td rowspan="1">1469693248558</td><td rowspan="1">201818</td></tr><tr><th colspan="4">Smoke &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">RequirementGroups.Smoke.CreatingAndManagingForms</td><td><a href="#m10">Smoke186195</a></td><td rowspan="1">1469692121130</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m11">Smoke186196</a></td><td rowspan="1">1469692121140</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">RequirementGroups.Smoke.SetupUsers</td><td><a href="#m12">Smoke183490</a></td><td rowspan="1">1469693958463</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m13">Smoke183491</a></td><td rowspan="1">1469693958473</td><td rowspan="1">0</td></tr><tr><th colspan="4">Smoke &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">RequirementGroups.Smoke.CreatingAndManagingViews</td><td><a href="#m14">Smoke186199</a></td><td rowspan="1">1469692331465</td><td rowspan="1">15</td></tr><tr class="passedeven"><td><a href="#m15">Smoke186241</a></td><td rowspan="1">1469692331726</td><td rowspan="1">22373</td></tr></tbody><tbody id="t1"><tr><th colspan="4">Smoke(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">RequirementGroups.Smoke.CreatingAndManagingEvents</td><td><a href="#m16">Smoke185941</a></td><td rowspan="1">1469695940652</td><td rowspan="1">74895</td></tr><tr class="failedodd"><td rowspan="2">RequirementGroups.Smoke.CreatingAndManagingForms</td><td><a href="#m17">Smoke186197</a></td><td rowspan="1">1469693980704</td><td rowspan="1">205588</td></tr><tr class="failedodd"><td><a href="#m18">Smoke187097</a></td><td rowspan="1">1469694186591</td><td rowspan="1">186432</td></tr><tr class="failedeven"><td rowspan="1">RequirementGroups.Smoke.CreatingAndManagingViews</td><td><a href="#m19">Smoke186243</a></td><td rowspan="1">1469694464063</td><td rowspan="1">199930</td></tr><tr class="failedodd"><td rowspan="1">RequirementGroups.Smoke.IntegrationWithEMTrack</td><td><a href="#m20">Smoke186230</a></td><td rowspan="1">1469695116591</td><td rowspan="1">63370</td></tr><tr class="failedeven"><td rowspan="1">RequirementGroups.Smoke.IntegrationWithEics</td><td><a href="#m21">Smoke186548</a></td><td rowspan="1">1469694686295</td><td rowspan="1">406291</td></tr><tr class="failedodd"><td rowspan="3">RequirementGroups.Smoke.SetupUsers</td><td><a href="#m22">Smoke183487</a></td><td rowspan="1">1469695413254</td><td rowspan="1">15716</td></tr><tr class="failedodd"><td><a href="#m23">Smoke183488</a></td><td rowspan="1">1469695429269</td><td rowspan="1">487874</td></tr><tr class="failedodd"><td><a href="#m24">Smoke183489</a></td><td rowspan="1">1469695203019</td><td rowspan="1">209866</td></tr><tr><th colspan="4">Smoke(failed) &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">RequirementGroups.Smoke.CreatingAndManagingForms</td><td><a href="#m25">Smoke186195</a></td><td rowspan="1">1469694186581</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m26">Smoke186196</a></td><td rowspan="1">1469694186591</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">RequirementGroups.Smoke.SetupUsers</td><td><a href="#m27">Smoke183490</a></td><td rowspan="1">1469695917425</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m28">Smoke183491</a></td><td rowspan="1">1469695917435</td><td rowspan="1">0</td></tr><tr><th colspan="4">Smoke(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">RequirementGroups.Smoke.CreatingAndManagingViews</td><td><a href="#m29">Smoke186259</a></td><td rowspan="1">1469694398999</td><td rowspan="1">64792</td></tr></tbody></table><h2>Smoke</h2><h3 id="m0">RequirementGroups.Smoke.CreatingAndManagingEvents#Smoke185941</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Mails.verifyEmail(Mails.java:135)
+	at EMR.pages.Mails.verifyMailAndPagerNotificationsForAnEventCreated(Mails.java:880)
+	at RequirementGroups.Smoke.CreatingAndManagingEvents.Smoke185941(CreatingAndManagingEvents.java:68)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">RequirementGroups.Smoke.CreatingAndManagingForms#Smoke186197</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke186197(CreatingAndManagingForms.java:70)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">RequirementGroups.Smoke.CreatingAndManagingForms#Smoke187097</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke187097(CreatingAndManagingForms.java:241)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">RequirementGroups.Smoke.CreatingAndManagingViews#Smoke186243</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingViews.Smoke186243(CreatingAndManagingViews.java:126)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">RequirementGroups.Smoke.CreatingAndManagingViews#Smoke186259</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginAsUserAndAcknowledgeWebNotification(Login.java:97)
+	at RequirementGroups.Smoke.CreatingAndManagingViews.Smoke186259(CreatingAndManagingViews.java:165)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">RequirementGroups.Smoke.IntegrationWithEMTrack#Smoke186230</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Bayshore Medical expected [Bayshore Medical] but found [selected hospital is other than expected]
+	at EMTrack.pages.Patient.selectHospital(Patient.java:62)
+	at EMTrack.pages.Patient.addPatientDetailes(Patient.java:105)
+	at RequirementGroups.Smoke.IntegrationWithEMTrack.Smoke186230(IntegrationWithEMTrack.java:67)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">RequirementGroups.Smoke.IntegrationWithEics#Smoke186548</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 427 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;QSG-LP-17&apos;, ip: &apos;10.30.1.179&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir1212_2193}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6052bff4b3d07586f21bcf370e943d66
+*** Element info: {Using=xpath, value=//td/a[text()=&apos;Map&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at qaFramework.webElements.WebElements.getOne(WebElements.java:32)
+	at EMR.pages.Shared.map(Shared.java:226)
+	at RequirementGroups.Smoke.IntegrationWithEics.Smoke186548(IntegrationWithEics.java:63)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">RequirementGroups.Smoke.SetupUsers#Smoke183487</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: keys should be a string
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;QSG-LP-17&apos;, ip: &apos;10.30.1.179&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir3508_15881}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a1e16672e853453bd197d5e041b4a74c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at CAM.pages.HomePage.searchUser(HomePage.java:36)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183487(SetupUsers.java:108)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">RequirementGroups.Smoke.SetupUsers#Smoke183488</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183488(SetupUsers.java:146)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">RequirementGroups.Smoke.SetupUsers#Smoke183489</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183489(SetupUsers.java:76)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">RequirementGroups.Smoke.CreatingAndManagingForms#Smoke186195</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa] depends on not successfully finished methods
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">RequirementGroups.Smoke.CreatingAndManagingForms#Smoke186196</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa] depends on not successfully finished methods
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">RequirementGroups.Smoke.SetupUsers#Smoke183490</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45] depends on not successfully finished methods
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m13">RequirementGroups.Smoke.SetupUsers#Smoke183491</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45] depends on not successfully finished methods
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m14">RequirementGroups.Smoke.CreatingAndManagingViews#Smoke186199</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m15">RequirementGroups.Smoke.CreatingAndManagingViews#Smoke186241</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Smoke(failed)</h2><h3 id="m16">RequirementGroups.Smoke.CreatingAndManagingEvents#Smoke185941</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.Login.clickOnCancelOfSecurityQuestionPage(Login.java:115)
+	at EMR.pages.Login.loginAsUserAndAcknowledgeWebNotification(Login.java:101)
+	at RequirementGroups.Smoke.CreatingAndManagingEvents.Smoke185941(CreatingAndManagingEvents.java:58)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m17">RequirementGroups.Smoke.CreatingAndManagingForms#Smoke186197</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke186197(CreatingAndManagingForms.java:70)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m18">RequirementGroups.Smoke.CreatingAndManagingForms#Smoke187097</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke187097(CreatingAndManagingForms.java:241)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m19">RequirementGroups.Smoke.CreatingAndManagingViews#Smoke186243</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingViews.Smoke186243(CreatingAndManagingViews.java:126)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m20">RequirementGroups.Smoke.IntegrationWithEMTrack#Smoke186230</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Bayshore Medical expected [Bayshore Medical] but found [selected hospital is other than expected]
+	at EMTrack.pages.Patient.selectHospital(Patient.java:62)
+	at EMTrack.pages.Patient.addPatientDetailes(Patient.java:105)
+	at RequirementGroups.Smoke.IntegrationWithEMTrack.Smoke186230(IntegrationWithEMTrack.java:67)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m21">RequirementGroups.Smoke.IntegrationWithEics#Smoke186548</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 498 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;QSG-LP-17&apos;, ip: &apos;10.30.1.179&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir7332_23791}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ef41f06754d8f2a1ddaa9394cd2ef5b7
+*** Element info: {Using=xpath, value=//td/a[text()=&apos;Map&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at qaFramework.webElements.WebElements.getOne(WebElements.java:32)
+	at EMR.pages.Shared.map(Shared.java:226)
+	at RequirementGroups.Smoke.IntegrationWithEics.Smoke186548(IntegrationWithEics.java:63)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m22">RequirementGroups.Smoke.SetupUsers#Smoke183487</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: keys should be a string
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 130 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;QSG-LP-17&apos;, ip: &apos;10.30.1.179&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir5032_16057}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3c122db56616b13f710f38b3c751f74
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at CAM.pages.HomePage.searchUser(HomePage.java:36)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183487(SetupUsers.java:108)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m23">RequirementGroups.Smoke.SetupUsers#Smoke183488</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183488(SetupUsers.java:146)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m24">RequirementGroups.Smoke.SetupUsers#Smoke183489</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183489(SetupUsers.java:76)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m25">RequirementGroups.Smoke.CreatingAndManagingForms#Smoke186195</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464] depends on not successfully finished methods
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m26">RequirementGroups.Smoke.CreatingAndManagingForms#Smoke186196</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464] depends on not successfully finished methods
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m27">RequirementGroups.Smoke.SetupUsers#Smoke183490</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e] depends on not successfully finished methods
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m28">RequirementGroups.Smoke.SetupUsers#Smoke183491</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e] depends on not successfully finished methods
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m29">RequirementGroups.Smoke.CreatingAndManagingViews#Smoke186259</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

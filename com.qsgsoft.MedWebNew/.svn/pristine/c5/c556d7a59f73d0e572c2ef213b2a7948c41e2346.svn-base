@@ -1,0 +1,10 @@
+<h2>Methods that were not run</h2><table>
+<tr><td>rh4CommercialServer.requirementGroup.smokeSuit.Users.HappyDayAdministratorUserRights.testHappyDay67927<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that user belonging to the Administrator group is not allowed to add users to Administrator Group.</i></td></tr>
+<tr><td>rh4CommercialServer.requirementGroup.smokeSuit.Users.HappyDayAdministratorUserRights.testHappyDay67958<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that Admin User is allowed to delete users from groups other than Administrator group.</i></td></tr>
+<tr><td>rh4CommercialServer.requirementGroup.smokeSuit.Users.HappyDayAdministratorUserRights.testHappyDay67960<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that Administrator users cannot modify a user's ACL group to Administrator.</i></td></tr>
+<tr><td>rh4CommercialServer.requirementGroup.smokeSuit.Users.HappyDayAdministratorUserRights.testHappyDay67954<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that Admin User is not allowed to delete users from Administrator group.</i></td></tr>
+<tr><td>rh4CommercialServer.requirementGroup.smokeSuit.Users.HappyDayAdministratorUserRights.testHappyDay67929<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that user belonging to the Administrator group is allowed to add users to ACL groups other than Administrator.</i></td></tr>
+<tr><td>rh4CommercialServer.requirementGroup.smokeSuit.Users.HappyDayAdministratorUserRights.testHappyDay67930<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that user belonging to the Administrator group is not allowed to modify users from Admin group.</i></td></tr>
+<tr><td>rh4CommercialServer.requirementGroup.smokeSuit.Users.HappyDayAdministratorUserRights.testHappyDay71141<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that user belonging to the Administrator group is not allowed to change the ACL group of another Admin User.</i></td></tr>
+<tr><td>rh4CommercialServer.requirementGroup.smokeSuit.Users.HappyDayAdministratorUserRights.testHappyDay67941<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that Admin User is allowed to modify users from groups other than Administrator.</i></td></tr>
+</table>

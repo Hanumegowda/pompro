@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<templates>
+  <template id="1484638755510">
+    <owner>admin</owner>
+    <tmpl_val>comments=&amp;history=&amp;interpretation=&amp;findings=</tmpl_val>
+    <filter>MODALITY=*|</filter>
+    <name>AutoTemplate1484638678952</name>
+    <acl_group_type>private</acl_group_type>
+    <package>Medweb Standard</package>
+    <shared>0</shared>
+    <subtype/>
+    <text>%3Chtml%3E%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%20body%2C%20p%2C%20ol%2C%20ul%2C%20li%20%7B%20margin-top%3A0px%3B%20margin-bottom%3A0px%3B%20%7D%20%3C%2Fstyle%3E%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%20body%2C%20p%2C%20ol%2C%20ul%2C%20li%20%7B%20margin-top%3A0px%3B%20margin-bottom%3A0px%3B%20%7D%20%3C%2Fstyle%3Etemplate%20editor%20page%20text%0A%0A%0A%3C%2Fhtml%3E%0A</text>
+    <type>Referral Note</type>
+    <id>1484638755510</id>
+  </template>
+</templates>

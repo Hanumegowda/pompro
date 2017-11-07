@@ -1,0 +1,36 @@
+Resultpath=\\src\\test\\resources\\SupportFiles\\EMRes_ResultSummary.xls
+
+UserDetails_path=\\src\\test\\resources\\SupportFiles\\TestData.xls
+
+WriteResultPath=\\src\\test\\resources\\SupportFiles\\PartialAutoResults.xls
+
+Build=6042
+
+CycleEnviMapID=11381
+
+Build_Id=6042
+!-------------------------Upload Files Path-------------
+
+Smoke_EventsXmlPath= /src/test/resources/XmlFiles/Smoke/Events.xml
+
+Smoke_FormsXmlPath = /src/test/resources/XmlFiles/Smoke/Forms.xml
+
+EventSetUpDataXml = /src/test/resources/XmlFiles/EventSetUpData.xml
+
+UsersDataXml = /src/test/resources/XmlFiles/UsersData.xml
+
+ResourceDataXml = /src/test/resources/XmlFiles/ResourceData.xml
+
+ResourceTypeDataXml = /src/test/resources/XmlFiles/ResourceTypeData.xml
+
+RolesDataXml = /src/test/resources/XmlFiles/RolesData.xml
+
+RegionDataXml = /src/test/resources/XmlFiles/RegionData.xml
+
+StatusTypeDataXml = /src/test/resources/XmlFiles/StatusTypesData.xml
+
+ImageToUploadForUserLinks = \\src\\test\\resources\\UploadFiles\\GetLinkImage42.jpg
+
+FormsDataXml = /src/test/resources/XmlFiles/FormsData.xml
+
+SectionDataXml = /src/test/resources/XmlFiles/SectionData.xml

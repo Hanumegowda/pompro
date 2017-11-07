@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HappyDayForms" verbose="10">
+	<test name="TestForms">
+		<classes>
+			<class name="requirementGroup.Forms.CreateForm" />
+			<class
+				name="requirementGroup.CreatingAndManagingForms.HappyDayFormNotification" />
+			<class
+				name="requirementGroup.CreatingAndManagingForms.HappyDayMovingQuestionsAndChangingQuestionType" />
+			<class name="requirementGroup.Forms.HappyDayReceiveBlankForm" />
+			<class name="requirementGroup.Forms.HappyDayDeleteV3FormQuestionnaire" />
+			<class name="requirementGroup.SettingUpUsers.NewRightToConfigureForms" />
+			<class
+				name="requirementGroup.CreatingAndManagingForms.HappyDayClonningFormTemplate" />
+			<class name="requirementGroup.Forms.HappyDayForms" />
+			<class name="requirementGroup.Forms.HappyDayEditForm" />
+			<class
+				name="requirementGroup.CreatingAndManagingForms.HappyDayStandardListsOfQuestionnaire" />
+			<class name="requirementGroup.Forms.FormNotification" />
+			<class name="requirementGroup.Forms.HappyDayDispatchForm" />
+			<class name="requirementGroup.CreatingAndManagingForms.HappyDayForms" />
+			<class name="requirementGroup.Forms.HappyDayFormDetailReportUpdated" />
+			<class name="requirementGroup.Forms.HappyDayEditV3FormQuestionnaire" />
+			<class name="requirementGroup.Reports.HappyDayFormSummaryReport" />
+			<class name="requirementGroup.Forms.HappyDayCreateV3FormQuestionnaire" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

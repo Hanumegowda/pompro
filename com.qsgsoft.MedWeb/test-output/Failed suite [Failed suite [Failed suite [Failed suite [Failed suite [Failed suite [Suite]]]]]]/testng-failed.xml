@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]]]]" parallel="none">
+  <test name="Test(failed)(failed)(failed)(failed)(failed)(failed)(failed)" parallel="none">
+    <classes>
+      <class name="requirementGroup.RISPatientSchedule.HappyDayPatientRegistration">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.RISPatientSchedule.HappyDayPatientRegistration -->
+      <class name="requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports">
+        <methods>
+          <include name="testHappyDay68467"/>
+        </methods>
+      </class> <!-- requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports -->
+      <class name="requirementGroup.ControlPanelServices.HappyDayWorkflowProxy">
+        <methods>
+          <include name="testHappyDay68191"/>
+        </methods>
+      </class> <!-- requirementGroup.ControlPanelServices.HappyDayWorkflowProxy -->
+      <class name="requirementGroup.DICOMSettings.HappyDayAddingDestination">
+        <methods>
+          <include name="testHappyDay68366"/>
+          <include name="testHappyDay68373"/>
+          <include name="testHappyDay68372"/>
+        </methods>
+      </class> <!-- requirementGroup.DICOMSettings.HappyDayAddingDestination -->
+      <class name="requirementGroup.DICOMSettings.HappyDayAetitleRouting">
+        <methods>
+          <include name="testHappyDay68385"/>
+          <include name="testHappyDay68393"/>
+          <include name="testHappyDay68389"/>
+          <include name="testHappyDay68387"/>
+        </methods>
+      </class> <!-- requirementGroup.DICOMSettings.HappyDayAetitleRouting -->
+      <class name="requirementGroup.DICOMSettings.HappyDayLocalSettings">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay68324"/>
+          <include name="testHappyDay68321"/>
+          <include name="testHappyDay68326"/>
+          <include name="testHappyDay100685"/>
+          <include name="testHappyDay167038"/>
+          <include name="testHappyDay68316"/>
+          <include name="testHappyDay167035"/>
+          <include name="testHappyDay167039"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay59406"/>
+        </methods>
+      </class> <!-- requirementGroup.DICOMSettings.HappyDayLocalSettings -->
+      <class name="requirementGroup.ControlPanelServices.HappyDayMedwebStatistics">
+        <methods>
+          <include name="testHappyDay165867"/>
+        </methods>
+      </class> <!-- requirementGroup.ControlPanelServices.HappyDayMedwebStatistics -->
+      <class name="requirementGroup.ViewPatients.HappyDayImageManagementToolsQCSandbox">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay59393"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.ViewPatients.HappyDayImageManagementToolsQCSandbox -->
+      <class name="requirementGroup.Maintenance.HappyDayBackup">
+        <methods>
+          <include name="testHappyDay68279"/>
+          <include name="testHappyDay68278"/>
+        </methods>
+      </class> <!-- requirementGroup.Maintenance.HappyDayBackup -->
+      <class name="requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor">
+        <methods>
+          <include name="testHappyDay68545"/>
+          <include name="testHappyDay68553"/>
+        </methods>
+      </class> <!-- requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor -->
+      <class name="requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports">
+        <methods>
+          <include name="testHappyDay68465"/>
+        </methods>
+      </class> <!-- requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports -->
+      <class name="requirementGroup.Maintenance.HappyDayRestore">
+        <methods>
+          <include name="testHappyDay68292"/>
+        </methods>
+      </class> <!-- requirementGroup.Maintenance.HappyDayRestore -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed)(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]]]] -->

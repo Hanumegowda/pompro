@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test name="chrometest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByMTFAndDate">
+      <methods>
+      <include name="testHappyDay69316"></include>
+      </methods>
+      </class>
+    </classes>
+    
+  </test> 
+  
+  <test name="ietest">
+  <parameter name="browser" value="ie">
+  <classes>
+         <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByMTFAndDate">
+      <methods>
+      <include name="testHappyDay69316"></include>
+      </methods>
+      </class>
+    </classes>
+  </parameter>
+  </test>
+ <!--  <test name="edgetest">
+  <parameter name="browser" value="edge">
+  <classes>
+  <class name="requirementGroup.SmokeSuit.RISPatientSchedule.HappyDayWebScheduler">
+      <methods>
+      <include name="testHappyDay62738"></include>
+      </methods>
+      </class></classes>
+  </parameter>
+  </test> -->
+</suite>
+

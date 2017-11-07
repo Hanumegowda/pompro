@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+  <test name="Test">
+    <classes>
+    
+   	    <class name="requirementGroup.SmokeTestSuite.SmokeSetup"/> 
+   	    <class name="requirementGroup.SmokeTestSuite.SmokePreferences"/> 
+    	<class name="requirementGroup.SmokeTestSuite.SmokePreferences3Browser"/>
+   	    <class name="requirementGroup.SmokeTestSuite.SmokeSetup1"/>
+    	<class name="requirementGroup.SmokeTestSuite.SmokeEvents"/> 
+    	<class name="requirementGroup.SmokeTestSuite.SmokeMultiRegionFeatures"/> 
+    	<class name="requirementGroup.SmokeTestSuite.SmokeImportResources"/> 
+    	<class name="requirementGroup.SmokeTestSuite.SmokeViews"/> 
+    	<class name="requirementGroup.SmokeTestSuite.SmokeRegionalInfo"/> 
+    	<class name="requirementGroup.SmokeTestSuite.SmokeResourceHierarchies"/>
+    	<class name="requirementGroup.SmokeTestSuite.SmokeReports"/> 
+    	<class name="requirementGroup.SmokeTestSuite.SmokeEMResourceIntegrationWithHospitalICS"/>
+ 		
+ 		
+ 		<!--  HAPPY DAY XML OLD  -->
+ 		 <!--Events Module -->
+   	    <class name="requirementGroup.CreatingAndManagingEvents.HappyDayAdhocEvents"/> 
+   	    <class name="requirementGroup.CreatingAndManagingEvents.HappyDayAdhocEventsOne"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.HappyDayCreatingAndManagingEvents"/>
+   	    <class name="requirementGroup.CreatingAndManagingEvents.HappyDayCreatingAndManagingEventsMultiBrowser"/>
+    	<class name="requirementGroup.CreatingAndManagingEvents.HappyDayDirectedEventsForTwoBrowsers"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.HappyDayMultiRegionEvent"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.NewCreateEvent"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.NewCreateEventTemplate"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.NewCreatePrivateEvent"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.NewDirectedEvents"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.NewEditEvent"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.NewEditEventTemplate"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.NewEventlists"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.NewEventNotifications"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.NewForAddStatusTypesToCurrentlyRunningEvent"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.NewProvidingSecurityToEventTemplate"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.HappyDayEndMultiRegionEvent"/>
+    	<!--Creating and managing forms Module -->
+    	<class name="requirementGroup.CreatingAndManagingForms.HappyDayClonningFormTemplate"/>
+    	<class name="requirementGroup.CreatingAndManagingForms.HappyDayMovingQuestionsAndChangingQuestionType"/>
+    	<class name="requirementGroup.CreatingAndManagingForms.HappyDayStandardListsOfQuestionnaire"/>
+    	
+    	<!--Role Module -->
+    	<class name="requirementGroup.CreatingAndManagingRoles.HappyDayCreateRole"/> 
+    	<class name="requirementGroup.CreatingAndManagingRoles.HappyDayEventDetailReport"/> 
+    	<class name="requirementGroup.CreatingAndManagingRoles.NewCreateRole"/> 
+    	<class name="requirementGroup.CreatingAndManagingRoles.NewEditRole"/>    	
+    	
+    	<!--User Module -->
+    	<class name="requirementGroup.CreatingAndManagingUsers.ChallengeQuestionSetup"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.CreateUser"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.HappyDayCreatingAndManagingUsers"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewCreateUser"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewForEMR315"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewForEMR315NotToForceStatusUpdate"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewHappyDayEditUser"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewHappyDaySwitchUser"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewNewFeatureFor3Point15"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewProvideAccessToRegionsForUser"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewRemoveAUserFromARegion"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser"/> 
+    	<class name="requirementGroup.CreatingAndManagingUsers.NewSearchUsers"/>
+    	
+    	<!--Views Module -->
+    	<class name="requirementGroup.CreatingAndManagingViews.HappyDayCreatingAndManagingViews"/>  	    	    	
+    	
+       	<!--Credence Module -->
+    	<class name="requirementGroup.Credence.HappyDayLinkingEMResourceWithCORESandWebEOC"/>
+    	<class name="requirementGroup.Credence.HappyDayLogout"/>  	
+    	<class name="requirementGroup.Credence.HappyDayPasswordResetAndOthers"/>  	  	    	    	
+    	
+        <!--Eics-Integration Module -->
+    	<class name="requirementGroup.EMResourceIntegartionWithEICS.HappyDayEMResourceFacilityStatusViewInEICS"/>
+    	<class name="requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers"/>  	
+    	<class name="requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS"/>  	  	    	    	
+    	<class name="requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers"/> 
+
+ 		<!--EMTrack-Integration Module -->
+    	<class name="requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification"/>  	
+    	<class name="requirementGroup.EMResourceIntegartionWithEMTrack.UserInterfaceForManualIPNEntry"/>  	  	    	    	 
+ 		
+ 		<!--Forms Module --> 	
+    	<class name="requirementGroup.Forms.FormNotification"/>  	  	
+    	<class name="requirementGroup.Forms.HappyDayCreateV3FormQuestionnaire"/>  	
+    	<class name="requirementGroup.Forms.HappyDayDeleteV3FormQuestionnaire"/>  	 
+    	<class name="requirementGroup.Forms.HappyDayDispatchForm"/>  	
+    	<class name="requirementGroup.Forms.HappyDayEditForm"/>  	     	    	 
+ 		<class name="requirementGroup.Forms.HappyDayEditV3FormQuestionnaire"/>  	
+    	<class name="requirementGroup.Forms.HappyDayFormDetailReportUpdated"/>  	     	
+    	<class name="requirementGroup.Forms.HappyDayForms"/>  	
+    	<class name="requirementGroup.Forms.HappyDayReceiveBlankForm"/>  	     
+    	
+    	<!--Havebed Module -->
+     	<class name="requirementGroup.HAvBED.NewPromptUserToSelectAState"/>  	
+     	
+     	<!--HelpDocument Module -->
+     	<class name="requirementGroup.HelpDocumentation.NewHelpDocumentation"/>  	
+     	
+     	<!--Homebutton Module -->
+     	<class name="requirementGroup.HomeButton.HappyDayHomeButton"/>  	
+  
+       	<!--LoginLogout Module -->
+     	<class name="requirementGroup.LoginAndLogout.NewLoginAndLogout"/>  	
+     	
+        <!--MultiRegion Module -->
+     	<class name="requirementGroup.MultiRegion.NewDirectAccessToMultipleRegions"/>  	
+     	<class name="requirementGroup.MultiRegion.NewMultiRegionUserWithLoginAccessToMultipleRegions"/>  	
+     	<class name="requirementGroup.MultiRegion.NewNotifications"/>  	
+     	<class name="requirementGroup.MultiRegion.NewRegionsWithMutualAgreementAndDirectAccess"/>  	
+     	<class name="requirementGroup.MultiRegion.NewRegionsWithMutualAgreementAndOtherRegionViewRight"/>  	
+     	<class name="requirementGroup.MultiRegion.NewSetupCustomView"/>  	
+     	<class name="requirementGroup.MultiRegion.NewMultiRegionView"/>  
+     	
+     	<!--Notifications Module -->
+     	<class name="requirementGroup.Notifications.HappyDayExpiredStatusNotifications"/>  	
+     	<class name="requirementGroup.Notifications.HappyDayIncomingPatientNotifications"/>  	
+     	<class name="requirementGroup.Notifications.HappyDayWebNotificationStatusUpdatePage"/>  	
+     	
+     	<!--PreferencesChangePassword Module -->
+     	<class name="requirementGroup.PreferencesChangePassword.NewChangePassword"/>  	
+     	     	
+     	<!--Preferences EventNotifications Preferences Module -->
+     	<class name="requirementGroup.PreferencesEventNotificationsPreferences.NewSelectnotificationPreferencesForAnEventTemplate"/> 
+     	
+        <!--Preferences StatusChange Preferences Module -->
+     	<class name="requirementGroup.PreferencesStatusChangePrefs.HappyDayAddStatusChangePreferences"/>  	
+     	
+        <!--Preferences UserInfo Module -->
+     	<class name="requirementGroup.PreferencesUserInfo.EditUserInformation"/>  	
+     	
+     	<!--RegionalInfoCalendar Module -->
+     	<class name="requirementGroup.RegionalInfoCalendar.NewCreateBulletinMessage"/>  
+     	<class name="requirementGroup.RegionalInfoCalendar.NewDeleteBulletinMessage"/>  
+     	<class name="requirementGroup.RegionalInfoCalendar.NewEditBulletinMessage"/>  	
+     		
+     	<!--RegionalInfo DocumentLibrary Module -->
+     	<class name="requirementGroup.RegionalInfoDocumentLibrary.NewAddADocument"/>  
+     	<class name="requirementGroup.RegionalInfoDocumentLibrary.NewCreateAfolder"/>  
+     	<class name="requirementGroup.RegionalInfoDocumentLibrary.NewDeleteADocument"/>  	
+        <class name="requirementGroup.RegionalInfoDocumentLibrary.NewDeleteAFolder"/> 
+        <class name="requirementGroup.RegionalInfoDocumentLibrary.NewRenameAFolder"/> 
+        
+        <!--Reports Module -->
+     	<class name="requirementGroup.Reports.HappyDayAdminReports"/>  
+     	<class name="requirementGroup.Reports.HappyDayEventDetailReport"/>  
+     	<class name="requirementGroup.Reports.HappyDayFormDetailReportUpdated"/>  	
+        <class name="requirementGroup.Reports.HappyDayFormReports"/> 
+        <class name="requirementGroup.Reports.HappyDayFormSummaryReport"/> 		
+        <class name="requirementGroup.Reports.HappyDayMonthlyStatusAssessmentReport"/>  
+     	<class name="requirementGroup.Reports.HappyDayNormalUsageReport"/>  
+     	<class name="requirementGroup.Reports.HappyDayNotificationHistoryReport"/>  	
+        <class name="requirementGroup.Reports.HappyDayResourceDetailReports"/> 
+        <class name="requirementGroup.Reports.HappyDaySolutionsLink"/>
+        <class name="requirementGroup.Reports.HappyDayStatusDetailReport"/> 
+        <class name="requirementGroup.Reports.HappyDayStatusReasonDetail"/> 		
+        <class name="requirementGroup.Reports.HappyDayStatusReasonSummary"/> 
+        <class name="requirementGroup.Reports.HappyDayStatusSnapshotReport"/> 		
+        <class name="requirementGroup.Reports.HappyDayStatusSummaryReport"/> 
+        <class name="requirementGroup.Reports.NewEventSnapshotReport"/> 		       
+        <class name="requirementGroup.Reports.NewHappyDayStatusDetailReport"/> 
+        <class name="requirementGroup.Reports.NewHappyDayStatusReasonSummary"/> 		
+        <class name="requirementGroup.Reports.NewResourceDetailReport"/> 
+        <class name="requirementGroup.Reports.NewStatusReasonDetailReport"/> 		
+        <class name="requirementGroup.Reports.NewStatusSnapshotReport"/> 
+        <class name="requirementGroup.Reports.NewStatusSummaryReport"/> 		
+        
+       <!-- ResourceHierarchies module -->
+        <class name="requirementGroup.ResourceHierarchies.HappyDayNewCreatingSubResource"/> 
+        <class name="requirementGroup.ResourceHierarchies.HappyDayNewEditingSubResource"/> 
+        <class name="requirementGroup.ResourceHierarchies.NewCreatingAndDemoteResource"/> 
+        <class name="requirementGroup.ResourceHierarchies.NewCreatingAndManagingEvents"/> 
+        <class name="requirementGroup.ResourceHierarchies.NewCreatingAndManagingUsers"/> 
+        <class name="requirementGroup.ResourceHierarchies.NewCreatingSubResourceType"/> 
+        <class name="requirementGroup.ResourceHierarchies.NewViewingAndManagingEMResourceEntitiesOnTheViewInterface"/> 
+        <class name="requirementGroup.ResourceHierarchies.NewViewingManagingEMResourceEntitiesOnTheViewInterface"/> 
+         		
+         <!-- SettingRegionInterfaces module -->
+        <class name="requirementGroup.SettingRegionInterfaces.HappyDayCreateRegionInterfaceOfTypeGetActiveEvents"/>	
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayCreateRegionInterfaceOfTypeGetHospitalStatus"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayCreateRegionInterfaceOfTypeGetRegionConfiguration"/>
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayCreateRegionInterfaceOfTypeLegacyGetHospitalStatus"/>
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayCreaterRegionInterfaceOfTypeGetCADStatus"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayCreaterRegionInterfaceOfTypeGetEDXLHAVE"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayCreaterRegionInterfaceOfTypeUpdateCADStatus"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayDeleteRegionInterfaceOfTypeGetActiveEvents"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayDeleteRegionInterfaceOfTypeGetRegionConfiguration"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayDeleteRegionInterfaceOfTypeLegacyGetHospitalStatus"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayEditRegionInterfaceOfTypeGetActiveEvents"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayEditRegionInterfaceOfTypeGetCADStatus"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayEditRegionInterfaceOfTypeGetEDXLHAVE"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayEditRegionInterfaceOfTypeGetHospitalStatus"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayEditRegionInterfaceOfTypeGetRegionConfiguration"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayEditRegionInterfaceOfTypeLegacyGetHospitalStatus"/>
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayEditRegionInterfaceOfTypePostResourceDetailStatus"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayEditRegionInterfaceOfTypeUpdateCADStatus"/>
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDayRegionInterfaceOfTypeChicagoGetHospitalStatus"/>
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDaysCreateRegionInterfaceOfTypePostResourceDetailStatus"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDaysCreateRegionInterfaceOfTypeUpdateResourceAvailability"/> 
+		<class name="requirementGroup.SettingRegionInterfaces.HappyDaysEditRegionInterfaceOfTypeUpdateResourceAvailability"/> 
+        	
+        <!-- SettingUp Regions module -->
+        <class name="requirementGroup.SettingUpRegions.NewActivateSystemNotice"/>	
+		<class name="requirementGroup.SettingUpRegions.NewCreateRegion"/> 
+		<class name="requirementGroup.SettingUpRegions.NewEditRegion"/> 
+		
+		<!-- Setting Up Resources module -->
+        <class name="requirementGroup.SettingUpResources.HappyDayImportResourcesFromSpreadsheet"/>	       
+		<class name="requirementGroup.SettingUpResources.HappyDayImportUsersAndResources"/> 
+		<class name="requirementGroup.SettingUpResources.HappyDayImportUsersFromSpreadsheet"/> 
+		<class name="requirementGroup.SettingUpResources.NewCreateResource"/> 
+		<class name="requirementGroup.SettingUpResources.NewEditStatusTypesAtResourceLevel"/> 
+		<class name="requirementGroup.SettingUpResources.NewImportSubResourcesFromSpreadsheet"/> 
+		<class name="requirementGroup.SettingUpResources.NewProvideResourceRights"/> 
+		<class name="requirementGroup.SettingUpResources.NewResourceSearch"/> 
+		<class name="requirementGroup.SettingUpResources.NewUserAssignmentForViewingTheResourceAndStatusTypes"/> 
+        
+		<!-- Setting Up ResourceTypes module -->
+        <class name="requirementGroup.SettingUpResourceTypes.NewCreateResourceType"/>	       
+		<class name="requirementGroup.SettingUpResourceTypes.NewHappyDayEditResourceType"/> 
+		<class name="requirementGroup.SettingUpResourceTypes.NewInactivateResourcetype"/> 
+		<class name="requirementGroup.SettingUpResourceTypes.NewInactivateResourceType1"/> 
+		
+        <!-- Setting Up Roles module -->
+        <class name="requirementGroup.SettingUpRoles.NewRoleWithOverrideViewingRestrictionsRight"/>	       
+         		
+        <!-- SettingUp StatusTypes module -->
+        <class name="requirementGroup.SettingUpStatusTypes.CommonScenariosForStatusTypes"/>	       
+        <class name="requirementGroup.SettingUpStatusTypes.HappyDayCreateMultiStatusType"/>
+		<class name="requirementGroup.SettingUpStatusTypes.HappyDayCreateNumberStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.HappyDayCreateSaturationScoreStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.HappyDayCreateTextStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.HappyDayReceiveExpiredStatusNotificationsForNumberStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.HappyDayReceiveExpiredStatusNotificationsFortextstatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.InactivateResourceType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewCreateNEDOCScoreStatusTypes"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewCreateStatusReason"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewEditStatus"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewEditStatusReason"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewEditStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewHappyDayCommonScenariosForStatusTypes"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewHappyDayCreateStatusTypeWithTimer"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewHappyDayEditMultiStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewHappyDayEditNumberStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewHappyDayEditSaturationStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewHappyDayEditTextStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewHappyDayReceiveExpiredStatusNotificationsForSaturationScoreStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewReceiveExpiredEtatusNotificationsForMultiStatusType"/> 
+		<class name="requirementGroup.SettingUpStatusTypes.NewRoleBasedStatusTypes"/> 
+        <class name="requirementGroup.SettingUpStatusTypes.NewNEDOCSLabels"/>	  
+        <!-- SettingUp Users module -->
+        <class name="requirementGroup.SettingUpUsers.BQSRightsToViewOrUpdatePrivateStatusTypes"/>	       
+		<class name="requirementGroup.SettingUpUsers.NewRefineStatusTypes"/> 
+		<class name="requirementGroup.SettingUpUsers.NewRightsoViewUpdateRoleBasedStatusTypes"/> 
+		<class name="requirementGroup.SettingUpUsers.NewRightToConfigureForms"/> 
+		<class name="requirementGroup.SettingUpUsers.NewUsersWithOverrideViewingRestrictionsRight"/> 
+		<class name="requirementGroup.SettingUpUsers.NewViewResourceRight"/> 
+		<class name="requirementGroup.SettingUpUsers.RightsToViewUpdatePrivateStatusTypes"/> 
+        	       
+        <!-- SetUp module -->
+		<class name="requirementGroup.SetUp.HappydayCreateDateStatusTypes"/> 
+		<class name="requirementGroup.SetUp.HappyDayCreateOREditRole"/> 
+		<class name="requirementGroup.SetUp.HappyDayEditStatusType"/> 
+		<class name="requirementGroup.SetUp.HappyDayMultiStatusesLabel"/> 
+		<class name="requirementGroup.SetUp.HappyDaySettingUpOfResources"/> 
+		<class name="requirementGroup.SetUp.HappyDaySettingUpResourceTypes"/> 
+		<class name="requirementGroup.SetUp.HappyDayStatusTypes"/> 
+		<class name="requirementGroup.SetUp.HappyDayStatusTypes1"/> 
+
+        <!-- ViewingAndmanagingEMResourceEntitiesOnTheViewInterface module -->
+		<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.HappyDayExcelViewsAndEvents"/> 
+        <class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.HappyDayPrintViewsAndEvents"/> 
+		<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.HappyDayViewResourceDetailScreen"/> 
+		<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.NewCopyRegionView"/> 
+		<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.NewDeleteRegionView"/> 
+		<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.NewSettingUpOfRegionViews"/> 
+		<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.NewUpdateStatusScreen"/> 
+        
+   		<!-- EDGE CASE OLD XML -->
+   		<!--Events Module -->
+   	    <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseAdhocEvents"/> 
+		<class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseCreatingAndManagingEvents"/> 
+  		<class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseDirectedEvents"/> 
+   		<class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseEndMultiRegionEvent"/> 
+    	<class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseMultiRegionEvent"/>
+        <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseUsers"/>
+    	     	
+    	<!--Creating and managing forms Module --> 		
+   		<class name="requirementGroup.CreatingAndManagingForms.EdgeCaseMovingQuestionsAndChangingQuestionType"/> 
+    	
+    	<!--Creating and managing User Module -->
+        <class name="requirementGroup.CreatingAndManagingUsers.EdgeCaseChallengeQuestionSetup"/> 
+        
+        <!--EMTrack-Integration Module -->
+    	<class name="requirementGroup.EMResourceIntegartionWithEMTrack.EdgeCaseIncomingPatientNotification"/>
+        		 	
+ 		<!--Forms Module -->
+   		<class name="requirementGroup.Forms.EdgeCaseCreateForm"/> 
+	   	<class name="requirementGroup.Forms.EdgeCaseCreateV3FormQuestionnaire"/>
+	   	<class name="requirementGroup.Forms.EdgeCaseDeleteV3FormQuestionnaire"/>
+	   	<class name="requirementGroup.Forms.EdgeCaseDispatchForm"/>
+	   	<class name="requirementGroup.Forms.EdgeCaseEditFrom"/>
+	   	<class name="requirementGroup.Forms.EdgeCaseEditV3FormQuestionnaire"/>
+	   	<class name="requirementGroup.Forms.EdgeCaseFormNotification"/>
+	   	<class name="requirementGroup.Forms.EdgeCaseProvideSecurityForFormReport"/>
+	   	<class name="requirementGroup.Forms.EdgeCaseReceiveBlankForm"/>
+	   	<class name="requirementGroup.Forms.EdgeCaseReceiveCompletedForm"/>
+	   	
+	   	<!--Homebutton Module -->
+     	<class name="requirementGroup.HomeButton.EdgeCaseHomeButton"/>  	
+	   	
+	   	 <!--MultiRegion Module -->
+	   	<class name="requirementGroup.MultiRegion.EdgeCaseStandardStatusTypeLabels"/>
+	   	
+	   	<!--Notifications Module -->
+	   	<class name="requirementGroup.Notifications.EdgeCaseWebNotificationStatusUpdatePage"/>
+	   	
+	   	<!--PreferencesChangePassword Module -->
+	   	<class name="requirementGroup.PreferencesChangePassword.EdgeCaseChangePassword"/>   
+	   	
+	   	<!--Preferences StatusChange Preferences Module -->	
+	   	<class name="requirementGroup.PreferencesStatusChangePrefs.EdgeCaseAddStatusChangePreferences"/>
+	   	
+	   	<!--Reports Module -->
+     	<class name="requirementGroup.Reports.EdgeCaseAdminReports"/>  
+        <class name="requirementGroup.Reports.EdgeCaseEventDetailReport"/>  
+     	<class name="requirementGroup.Reports.EdgeCaseEventSnapshotReport"/>  
+        <class name="requirementGroup.Reports.EdgeCaseFormDetailReport"/>  
+     	<class name="requirementGroup.Reports.EdgeCaseFormDetailReportUpdated"/>  
+        <class name="requirementGroup.Reports.EdgeCaseFormReports"/>  
+	    <class name="requirementGroup.Reports.EdgeCaseFormSummaryReport"/>  
+        <class name="requirementGroup.Reports.EdgeCaseNormalUsageReport"/>  
+        <class name="requirementGroup.Reports.EdgeCaseNotificationHistoryReport"/>  
+	    <class name="requirementGroup.Reports.EdgeCaseResourceDetailReports"/>  
+        <class name="requirementGroup.Reports.EdgeCaseStatusSnapshotReport"/>  	   	
+	   	
+	   	<!-- SetUp module -->
+	   	<class name="requirementGroup.SetUp.EdgeCaseCreateAndManageRoles"/>
+	   	<class name="requirementGroup.SetUp.EdgeCaseCreateDateStatusType"/>
+	   	<class name="requirementGroup.SetUp.EdgeCaseDelegatedUserManagement"/>
+	   	<class name="requirementGroup.SetUp.EdgeCaseMultiStatusesLabel"/>
+	   	<class name="requirementGroup.SetUp.EdgeCaseSelectNotificationPreferencesForAnEventTemplate"/>
+	   	<class name="requirementGroup.SetUp.EdgeCaseStatusTypes"/>
+	   	<class name="requirementGroup.SetUp.EdgeCaseStatusTypes1"/>
+	   	<class name="requirementGroup.SetUp.EdgeCaseStatusUpdate"/>  
+	   	
+	   	<!-- ViewingAndmanagingEMResourceEntitiesOnTheViewInterface module --> 	
+	   	<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.EdgeCaseDeleteRegionView"/>
+	   	<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.EdgeCaseDeleteRegionView3Browser"/>
+	   	<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.EdgeCaseExcelViewsAndEvents"/>
+	   	<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.EdgeCaseManagingRegionViews"/>
+	   	<class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.EdgeCaseSettingUpOfRegionViews"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,40 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Failed suite [Failed suite [Failed suite [Suite]]]</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:33:07</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSForOneBrowser.setUp()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayViewPatientsPageForStudies@2d56d401]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="af8b6c">  <td>16/04/19 18:33:13</td>   <td>5857</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayViewPatientsPageForStudies.testHappyDay68403()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayViewPatientsPageForStudies@2d56d401]">testHappyDay68403</td> 
+  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:36:41</td>   <td>213978</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSForOneBrowser.tearDown()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayViewPatientsPageForStudies@2d56d401]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:36:47</td>   <td>219707</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSForOneBrowser.setUp()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor@d86b077]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="d880b8">  <td>16/04/19 18:36:51</td>   <td>223724</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayWebReportsCreateReportsInReportEditor.testHappyDay68564()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor@d86b077]">testHappyDay68564</td> 
+  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:40:17</td>   <td>430108</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSForOneBrowser.tearDown()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor@d86b077]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:40:22</td>   <td>435089</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSForOneBrowser.setUp()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsEditAndFormatTemplates@5ab5b91]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="93a290">  <td>16/04/19 18:40:26</td>   <td>439374</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayWebReportsEditAndFormatTemplates.testHappyDay68600()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsEditAndFormatTemplates@5ab5b91]">testHappyDay68600</td> 
+  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:42:48</td>   <td>580808</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSForOneBrowser.tearDown()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsEditAndFormatTemplates@5ab5b91]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:42:53</td>   <td>585829</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSForOneBrowser.setUp()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendStudiesToDICOMStorage@4504f60c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="a28ba5">  <td>16/04/19 18:42:57</td>   <td>589929</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayImageManagementToolsSendStudiesToDICOMStorage.testHappyDay85522()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendStudiesToDICOMStorage@4504f60c]">testHappyDay85522</td> 
+  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:53:14</td>   <td>1207440</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSForOneBrowser.tearDown()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendStudiesToDICOMStorage@4504f60c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:53:54</td>   <td>1247315</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSForOneBrowser.setUp()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateTemplatesInTemplateEditor@66bf066a]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="709dc6">  <td>16/04/19 18:53:58</td>   <td>1251321</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayWebReportsCreateTemplatesInTemplateEditor.testHappyDay64432()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateTemplatesInTemplateEditor@66bf066a]">testHappyDay64432</td> 
+  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:54:49</td>   <td>1302337</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSForOneBrowser.tearDown()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateTemplatesInTemplateEditor@66bf066a]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:54:54</td>   <td>1306745</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSForOneBrowser.setUp()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsQCSandbox@73e4dd9]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="86658a">  <td>16/04/19 18:54:58</td>   <td>1311540</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayImageManagementToolsQCSandbox.testHappyDay59393()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsQCSandbox@73e4dd9]">testHappyDay59393</td> 
+  <td>TestNG@1498862505</td>   <td></td> </tr>
+<tr bgcolor="abdbaf">  <td>16/04/19 18:56:24</td>   <td>1397167</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSForOneBrowser.tearDown()[pri:0, instance:requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsQCSandbox@73e4dd9]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>TestNG@1498862505</td>   <td></td> </tr>
+</table>

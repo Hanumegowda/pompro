@@ -1,0 +1,298 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Failed suite [HappyDay]</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 13:35:51</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 13:43:50</td>   <td>479774</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 13:49:58</td>   <td>847684</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 13:55:06</td>   <td>1155520</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 14:41:28</td>   <td>3937361</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.ResourceHierarchies.HappyDayNewCreatingSubResource@1b7516d]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 14:49:05</td>   <td>4394874</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingSubResourceType@a8a199]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 14:57:26</td>   <td>4895534</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingSubResourceType@a8a199]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 15:05:50</td>   <td>5399485</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSThreeBrowser.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayWebNotificationStatusUpdatePage@60a77c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:09:50</td>   <td>5639369</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.UserInterfaceForManualIPNEntry@15bf03d]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:15:07</td>   <td>5956376</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Credence.HappyDayLogout@721098]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:19:07</td>   <td>6195920</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:24:32</td>   <td>6521661</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:30:01</td>   <td>6850152</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:35:22</td>   <td>7171719</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:40:46</td>   <td>7495658</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Credence.HappyDayPasswordResetAndOthers@335678]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:44:43</td>   <td>7732292</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.LoginAndLogout.NewLoginAndLogout@e046e]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:46:51</td>   <td>7860439</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Credence.HappyDayLinkingEMResourceWithCORESandWebEOC@136daec]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:51:04</td>   <td>8113083</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Credence.HappyDayLinkingEMResourceWithCORESandWebEOC@136daec]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:58:10</td>   <td>8539281</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayEMResourceFacilityStatusViewInEICS@17c67f9]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 16:07:53</td>   <td>9122483</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.PreferencesEventNotificationsPreferences.NewSelectnotificationPreferencesForAnEventTemplate@1d9a2ab]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 16:25:27</td>   <td>10176099</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.PreferencesEventNotificationsPreferences.NewSelectnotificationPreferencesForAnEventTemplate@1d9a2ab]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 16:36:33</td>   <td>10842559</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 16:56:19</td>   <td>12028108</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:03:27</td>   <td>12456852</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:10:01</td>   <td>12850239</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:16:36</td>   <td>13245374</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:37:17</td>   <td>14486897</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:43:48</td>   <td>14877423</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:50:16</td>   <td>15265698</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:56:48</td>   <td>15656918</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 18:01:07</td>   <td>15916239</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingAndManagingEvents@42df79]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 18:09:38</td>   <td>16427623</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.PreferencesStatusChangePrefs.HappyDayAddStatusChangePreferences@5ef1eb]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 18:21:00</td>   <td>17109280</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.CreatingAndManagingViews.HappyDayCreatingAndManagingViews@98d94]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 18:26:21</td>   <td>17430303</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSThreeBrowser.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 18:41:04</td>   <td>18313775</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSThreeBrowser.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 18:53:40</td>   <td>19069819</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSThreeBrowser.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 19:10:57</td>   <td>20106722</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSThreeBrowser.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 19:15:54</td>   <td>20403617</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSThreeBrowser.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 19:37:28</td>   <td>21697867</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingAndDemoteResource@5ebf99]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 19:43:29</td>   <td>22058755</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSThreeBrowser.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers@2cb5c6]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 19:49:30</td>   <td>22419554</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSThreeBrowser.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers@2cb5c6]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 19:54:21</td>   <td>22709962</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONSThreeBrowser.setUp()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers@2cb5c6]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 20:04:25</td>   <td>23314770</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 20:34:58</td>   <td>25147525</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 20:48:02</td>   <td>25931459</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 21:05:30</td>   <td>26979114</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 21:34:35</td>   <td>28724298</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 21:46:12</td>   <td>29421065</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 22:19:14</td>   <td>31403381</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;TestNG_UI_EXTENSIONS.setUp()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 13:43:47</td>   <td>476540</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 13:49:51</td>   <td>840157</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 13:55:04</td>   <td>1153299</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 14:41:26</td>   <td>3935170</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 14:49:03</td>   <td>4392589</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.ResourceHierarchies.HappyDayNewCreatingSubResource@1b7516d]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 14:57:24</td>   <td>4893373</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingSubResourceType@a8a199]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:05:48</td>   <td>5397489</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingSubResourceType@a8a199]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 15:09:47</td>   <td>5636164</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSThreeBrowser.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayWebNotificationStatusUpdatePage@60a77c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:15:04</td>   <td>5953879</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.UserInterfaceForManualIPNEntry@15bf03d]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:19:04</td>   <td>6193538</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Credence.HappyDayLogout@721098]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:24:30</td>   <td>6519710</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:29:57</td>   <td>6846422</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:35:20</td>   <td>7169794</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:40:44</td>   <td>7493766</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:44:41</td>   <td>7730363</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Credence.HappyDayPasswordResetAndOthers@335678]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:46:49</td>   <td>7858509</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.LoginAndLogout.NewLoginAndLogout@e046e]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:51:02</td>   <td>8111138</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Credence.HappyDayLinkingEMResourceWithCORESandWebEOC@136daec]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 15:58:08</td>   <td>8536979</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Credence.HappyDayLinkingEMResourceWithCORESandWebEOC@136daec]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 16:07:51</td>   <td>9120281</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayEMResourceFacilityStatusViewInEICS@17c67f9]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 16:25:24</td>   <td>10173742</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.PreferencesEventNotificationsPreferences.NewSelectnotificationPreferencesForAnEventTemplate@1d9a2ab]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 16:36:31</td>   <td>10840641</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.PreferencesEventNotificationsPreferences.NewSelectnotificationPreferencesForAnEventTemplate@1d9a2ab]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 16:56:16</td>   <td>12025588</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:03:25</td>   <td>12454328</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:09:59</td>   <td>12848204</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:16:34</td>   <td>13243312</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:37:15</td>   <td>14484298</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:43:46</td>   <td>14875444</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:50:14</td>   <td>15263095</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 17:56:46</td>   <td>15654918</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 18:01:05</td>   <td>15914225</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 18:09:36</td>   <td>16425620</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingAndManagingEvents@42df79]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 18:20:58</td>   <td>17107256</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.PreferencesStatusChangePrefs.HappyDayAddStatusChangePreferences@5ef1eb]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 18:26:19</td>   <td>17428342</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.CreatingAndManagingViews.HappyDayCreatingAndManagingViews@98d94]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 18:41:01</td>   <td>18310042</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSThreeBrowser.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 18:53:37</td>   <td>19066235</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSThreeBrowser.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 19:10:48</td>   <td>20097666</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSThreeBrowser.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 19:15:51</td>   <td>20400450</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSThreeBrowser.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 19:37:19</td>   <td>21688403</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSThreeBrowser.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 19:43:27</td>   <td>22056510</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingAndDemoteResource@5ebf99]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 19:49:27</td>   <td>22416006</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSThreeBrowser.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers@2cb5c6]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 19:54:17</td>   <td>22706262</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSThreeBrowser.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers@2cb5c6]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="898b92">  <td>15/09/27 20:04:16</td>   <td>23305434</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONSThreeBrowser.tearDown()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers@2cb5c6]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 20:34:53</td>   <td>25142299</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 20:48:00</td>   <td>25929217</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 21:05:28</td>   <td>26976981</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 21:34:27</td>   <td>28716310</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 21:46:10</td>   <td>29419054</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 22:19:08</td>   <td>31397297</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7ee8c1">  <td>15/09/27 22:32:41</td>   <td>32209982</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;TestNG_UI_EXTENSIONS.tearDown()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="d1829d">  <td>15/09/27 13:55:20</td>   <td>1169160</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDaySupportMultipleIncidentsFromEICS.testCloseIncident()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">testCloseIncident</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b8bc82">  <td>15/09/27 14:57:40</td>   <td>4909286</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="NewCreatingSubResourceType.testHappyDay104004()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingSubResourceType@a8a199]">testHappyDay104004</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b8bc82">  <td>15/09/27 14:49:20</td>   <td>4409489</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="NewCreatingSubResourceType.testHappyDay104005()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingSubResourceType@a8a199]">testHappyDay104005</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="9cac93">  <td>15/09/27 14:41:42</td>   <td>3951048</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayNewCreatingSubResource.testHappyDay105623()[pri:0, instance:requirementGroup.ResourceHierarchies.HappyDayNewCreatingSubResource@1b7516d]">testHappyDay105623</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="81bbee">  <td>15/09/27 18:01:20</td>   <td>15929570</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="NewCreatingAndManagingEvents.testHappyDay107403()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingAndManagingEvents@42df79]">testHappyDay107403</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="6d6dec">  <td>15/09/27 16:25:41</td>   <td>10190460</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="NewSelectnotificationPreferencesForAnEventTemplate.testHappyDay118372()[pri:0, instance:requirementGroup.PreferencesEventNotificationsPreferences.NewSelectnotificationPreferencesForAnEventTemplate@1d9a2ab]">testHappyDay118372</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="6d6dec">  <td>15/09/27 16:08:07</td>   <td>9136113</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="NewSelectnotificationPreferencesForAnEventTemplate.testHappyDay118373()[pri:0, instance:requirementGroup.PreferencesEventNotificationsPreferences.NewSelectnotificationPreferencesForAnEventTemplate@1d9a2ab]">testHappyDay118373</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="aba368">  <td>15/09/27 19:37:42</td>   <td>21711802</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="NewCreatingAndDemoteResource.testHappyDay123342()[pri:0, instance:requirementGroup.ResourceHierarchies.NewCreatingAndDemoteResource@5ebf99]">testHappyDay123342</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="d7be80">  <td>15/09/27 15:44:57</td>   <td>7746037</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="NewLoginAndLogout.testHappyDay126261()[pri:0, instance:requirementGroup.LoginAndLogout.NewLoginAndLogout@e046e]">testHappyDay126261</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="7cbdd1">  <td>15/09/27 18:09:52</td>   <td>16441401</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayAddStatusChangePreferences.testHappyDay130844()[pri:0, instance:requirementGroup.PreferencesStatusChangePrefs.HappyDayAddStatusChangePreferences@5ef1eb]">testHappyDay130844</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="84b5dd">  <td>15/09/27 15:06:12</td>   <td>5421602</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayWebNotificationStatusUpdatePage.testHappyDay139735()[pri:0, instance:requirementGroup.Notifications.HappyDayWebNotificationStatusUpdatePage@60a77c]">testHappyDay139735</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="837c79">  <td>15/09/27 21:34:56</td>   <td>28745830</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayExpiredStatusNotifications.testHappyDay140628()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">testHappyDay140628</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="837c79">  <td>15/09/27 20:48:16</td>   <td>25945318</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayExpiredStatusNotifications.testHappyDay140993()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">testHappyDay140993</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="837c79">  <td>15/09/27 22:19:32</td>   <td>31421169</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayExpiredStatusNotifications.testHappyDay142314()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">testHappyDay142314</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="837c79">  <td>15/09/27 21:46:26</td>   <td>29435048</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayExpiredStatusNotifications.testHappyDay142316()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">testHappyDay142316</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="837c79">  <td>15/09/27 21:05:43</td>   <td>26992460</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayExpiredStatusNotifications.testHappyDay142363()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">testHappyDay142363</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="837c79">  <td>15/09/27 20:35:15</td>   <td>25164717</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayExpiredStatusNotifications.testHappyDay142457()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">testHappyDay142457</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="837c79">  <td>15/09/27 20:04:39</td>   <td>23328304</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayExpiredStatusNotifications.testHappyDay142458()[pri:0, instance:requirementGroup.Notifications.HappyDayExpiredStatusNotifications@9faafc]">testHappyDay142458</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b69e66">  <td>15/09/27 17:16:49</td>   <td>13258411</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotification.testHappyDay144032()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">testHappyDay144032</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b69e66">  <td>15/09/27 17:10:14</td>   <td>12863470</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotification.testHappyDay144034()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">testHappyDay144034</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b69e66">  <td>15/09/27 16:36:46</td>   <td>10855801</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotification.testHappyDay144045()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">testHappyDay144045</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b69e66">  <td>15/09/27 17:44:02</td>   <td>14891126</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotification.testHappyDay144049()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">testHappyDay144049</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b69e66">  <td>15/09/27 16:56:33</td>   <td>12042845</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotification.testHappyDay144051()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">testHappyDay144051</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b69e66">  <td>15/09/27 17:03:41</td>   <td>12470278</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotification.testHappyDay144052()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">testHappyDay144052</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b69e66">  <td>15/09/27 17:37:32</td>   <td>14500957</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotification.testHappyDay144055()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">testHappyDay144055</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b69e66">  <td>15/09/27 17:57:01</td>   <td>15670286</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotification.testHappyDay144277()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">testHappyDay144277</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="687070">  <td>15/09/27 15:51:17</td>   <td>8126579</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayLinkingEMResourceWithCORESandWebEOC.testHappyDay144896()[pri:0, instance:requirementGroup.Credence.HappyDayLinkingEMResourceWithCORESandWebEOC@136daec]">testHappyDay144896</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="f5848c">  <td>15/09/27 15:15:21</td>   <td>5970225</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayLogout.testHappyDay144902()[pri:0, instance:requirementGroup.Credence.HappyDayLogout@721098]">testHappyDay144902</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="83cf60">  <td>15/09/27 15:41:00</td>   <td>7509677</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayPasswordResetAndOthers.testHappyDay144908()[pri:0, instance:requirementGroup.Credence.HappyDayPasswordResetAndOthers@335678]">testHappyDay144908</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="6264ce">  <td>15/09/27 19:43:51</td>   <td>22080700</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDaySupportMultipleIncidentsFromEICS2Browsers.testHappyDay145752()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers@2cb5c6]">testHappyDay145752</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="6264ce">  <td>15/09/27 19:49:50</td>   <td>22439898</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDaySupportMultipleIncidentsFromEICS2Browsers.testHappyDay145753()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers@2cb5c6]">testHappyDay145753</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="6264ce">  <td>15/09/27 19:54:42</td>   <td>22731316</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDaySupportMultipleIncidentsFromEICS2Browsers.testHappyDay145754()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers@2cb5c6]">testHappyDay145754</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="d1829d">  <td>15/09/27 13:50:13</td>   <td>861948</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDaySupportMultipleIncidentsFromEICS.testHappyDay145755()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">testHappyDay145755</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="d1829d">  <td>15/09/27 13:36:10</td>   <td>19173</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDaySupportMultipleIncidentsFromEICS.testHappyDay145756()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">testHappyDay145756</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="d1829d">  <td>15/09/27 13:44:05</td>   <td>494008</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDaySupportMultipleIncidentsFromEICS.testHappyDay145758()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS@86506a]">testHappyDay145758</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="687070">  <td>15/09/27 15:47:04</td>   <td>7873825</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayLinkingEMResourceWithCORESandWebEOC.testHappyDay147786()[pri:0, instance:requirementGroup.Credence.HappyDayLinkingEMResourceWithCORESandWebEOC@136daec]">testHappyDay147786</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="b69e66">  <td>15/09/27 17:50:30</td>   <td>15279080</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotification.testHappyDay147972()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification@45105c]">testHappyDay147972</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="8b7699">  <td>15/09/27 18:21:13</td>   <td>17122426</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayCreatingAndManagingViews.testHappyDay151542()[pri:0, instance:requirementGroup.CreatingAndManagingViews.HappyDayCreatingAndManagingViews@98d94]">testHappyDay151542</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="e2b7a5">  <td>15/09/27 15:10:04</td>   <td>5653229</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="UserInterfaceForManualIPNEntry.testHappyDay163714()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEMTrack.UserInterfaceForManualIPNEntry@15bf03d]">testHappyDay163714</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="75abb1">  <td>15/09/27 15:19:20</td>   <td>6209787</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotifications.testHappyDay25652()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">testHappyDay25652</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="75abb1">  <td>15/09/27 15:30:15</td>   <td>6864147</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotifications.testHappyDay25694()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">testHappyDay25694</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="75abb1">  <td>15/09/27 15:35:36</td>   <td>7185536</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotifications.testHappyDay25695()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">testHappyDay25695</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="75abb1">  <td>15/09/27 15:24:46</td>   <td>6535146</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayIncomingPatientNotifications.testHappyDay25696()[pri:0, instance:requirementGroup.Notifications.HappyDayIncomingPatientNotifications@1cea971]">testHappyDay25696</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="a7fc71">  <td>15/09/27 15:58:25</td>   <td>8554693</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayEMResourceFacilityStatusViewInEICS.testHappyDay70487()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayEMResourceFacilityStatusViewInEICS@17c67f9]">testHappyDay70487</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="6e62f6">  <td>15/09/27 18:41:25</td>   <td>18334380</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayHICSIncidentViewInEMResource3Browsers.testHappyDay70676()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">testHappyDay70676</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="6e62f6">  <td>15/09/27 19:11:19</td>   <td>20128032</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayHICSIncidentViewInEMResource3Browsers.testHappyDay70677()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">testHappyDay70677</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="6e62f6">  <td>15/09/27 19:16:16</td>   <td>20425106</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayHICSIncidentViewInEMResource3Browsers.testHappyDay70685()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">testHappyDay70685</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="6e62f6">  <td>15/09/27 18:54:01</td>   <td>19090897</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayHICSIncidentViewInEMResource3Browsers.testHappyDay70686()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">testHappyDay70686</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+<tr bgcolor="6e62f6">  <td>15/09/27 18:26:43</td>   <td>17451937</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="HappyDayHICSIncidentViewInEMResource3Browsers.testHappyDay71790()[pri:0, instance:requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers@1095fd7]">testHappyDay71790</td> 
+  <td>main@9176655</td>   <td></td> </tr>
+</table>

@@ -1,0 +1,35 @@
+package lib.dataObject;
+
+public class PathData {
+	public String strPdfFileUpload = "UploadPdfFilePath",
+		          strSignatureFileUpload = "UploadjpegFilePath",
+		          autoItFilePath2 = "AutoItFolder_Path2",
+		          autoItFileWithAccessionNum = "autoItFileWithAccessionNum_path",
+		          autoItFilePathLocalService = "AutoItFolder_PathLocalService",
+		          autoItFilePath3 = "AutoItFolder_Path3",
+		          autoItFilePath4 = "AutoItFolder_Path4",
+		          autoItFilePath5 = "AutoItFolder_Path5",
+		          uploadAutoITFilePath = "UploadAutoItFolder_Path",
+		          strUploadzipfile1 = "Uploadzipfilepath1",
+				  strUploadzipfile2 = "Uploadzipfilepath2",
+				  strUploadzipfile3 = "Uploadzipfilepath3",
+				  strUploadzipfile4 = "Uploadzipfilepath4",
+				  strUploadzipfile5 = "Uploadzipfilepath5",
+				  strUploadDxffile = "UploadDxfFile",
+				  strUploadDxffile1 = "UploadDxfFile1",
+				  strUploadDxffile2 = "UploadDxfFile2",
+				  strBackupfile = "BackUpPath",
+				  strAutoITPath = "AutoITPath",
+				  strAutoITPath1 = "AutoITPath1",
+				  strAutoITPath2 = "AutoITPath2",
+				  dateFormat1 = "MM-dd-yyyy-HHmmss",
+				  sudyWithImage = "AutoITPathWithImage",
+	              autoItSampleManyImageSeries = "AutoItSample_Path4",
+	              strXlsFileUpload = "UploadXlsFilePath",
+	              strXlsxFileUpload = "UploadXlsxFilePath",
+	              strDocFileUpload = "UploadDocFilePath",
+	              strDocxFileUpload = "UploadDocxFilePath",
+	              strLicenseTextFile = "LicenseFile",
+	              strLogoImageJpegFile = "LogoImage";
+
+}

@@ -1,0 +1,290 @@
+<table border='1'>
+<tr>
+<th>Class name</th>
+<th>Method name</th>
+<th>Groups</th>
+</tr><tr>
+<td>RequirementGroups.Smoke.SetupUsers</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke183487</td>
+<td>Smoke183487 setup Smoke </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke183488</td>
+<td>Smoke183488 setup Smoke </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke183490</td>
+<td>setup Smoke183490 Smoke </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke183491</td>
+<td>setup Smoke Smoke183491 </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke183489</td>
+<td>setup Smoke Smoke183489 </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setUpMethod</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setResultToFalse</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDown</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDownClass</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>RequirementGroups.Smoke.IntegrationWithEMTrack</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke186230</td>
+<td>Integration with other products Smoke186230 Smoke </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setUpMethod</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setResultToFalse</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDown</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDownClass</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>RequirementGroups.Smoke.CreatingAndManagingForms</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke186196</td>
+<td>Smoke186196 Smoke forms </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke186197</td>
+<td>Forms Smoke186197 Smoke </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke186195</td>
+<td>Forms Smoke Smoke186195 </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke187097</td>
+<td>Smoke Smoke187097 forms </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setUpMethod</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setResultToFalse</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDown</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDownClass</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>RequirementGroups.Smoke.CreatingAndManagingViews</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke186259</td>
+<td>Smoke186259 Views Smoke </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke186243</td>
+<td>Views Smoke186243 Smoke </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke186199</td>
+<td>Views Smoke186199 Smoke </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke186241</td>
+<td>Views Smoke Smoke183489 </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setUpMethod</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setResultToFalse</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDown</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDownClass</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>RequirementGroups.Smoke.CreatingAndManagingEvents</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke185941</td>
+<td>Smoke185941 Events Smoke </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setUpMethod</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setResultToFalse</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDown</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDownClass</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>RequirementGroups.Smoke.IntegrationWithEics</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Smoke186548</td>
+<td>Integration with other products Smoke Smoke186548 </td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setUpMethod</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>setResultToFalse</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDown</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>tearDownClass</td>
+<td>&nbsp;</td></tr>
+</table>

@@ -1,0 +1,57 @@
+Resultpath=\\src\\test\\resources\\SupportFiles\\EMRes_ResultSummary.xls
+
+UserDetails_path=\\src\\test\\resources\\SupportFiles\\TestData.xls
+
+TestData_path=\\src\\test\\resources\\SupportFiles\\TestData.xls
+
+Precondition_path=\\src\\test\\resources\\SupportFiles\\Precondition.xls
+
+WriteResultPath=\\src\\test\\resources\\SupportFiles\\PartialAutoResults.xls
+
+ImportDataExcelPath=\\src\\test\\resources\\SupportFiles\\ImoprtFiles\\Import.xls
+
+ImportDataExcelPath_103133=\\src\\test\\resources\\SupportFiles\\ImoprtFiles\\Import103133.xls
+
+
+Build=6254
+
+CycleEnviMapID=11799
+
+Build_Id=6254
+!-------------------------Upload Files Path-------------
+
+CreateEve_UploadTxtFile_OpenPath=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\EMTest.txt
+
+CreateEve_UploadHtmlFile_OpenPath=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\EMR.html
+
+CreateEve_UploadPdfFile_OpenPath=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\TCID_48313_Time is HST.pdf
+
+CreateEve_UploadPdfFile_OpenPath_New=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\AutomationEvent.pdf
+
+CreateEve_UploadHTMLFile_OpenPath=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\EMR.html
+
+CreateEve_UploadImageFile_OpenPath=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\GetLinkImage.jpg
+
+Reports_DownloadCSV_Path=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\DownloadFiles\\
+
+UsrLnk_UploadFilePath=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\
+
+UploadResFile_Path=\\src\\test\\resources\\UploadFiles\\ImportResource.xls
+
+UploadManyResFile_Path=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\ImportResources_Many.xls
+
+UploadManyUsrResFile_Path=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\ImportUsrResources_Many.xls
+
+ConvertedTextFilePath=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\PDFConvertedAsTextFiles\\
+
+UploadSubResFile=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\ImportManyResources.xls
+
+Upload1000ResFile_Path=D:\\eclipse\\com.qsgsoft.EMResource\\SupportFiles\\UploadFiles\\Import1000Resources.xls
+
+UploadTextFilePath= /src/test/resources/UploadFiles/EMTest.txt
+
+UploadPdfFilePath =/src/test/resources/UploadFiles/EMtest.pdf
+
+UploadHtmlFilePath=/src/test/resources/UploadFiles/EMTest.html
+
+ScreenShotFolder=\\src\\test\\resources\\Screenshots

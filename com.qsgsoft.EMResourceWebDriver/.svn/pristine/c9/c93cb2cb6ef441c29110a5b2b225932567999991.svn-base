@@ -1,0 +1,4 @@
+<h2>Methods that were not run</h2><table>
+<tr><td>requirementGroup.SettingUpResourceTypes.NewHappyDayEditResourceType.testHappyDay100307<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that a status type deselected from a resource type is no longer displayed on the View screen.</i></td></tr>
+<tr><td>requirementGroup.SettingUpResourceTypes.NewHappyDayEditResourceType.testHappyDay69417<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that newly added status types for a resource type are updated on the View screen.</i></td></tr>
+</table>

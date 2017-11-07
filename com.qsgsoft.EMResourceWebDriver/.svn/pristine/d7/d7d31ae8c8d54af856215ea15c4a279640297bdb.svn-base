@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay127893"/>
+          <include name="testHappyDay127691"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality -->
+      <class name="requirementGroup.CreatingAndManagingRoles.NewCreateRole">
+        <methods>
+          <include name="testHappyDay69227"/>
+          <include name="testHappyDay69235"/>
+          <include name="testHappyDay69194"/>
+          <include name="testHappyDay69184"/>
+          <include name="testHappyDay69236"/>
+          <include name="setUp"/>
+          <include name="testHappyDay69225"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay112346"/>
+          <include name="testHappyDay118733"/>
+          <include name="testHappyDay66138"/>
+          <include name="testHappyDay69156"/>
+          <include name="testHappyDay98502"/>
+        </methods>
+      </class> <!-- requirementGroup.CreatingAndManagingRoles.NewCreateRole -->
+      <class name="requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay127845"/>
+          <include name="testHappyDay127839"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser -->
+      <class name="requirementGroup.CreatingAndManagingUsers.CreateUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testHappyDay68201"/>
+          <include name="testHappyDay68200"/>
+        </methods>
+      </class> <!-- requirementGroup.CreatingAndManagingUsers.CreateUser -->
+      <class name="requirementGroup.CreatingAndManagingUsers.NewCreateUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay69710"/>
+          <include name="testHappyDay68358"/>
+          <include name="testHappyDay68420"/>
+          <include name="testHappyDay66669"/>
+          <include name="testHappyDay118731"/>
+          <include name="testHappyDay66095"/>
+          <include name="testHappyDay98498"/>
+          <include name="testHappyDay66025"/>
+          <include name="setUp"/>
+          <include name="testHappyDay66134"/>
+        </methods>
+      </class> <!-- requirementGroup.CreatingAndManagingUsers.NewCreateUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

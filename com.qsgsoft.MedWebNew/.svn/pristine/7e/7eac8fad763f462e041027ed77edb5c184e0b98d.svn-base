@@ -1,0 +1,4 @@
+<h2>Methods that were not run</h2><table>
+<tr><td>requirementGroup.Maintenance.HappyDayBackup.testHappyDay68279<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that the backup file is created and saved in the Remote server when 'Remote – Medweb Secure Tunnel' option is selected under 'Type of Transport'.</i></td></tr>
+<tr><td>requirementGroup.Maintenance.HappyDayBackup.testHappyDay68278<br/>&nbsp;&nbsp;&nbsp;&nbsp;<i>Verify that the backup file is created and stored in the Medweb Server when 'Local Storage' is selected in type of transport.</i></td></tr>
+</table>

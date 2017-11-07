@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 19 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]">
+              <span class="suite-name border-failed">Failed suite [Smoke_Suite]</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Failed_suite_[Smoke_Suite]">
+                    <span>D:\eclipse\com.qsgsoft.EMResource\test-output\testng-failed.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Failed_suite_[Smoke_Suite]">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Failed_suite_[Smoke_Suite]">
+                    <span>22 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Failed_suite_[Smoke_Suite]">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Failed_suite_[Smoke_Suite]">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Failed_suite_[Smoke_Suite]">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Failed_suite_[Smoke_Suite]">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 19 failed,  8 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Failed_suite_[Smoke_Suite]" class="hide-methods failed suite-Failed_suite_[Smoke_Suite]"> (hide)</a> <!-- hide-methods failed suite-Failed_suite_[Smoke_Suite] -->
+                      <a href="#" panel-name="suite-Failed_suite_[Smoke_Suite]" class="show-methods failed suite-Failed_suite_[Smoke_Suite]"> (show)</a> <!-- show-methods failed suite-Failed_suite_[Smoke_Suite] -->
+                    </span>
+                    <div class="method-list-content failed suite-Failed_suite_[Smoke_Suite]">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.SetupUsers" hash-for-method="Smoke183487">Smoke183487</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.SetupUsers" hash-for-method="Smoke183487">Smoke183487</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.SetupUsers" hash-for-method="Smoke183488">Smoke183488</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.SetupUsers" hash-for-method="Smoke183488">Smoke183488</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.SetupUsers" hash-for-method="Smoke183489">Smoke183489</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.SetupUsers" hash-for-method="Smoke183489">Smoke183489</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingEvents" hash-for-method="Smoke185941">Smoke185941</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingEvents" hash-for-method="Smoke185941">Smoke185941</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingForms" hash-for-method="Smoke186197">Smoke186197</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingForms" hash-for-method="Smoke186197">Smoke186197</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.IntegrationWithEMTrack" hash-for-method="Smoke186230">Smoke186230</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.IntegrationWithEMTrack" hash-for-method="Smoke186230">Smoke186230</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingViews" hash-for-method="Smoke186243">Smoke186243</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingViews" hash-for-method="Smoke186243">Smoke186243</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingViews" hash-for-method="Smoke186259">Smoke186259</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.IntegrationWithEics" hash-for-method="Smoke186548">Smoke186548</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.IntegrationWithEics" hash-for-method="Smoke186548">Smoke186548</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingForms" hash-for-method="Smoke187097">Smoke187097</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingForms" hash-for-method="Smoke187097">Smoke187097</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Failed_suite_[Smoke_Suite] -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Failed_suite_[Smoke_Suite]" class="hide-methods skipped suite-Failed_suite_[Smoke_Suite]"> (hide)</a> <!-- hide-methods skipped suite-Failed_suite_[Smoke_Suite] -->
+                      <a href="#" panel-name="suite-Failed_suite_[Smoke_Suite]" class="show-methods skipped suite-Failed_suite_[Smoke_Suite]"> (show)</a> <!-- show-methods skipped suite-Failed_suite_[Smoke_Suite] -->
+                    </span>
+                    <div class="method-list-content skipped suite-Failed_suite_[Smoke_Suite]">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.SetupUsers" hash-for-method="Smoke183490">Smoke183490</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.SetupUsers" hash-for-method="Smoke183490">Smoke183490</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.SetupUsers" hash-for-method="Smoke183491">Smoke183491</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.SetupUsers" hash-for-method="Smoke183491">Smoke183491</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingForms" hash-for-method="Smoke186195">Smoke186195</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingForms" hash-for-method="Smoke186195">Smoke186195</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingForms" hash-for-method="Smoke186196">Smoke186196</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingForms" hash-for-method="Smoke186196">Smoke186196</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Failed_suite_[Smoke_Suite] -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Failed_suite_[Smoke_Suite]" class="hide-methods passed suite-Failed_suite_[Smoke_Suite]"> (hide)</a> <!-- hide-methods passed suite-Failed_suite_[Smoke_Suite] -->
+                      <a href="#" panel-name="suite-Failed_suite_[Smoke_Suite]" class="show-methods passed suite-Failed_suite_[Smoke_Suite]"> (show)</a> <!-- show-methods passed suite-Failed_suite_[Smoke_Suite] -->
+                    </span>
+                    <div class="method-list-content passed suite-Failed_suite_[Smoke_Suite]">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingViews" hash-for-method="Smoke186199">Smoke186199</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingViews" hash-for-method="Smoke186241">Smoke186241</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Suite]" title="RequirementGroups.Smoke.CreatingAndManagingViews" hash-for-method="Smoke186259">Smoke186259</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Failed_suite_[Smoke_Suite] -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Failed_suite_[Smoke_Suite]" class="panel Failed_suite_[Smoke_Suite]">
+          <div class="suite-Failed_suite_[Smoke_Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RequirementGroups.Smoke.CreatingAndManagingEvents</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke185941">
+                  </a> <!-- Smoke185941 -->
+                  <span class="method-name">Smoke185941</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Mails.verifyEmail(Mails.java:135)
+	at EMR.pages.Mails.verifyMailAndPagerNotificationsForAnEventCreated(Mails.java:880)
+	at RequirementGroups.Smoke.CreatingAndManagingEvents.Smoke185941(CreatingAndManagingEvents.java:68)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke185941">
+                  </a> <!-- Smoke185941 -->
+                  <span class="method-name">Smoke185941</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.Login.clickOnCancelOfSecurityQuestionPage(Login.java:115)
+	at EMR.pages.Login.loginAsUserAndAcknowledgeWebNotification(Login.java:101)
+	at RequirementGroups.Smoke.CreatingAndManagingEvents.Smoke185941(CreatingAndManagingEvents.java:58)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Smoke_Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Smoke_Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RequirementGroups.Smoke.IntegrationWithEMTrack</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186230">
+                  </a> <!-- Smoke186230 -->
+                  <span class="method-name">Smoke186230</span>
+                  <div class="stack-trace">java.lang.AssertionError: Bayshore Medical expected [Bayshore Medical] but found [selected hospital is other than expected]
+	at EMTrack.pages.Patient.selectHospital(Patient.java:62)
+	at EMTrack.pages.Patient.addPatientDetailes(Patient.java:105)
+	at RequirementGroups.Smoke.IntegrationWithEMTrack.Smoke186230(IntegrationWithEMTrack.java:67)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186230">
+                  </a> <!-- Smoke186230 -->
+                  <span class="method-name">Smoke186230</span>
+                  <div class="stack-trace">java.lang.AssertionError: Bayshore Medical expected [Bayshore Medical] but found [selected hospital is other than expected]
+	at EMTrack.pages.Patient.selectHospital(Patient.java:62)
+	at EMTrack.pages.Patient.addPatientDetailes(Patient.java:105)
+	at RequirementGroups.Smoke.IntegrationWithEMTrack.Smoke186230(IntegrationWithEMTrack.java:67)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Smoke_Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Smoke_Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RequirementGroups.Smoke.SetupUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke183487">
+                  </a> <!-- Smoke183487 -->
+                  <span class="method-name">Smoke183487</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: keys should be a string
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;QSG-LP-17&apos;, ip: &apos;10.30.1.179&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir3508_15881}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a1e16672e853453bd197d5e041b4a74c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at CAM.pages.HomePage.searchUser(HomePage.java:36)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183487(SetupUsers.java:108)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke183487">
+                  </a> <!-- Smoke183487 -->
+                  <span class="method-name">Smoke183487</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: keys should be a string
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 130 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;QSG-LP-17&apos;, ip: &apos;10.30.1.179&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir5032_16057}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3c122db56616b13f710f38b3c751f74
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at CAM.pages.HomePage.searchUser(HomePage.java:36)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183487(SetupUsers.java:108)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke183488">
+                  </a> <!-- Smoke183488 -->
+                  <span class="method-name">Smoke183488</span>
+                  <div class="stack-trace">java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183488(SetupUsers.java:146)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke183488">
+                  </a> <!-- Smoke183488 -->
+                  <span class="method-name">Smoke183488</span>
+                  <div class="stack-trace">java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183488(SetupUsers.java:146)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke183489">
+                  </a> <!-- Smoke183489 -->
+                  <span class="method-name">Smoke183489</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183489(SetupUsers.java:76)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke183489">
+                  </a> <!-- Smoke183489 -->
+                  <span class="method-name">Smoke183489</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183489(SetupUsers.java:76)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Smoke_Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Smoke_Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RequirementGroups.Smoke.CreatingAndManagingViews</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186243">
+                  </a> <!-- Smoke186243 -->
+                  <span class="method-name">Smoke186243</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingViews.Smoke186243(CreatingAndManagingViews.java:126)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186243">
+                  </a> <!-- Smoke186243 -->
+                  <span class="method-name">Smoke186243</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingViews.Smoke186243(CreatingAndManagingViews.java:126)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186259">
+                  </a> <!-- Smoke186259 -->
+                  <span class="method-name">Smoke186259</span>
+                  <div class="stack-trace">java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginAsUserAndAcknowledgeWebNotification(Login.java:97)
+	at RequirementGroups.Smoke.CreatingAndManagingViews.Smoke186259(CreatingAndManagingViews.java:165)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Smoke_Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Smoke_Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RequirementGroups.Smoke.IntegrationWithEics</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186548">
+                  </a> <!-- Smoke186548 -->
+                  <span class="method-name">Smoke186548</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 427 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;QSG-LP-17&apos;, ip: &apos;10.30.1.179&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir1212_2193}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6052bff4b3d07586f21bcf370e943d66
+*** Element info: {Using=xpath, value=//td/a[text()=&apos;Map&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at qaFramework.webElements.WebElements.getOne(WebElements.java:32)
+	at EMR.pages.Shared.map(Shared.java:226)
+	at RequirementGroups.Smoke.IntegrationWithEics.Smoke186548(IntegrationWithEics.java:63)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186548">
+                  </a> <!-- Smoke186548 -->
+                  <span class="method-name">Smoke186548</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 498 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;QSG-LP-17&apos;, ip: &apos;10.30.1.179&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir7332_23791}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ef41f06754d8f2a1ddaa9394cd2ef5b7
+*** Element info: {Using=xpath, value=//td/a[text()=&apos;Map&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at qaFramework.webElements.WebElements.getOne(WebElements.java:32)
+	at EMR.pages.Shared.map(Shared.java:226)
+	at RequirementGroups.Smoke.IntegrationWithEics.Smoke186548(IntegrationWithEics.java:63)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Smoke_Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Smoke_Suite]-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RequirementGroups.Smoke.CreatingAndManagingForms</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186197">
+                  </a> <!-- Smoke186197 -->
+                  <span class="method-name">Smoke186197</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke186197(CreatingAndManagingForms.java:70)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186197">
+                  </a> <!-- Smoke186197 -->
+                  <span class="method-name">Smoke186197</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke186197(CreatingAndManagingForms.java:70)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke187097">
+                  </a> <!-- Smoke187097 -->
+                  <span class="method-name">Smoke187097</span>
+                  <div class="stack-trace">java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke187097(CreatingAndManagingForms.java:241)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke187097">
+                  </a> <!-- Smoke187097 -->
+                  <span class="method-name">Smoke187097</span>
+                  <div class="stack-trace">java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke187097(CreatingAndManagingForms.java:241)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Smoke_Suite]-class-failed -->
+          <div class="suite-Failed_suite_[Smoke_Suite]-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">RequirementGroups.Smoke.SetupUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke183490">
+                  </a> <!-- Smoke183490 -->
+                  <span class="method-name">Smoke183490</span>
+                  <div class="stack-trace">java.lang.Throwable: Method SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke183490">
+                  </a> <!-- Smoke183490 -->
+                  <span class="method-name">Smoke183490</span>
+                  <div class="stack-trace">java.lang.Throwable: Method SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke183491">
+                  </a> <!-- Smoke183491 -->
+                  <span class="method-name">Smoke183491</span>
+                  <div class="stack-trace">java.lang.Throwable: Method SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke183491">
+                  </a> <!-- Smoke183491 -->
+                  <span class="method-name">Smoke183491</span>
+                  <div class="stack-trace">java.lang.Throwable: Method SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Smoke_Suite]-class-skipped -->
+          <div class="suite-Failed_suite_[Smoke_Suite]-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">RequirementGroups.Smoke.CreatingAndManagingForms</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186195">
+                  </a> <!-- Smoke186195 -->
+                  <span class="method-name">Smoke186195</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186195">
+                  </a> <!-- Smoke186195 -->
+                  <span class="method-name">Smoke186195</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186196">
+                  </a> <!-- Smoke186196 -->
+                  <span class="method-name">Smoke186196</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186196">
+                  </a> <!-- Smoke186196 -->
+                  <span class="method-name">Smoke186196</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464] depends on not successfully finished methods
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Smoke_Suite]-class-skipped -->
+          <div class="suite-Failed_suite_[Smoke_Suite]-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RequirementGroups.Smoke.CreatingAndManagingViews</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186199">
+                  </a> <!-- Smoke186199 -->
+                  <span class="method-name">Smoke186199</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186241">
+                  </a> <!-- Smoke186241 -->
+                  <span class="method-name">Smoke186241</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Smoke186259">
+                  </a> <!-- Smoke186259 -->
+                  <span class="method-name">Smoke186259</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Smoke_Suite]-class-passed -->
+        </div> <!-- panel Failed_suite_[Smoke_Suite] -->
+        <div panel-name="test-xml-Failed_suite_[Smoke_Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\eclipse\com.qsgsoft.EMResource\test-output\testng-failed.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Failed suite [Smoke_Suite]&quot;&gt;
+  &lt;test name=&quot;Smoke&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.IntegrationWithEics&quot;/&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.CreatingAndManagingForms&quot;/&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.CreatingAndManagingViews&quot;/&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.CreatingAndManagingEvents&quot;/&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.IntegrationWithEMTrack&quot;/&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.SetupUsers&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke --&gt;
+  &lt;test name=&quot;Smoke(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.CreatingAndManagingForms&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Smoke186197&quot;/&gt;
+          &lt;include name=&quot;Smoke186195&quot;/&gt;
+          &lt;include name=&quot;Smoke187097&quot;/&gt;
+          &lt;include name=&quot;Smoke186196&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setResultToFalse&quot;/&gt;
+          &lt;include name=&quot;setUpMethod&quot;/&gt;
+          &lt;include name=&quot;tearDownClass&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- RequirementGroups.Smoke.CreatingAndManagingForms --&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.CreatingAndManagingViews&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;Smoke186259&quot;/&gt;
+          &lt;include name=&quot;setResultToFalse&quot;/&gt;
+          &lt;include name=&quot;Smoke186243&quot;/&gt;
+          &lt;include name=&quot;setUpMethod&quot;/&gt;
+          &lt;include name=&quot;tearDownClass&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- RequirementGroups.Smoke.CreatingAndManagingViews --&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.IntegrationWithEics&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Smoke186548&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setResultToFalse&quot;/&gt;
+          &lt;include name=&quot;setUpMethod&quot;/&gt;
+          &lt;include name=&quot;tearDownClass&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- RequirementGroups.Smoke.IntegrationWithEics --&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.IntegrationWithEMTrack&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setResultToFalse&quot;/&gt;
+          &lt;include name=&quot;setUpMethod&quot;/&gt;
+          &lt;include name=&quot;tearDownClass&quot;/&gt;
+          &lt;include name=&quot;Smoke186230&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- RequirementGroups.Smoke.IntegrationWithEMTrack --&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.SetupUsers&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Smoke183490&quot;/&gt;
+          &lt;include name=&quot;Smoke183488&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;Smoke183489&quot;/&gt;
+          &lt;include name=&quot;Smoke183487&quot;/&gt;
+          &lt;include name=&quot;setResultToFalse&quot;/&gt;
+          &lt;include name=&quot;Smoke183491&quot;/&gt;
+          &lt;include name=&quot;setUpMethod&quot;/&gt;
+          &lt;include name=&quot;tearDownClass&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- RequirementGroups.Smoke.SetupUsers --&gt;
+      &lt;class name=&quot;RequirementGroups.Smoke.CreatingAndManagingEvents&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Smoke185941&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setResultToFalse&quot;/&gt;
+          &lt;include name=&quot;setUpMethod&quot;/&gt;
+          &lt;include name=&quot;tearDownClass&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- RequirementGroups.Smoke.CreatingAndManagingEvents --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Failed suite [Smoke_Suite] --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Failed_suite_[Smoke_Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Failed suite [Smoke_Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Smoke (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Smoke(failed) (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Failed_suite_[Smoke_Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Failed suite [Smoke_Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Events</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke185941</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Forms</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186195</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186197</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Integration with other products</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186230</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186548</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183487</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183488</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183489</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183490</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183491</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke185941</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186195</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186196</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186197</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186199</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186230</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186241</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186243</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186259</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186548</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke187097</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke183487</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183487</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke183488</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183488</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke183489</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183489</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186241</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke183490</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183490</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke183491</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183491</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke185941</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke185941</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke186195</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186195</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke186196</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186196</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke186197</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186197</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke186199</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186199</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke186230</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186230</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke186243</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186243</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke186259</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186259</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke186548</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186548</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke187097</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke187097</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Views</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186199</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186241</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186243</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186259</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">forms</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke186196</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke187097</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">setup</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183487</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183488</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183489</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183490</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Smoke183491</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Failed_suite_[Smoke_Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Failed suite [Smoke_Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Failed_suite_[Smoke_Suite]');
+function tableData_Failed_suite_[Smoke_Suite]() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Smoke183488')
+data.setCell(0, 2, 'RequirementGroups.Smoke.SetupUsers')
+data.setCell(0, 3, 490194);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Smoke183488')
+data.setCell(1, 2, 'RequirementGroups.Smoke.SetupUsers')
+data.setCell(1, 3, 487874);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Smoke186548')
+data.setCell(2, 2, 'RequirementGroups.Smoke.IntegrationWithEics')
+data.setCell(2, 3, 406291);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Smoke185941')
+data.setCell(3, 2, 'RequirementGroups.Smoke.CreatingAndManagingEvents')
+data.setCell(3, 3, 349491);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Smoke186548')
+data.setCell(4, 2, 'RequirementGroups.Smoke.IntegrationWithEics')
+data.setCell(4, 3, 346037);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Smoke186197')
+data.setCell(5, 2, 'RequirementGroups.Smoke.CreatingAndManagingForms')
+data.setCell(5, 3, 210187);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Smoke183489')
+data.setCell(6, 2, 'RequirementGroups.Smoke.SetupUsers')
+data.setCell(6, 3, 209866);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Smoke186197')
+data.setCell(7, 2, 'RequirementGroups.Smoke.CreatingAndManagingForms')
+data.setCell(7, 3, 205588);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Smoke183489')
+data.setCell(8, 2, 'RequirementGroups.Smoke.SetupUsers')
+data.setCell(8, 3, 201818);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Smoke186243')
+data.setCell(9, 2, 'RequirementGroups.Smoke.CreatingAndManagingViews')
+data.setCell(9, 3, 199930);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Smoke186243')
+data.setCell(10, 2, 'RequirementGroups.Smoke.CreatingAndManagingViews')
+data.setCell(10, 3, 198942);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Smoke187097')
+data.setCell(11, 2, 'RequirementGroups.Smoke.CreatingAndManagingForms')
+data.setCell(11, 3, 186432);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Smoke187097')
+data.setCell(12, 2, 'RequirementGroups.Smoke.CreatingAndManagingForms')
+data.setCell(12, 3, 185703);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Smoke186259')
+data.setCell(13, 2, 'RequirementGroups.Smoke.CreatingAndManagingViews')
+data.setCell(13, 3, 184797);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Smoke185941')
+data.setCell(14, 2, 'RequirementGroups.Smoke.CreatingAndManagingEvents')
+data.setCell(14, 3, 74895);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Smoke186230')
+data.setCell(15, 2, 'RequirementGroups.Smoke.IntegrationWithEMTrack')
+data.setCell(15, 3, 65813);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Smoke186259')
+data.setCell(16, 2, 'RequirementGroups.Smoke.CreatingAndManagingViews')
+data.setCell(16, 3, 64792);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Smoke186230')
+data.setCell(17, 2, 'RequirementGroups.Smoke.IntegrationWithEMTrack')
+data.setCell(17, 3, 63370);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Smoke186241')
+data.setCell(18, 2, 'RequirementGroups.Smoke.CreatingAndManagingViews')
+data.setCell(18, 3, 22373);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Smoke183487')
+data.setCell(19, 2, 'RequirementGroups.Smoke.SetupUsers')
+data.setCell(19, 3, 17098);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Smoke183487')
+data.setCell(20, 2, 'RequirementGroups.Smoke.SetupUsers')
+data.setCell(20, 3, 15716);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Smoke186199')
+data.setCell(21, 2, 'RequirementGroups.Smoke.CreatingAndManagingViews')
+data.setCell(21, 3, 15);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Smoke186196')
+data.setCell(22, 2, 'RequirementGroups.Smoke.CreatingAndManagingForms')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Smoke183490')
+data.setCell(23, 2, 'RequirementGroups.Smoke.SetupUsers')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Smoke183491')
+data.setCell(24, 2, 'RequirementGroups.Smoke.SetupUsers')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Smoke186195')
+data.setCell(25, 2, 'RequirementGroups.Smoke.CreatingAndManagingForms')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Smoke183491')
+data.setCell(26, 2, 'RequirementGroups.Smoke.SetupUsers')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Smoke186196')
+data.setCell(27, 2, 'RequirementGroups.Smoke.CreatingAndManagingForms')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Smoke183490')
+data.setCell(28, 2, 'RequirementGroups.Smoke.SetupUsers')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Smoke186195')
+data.setCell(29, 2, 'RequirementGroups.Smoke.CreatingAndManagingForms')
+data.setCell(29, 3, 0);
+window.suiteTableData['Failed_suite_[Smoke_Suite]']= { tableData: data, tableDiv: 'times-div-Failed_suite_[Smoke_Suite]'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 hours</span>
+              <div id="times-div-Failed_suite_[Smoke_Suite]">
+              </div> <!-- times-div-Failed_suite_[Smoke_Suite] -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Failed_suite_[Smoke_Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Failed suite [Smoke_Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Failed_suite_[Smoke_Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">RequirementGroups.Smoke.CreatingAndManagingViews</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Smoke186241</span>
+                <br/>
+                <span class="ignored-method-name">Smoke186199</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Failed_suite_[Smoke_Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.IntegrationWithEics</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke186548</span>
+                <span class="method-start">42097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">42097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">388213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">390164 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.CreatingAndManagingForms</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">396012 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke186197</span>
+                <span class="method-start">420521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">420521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">630714 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke187097</span>
+                <span class="method-start">631095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">631095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">816798 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">817158 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.CreatingAndManagingViews</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">819846 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Smoke186199</span>
+                <span class="method-start">841410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">841410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">841429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Smoke186241</span>
+                <span class="method-start">841671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">841671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">864044 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke186243</span>
+                <span class="method-start">864308 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">864308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1063250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke186259</span>
+                <span class="method-start">1063523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">1063523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1248320 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">1248606 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.CreatingAndManagingEvents</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">1252107 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">1278390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke185941</span>
+                <span class="method-start">1278391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1627884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">1628191 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.IntegrationWithEMTrack</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">1631881 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke186230</span>
+                <span class="method-start">1660261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">1660261 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1726077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">1726317 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.SetupUsers</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">1728520 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke183489</span>
+                <span class="method-start">1758503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">1758503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1960324 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke183487</span>
+                <span class="method-start">1960596 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">1960596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1977704 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke183488</span>
+                <span class="method-start">1977924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">1977924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2468121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">2468418 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.CreatingAndManagingForms</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">2472108 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke186197</span>
+                <span class="method-start">2490649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">2490649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2696237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke187097</span>
+                <span class="method-start">2696536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">2696536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2882968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">2883252 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.CreatingAndManagingViews</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">2886798 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Smoke186259</span>
+                <span class="method-start">2908944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">2908944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2973740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke186243</span>
+                <span class="method-start">2974008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">2974008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3173938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">3174235 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.IntegrationWithEics</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">3177521 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">3196239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke186548</span>
+                <span class="method-start">3196240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3602538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">3602849 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.IntegrationWithEMTrack</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">3606050 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke186230</span>
+                <span class="method-start">3626536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">3626536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3689911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">3690272 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.SetupUsers</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">3693715 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">3712963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke183489</span>
+                <span class="method-start">3712964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3922830 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke183487</span>
+                <span class="method-start">3923199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">3923199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3938925 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke183488</span>
+                <span class="method-start">3939214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">3939214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4427088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">4427380 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RequirementGroups.Smoke.CreatingAndManagingEvents</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">4430910 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setResultToFalse</span>
+                <span class="method-start">4450596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Smoke185941</span>
+                <span class="method-start">4450597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4525495 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">4525781 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

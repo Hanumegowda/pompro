@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testData>
+<PreferanceResourceType>RT10-26-2016-041352</PreferanceResourceType>
+<PreferanceResourceTypeValue>29441</PreferanceResourceTypeValue>
+<sharedResourceTypeInMutualAidRegion1>RT109-23-2016-034403</sharedResourceTypeInMutualAidRegion1>
+<sharedResourceTypeInMutualAidRegion1Value>25672</sharedResourceTypeInMutualAidRegion1Value>
+<ViewsResourceTypeName>RT12-17-2016-103744</ViewsResourceTypeName>
+<ViewsResourceTypeName1>RT112-17-2016-103744</ViewsResourceTypeName1>
+<ViewsResourceTypeValue>31059</ViewsResourceTypeValue>
+<ViewsResourceTypeValue1>31060</ViewsResourceTypeValue1>
+
+<MultiRegionRelatedResourceTypeNAMEInRegion1>RT12-16-2016-052248</MultiRegionRelatedResourceTypeNAMEInRegion1>
+<MultiRegionRelatedResourceTypeNAMEInRegion2>RT112-16-2016-052248</MultiRegionRelatedResourceTypeNAMEInRegion2>
+<MultiRegionRelatedResourceTypeNAMEInRegion3>RT212-16-2016-052248</MultiRegionRelatedResourceTypeNAMEInRegion3>
+<MultiRegionRelatedResourceTypeVALUEInRegion1>30860</MultiRegionRelatedResourceTypeVALUEInRegion1>
+<MultiRegionRelatedResourceTypeVALUEInRegion2>30861</MultiRegionRelatedResourceTypeVALUEInRegion2>
+<MultiRegionRelatedResourceTypeVALUEInRegion3>30864</MultiRegionRelatedResourceTypeVALUEInRegion3>
+
+<ResourceTypeNameInRegion>RT310-18-2016-085944</ResourceTypeNameInRegion>
+<ResourceTypeValueInRegion>29119</ResourceTypeValueInRegion>
+<ResourceTypeNameInRegion1>RT410-18-2016-085944</ResourceTypeNameInRegion1>
+<ResourceTypeValueInRegion1>29122</ResourceTypeValueInRegion1>
+<MREResourceTypeNameInMutualAgreementRegion3>RT510-18-2016-085944</MREResourceTypeNameInMutualAgreementRegion3>
+<MREResourceTypeValueInMutualAgreementRegion3>29122</MREResourceTypeValueInMutualAgreementRegion3>
+<ResourceType1NameInRegion>RT10-10-2016-043234</ResourceType1NameInRegion>
+</testData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10" parallel="classes" thread-count="2">
+  <test name="Test">
+    <classes>
+    
+    	<class name="requirementGroup.CreatingAndManagingEvents.HappyDayAdhocEvents"/>
+     	<class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseUsers"/> 
+    	
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

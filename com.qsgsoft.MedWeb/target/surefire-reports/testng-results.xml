@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="requirementGroup.SmokeSuit.Users.HappyDayCreateUser" duration-ms="44299" started-at="2016-09-14T10:10:39Z" finished-at="2016-09-14T10:11:23Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="44299" started-at="2016-09-14T10:10:39Z" finished-at="2016-09-14T10:11:23Z">
+      <class name="requirementGroup.SmokeSuit.Users.HappyDayCreateUser">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:requirementGroup.SmokeSuit.Users.HappyDayCreateUser@11e26fe1]" name="setUp" is-config="true" duration-ms="3889" started-at="2016-09-14T15:40:39Z" finished-at="2016-09-14T15:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testHappyDay127853()[pri:0, instance:requirementGroup.SmokeSuit.Users.HappyDayCreateUser@11e26fe1]" name="testHappyDay127853" duration-ms="36582" started-at="2016-09-14T15:40:43Z" description="Verify that a user can be created when only mandatory fields are filled and the created user can login to the system using the Password specified by the Administrator." finished-at="2016-09-14T15:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHappyDay127853 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:requirementGroup.SmokeSuit.Users.HappyDayCreateUser@11e26fe1]" name="tearDown" is-config="true" duration-ms="3814" started-at="2016-09-14T15:41:19Z" finished-at="2016-09-14T15:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- requirementGroup.SmokeSuit.Users.HappyDayCreateUser -->
+    </test> <!-- Command line test -->
+  </suite> <!-- requirementGroup.SmokeSuit.Users.HappyDayCreateUser -->
+</testng-results>

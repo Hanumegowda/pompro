@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testData>
+<SectionWithRoleBasedStatusTypes>Section10262016041352</SectionWithRoleBasedStatusTypes>
+<SmokeHybridView>View12172016103744</SmokeHybridView>
+<SmokeSummaryView>View112172016103744</SmokeSummaryView>
+<SmokeSummaryPlusView>View212172016103744</SmokeSummaryPlusView>
+<SmokeResourceView>View312172016103744</SmokeResourceView>
+<sectionInMutualAgreementRegion1>Section12162016052247</sectionInMutualAgreementRegion1>
+<sectionForEventBasedSTsInMutualAidRegion1>Section112162016052247</sectionForEventBasedSTsInMutualAidRegion1>
+<sectionInMutualAgreementRegion2>Section212162016052247</sectionInMutualAgreementRegion2>
+<sectionInMutualAgreementRegion3>Section312162016052247</sectionInMutualAgreementRegion3>
+<sectionInRegionName>Section410-18-2016-085942</sectionInRegionName>
+<sectionInRegionName2>Section510-18-2016-085942</sectionInRegionName2>
+<sectionInRegionWithMutualAgreement3>Section610-18-2016-085942</sectionInRegionWithMutualAgreement3>
+</testData>
