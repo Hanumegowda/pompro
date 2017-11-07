@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke_Suite]">
+  <test name="Smoke">
+    <classes>
+      <class name="RequirementGroups.Smoke.IntegrationWithEics"/>
+      <class name="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+      <class name="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+      <class name="RequirementGroups.Smoke.CreatingAndManagingEvents"/>
+      <class name="RequirementGroups.Smoke.IntegrationWithEMTrack"/>
+      <class name="RequirementGroups.Smoke.SetupUsers"/>
+    </classes>
+  </test> <!-- Smoke -->
+  <test name="Smoke(failed)">
+    <classes>
+      <class name="RequirementGroups.Smoke.CreatingAndManagingForms">
+        <methods>
+          <include name="Smoke186197"/>
+          <include name="Smoke186195"/>
+          <include name="Smoke187097"/>
+          <include name="Smoke186196"/>
+          <include name="tearDown"/>
+          <include name="setResultToFalse"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- RequirementGroups.Smoke.CreatingAndManagingForms -->
+      <class name="RequirementGroups.Smoke.CreatingAndManagingViews">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Smoke186259"/>
+          <include name="setResultToFalse"/>
+          <include name="Smoke186243"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- RequirementGroups.Smoke.CreatingAndManagingViews -->
+      <class name="RequirementGroups.Smoke.IntegrationWithEics">
+        <methods>
+          <include name="Smoke186548"/>
+          <include name="tearDown"/>
+          <include name="setResultToFalse"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- RequirementGroups.Smoke.IntegrationWithEics -->
+      <class name="RequirementGroups.Smoke.IntegrationWithEMTrack">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setResultToFalse"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+          <include name="Smoke186230"/>
+        </methods>
+      </class> <!-- RequirementGroups.Smoke.IntegrationWithEMTrack -->
+      <class name="RequirementGroups.Smoke.SetupUsers">
+        <methods>
+          <include name="Smoke183490"/>
+          <include name="Smoke183488"/>
+          <include name="tearDown"/>
+          <include name="Smoke183489"/>
+          <include name="Smoke183487"/>
+          <include name="setResultToFalse"/>
+          <include name="Smoke183491"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- RequirementGroups.Smoke.SetupUsers -->
+      <class name="RequirementGroups.Smoke.CreatingAndManagingEvents">
+        <methods>
+          <include name="Smoke185941"/>
+          <include name="tearDown"/>
+          <include name="setResultToFalse"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- RequirementGroups.Smoke.CreatingAndManagingEvents -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Smoke_Suite] -->

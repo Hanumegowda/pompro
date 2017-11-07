@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testData>
+
+	<regionName>Z_Smoke_Build_Dev-253</regionName>
+	<userToActivate>User1459244092315</userToActivate>
+	<userToActivatePassword>Qsg@2015</userToActivatePassword>
+	<userToFillOut>User11459244092315</userToFillOut>
+	<userToFillOutPassword>abc123</userToFillOutPassword>
+	<ResourceName>RS03-29-2016-043452</ResourceName>
+	<FormName>Form03-29-2016-043452</FormName>
+</testData>

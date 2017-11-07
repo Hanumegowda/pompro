@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testData>
+	<AdminUserName>qsg</AdminUserName>
+	<AdminPassword>Abc@1234</AdminPassword>
+	<regionName>Z_Smoke_Build_Dev-253</regionName>
+	<UserName>auto1458191092351</UserName>
+	<Password>Qsg@2015</Password>
+	<UserFullName>EdFNauto1458191092351</UserFullName>
+	<EmailId>autoemres@outlook.com</EmailId>
+	<EmailId1>autoemres_1@outlook.com</EmailId1>
+	<EmailPassword>qsg2011</EmailPassword>
+	<EventName>Event03-23-2016-053156</EventName>
+	<EventTemplate>ET1458130266639</EventTemplate>
+	<ResourceName>RS03/16/2016-071106</ResourceName>
+	<RoleName1>Role03-29-2016-062348</RoleName1>
+	<RoleName2>Role1_03-29-2016-062348</RoleName2>
+	<Role1Value>17051</Role1Value>
+	<Role2Value>17052</Role2Value>
+</testData>

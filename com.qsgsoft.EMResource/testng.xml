@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="qaFramework.Configurations.Configuration"/>
+      <class name="RequirementGroups.events.CreatingAndManagingEvents"/>
+      <class name="DatabaseRefresh_DataCreation.Smoke.CreatingAndManagingForms"/>
+      <class name="DatabaseRefresh_DataCreation.Smoke.CreatingAndManagingEvents"/>
+      <class name="qaFramework.UserDefinedFunctions.Date_Time_settings"/>
+      <class name="RequirementGroups.forms.CreatingAndManagingForms"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

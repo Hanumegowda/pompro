@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testData>
+<RoleName1>Role09-22-2016-060507</RoleName1>
+<Role1Value>10440</Role1Value>
+<SetracRegionRole>Role10-21-2016-072649</SetracRegionRole>
+<SetracRegionRoleValue>11615</SetracRegionRoleValue>
+<StateOfMissouriRoleValue>10442</StateOfMissouriRoleValue>
+<StateOfMissouriRoleName>Role09-22-2016-062617</StateOfMissouriRoleName>
+<StatusChangePreferanceRole>Role10-26-2016-041352</StatusChangePreferanceRole>
+<StatusChangePreferanceRoleValue>11659</StatusChangePreferanceRoleValue>
+<MutualAidRole>Role09-23-2016-034403</MutualAidRole>
+<MutualAidRoleVAlue>10463</MutualAidRoleVAlue>
+<SetracRegionRoleWithoutAnyRight>Role09-01-2016-081810</SetracRegionRoleWithoutAnyRight>
+<SetracRegionRoleValueWithoutAnyRight>9520</SetracRegionRoleValueWithoutAnyRight>
+</testData>

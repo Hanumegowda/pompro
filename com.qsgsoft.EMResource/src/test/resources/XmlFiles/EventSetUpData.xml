@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testData>
+
+<SmokeEventTemplate>ET09-22-2016-060507</SmokeEventTemplate>
+<eventTemplateInMutualAgreementRegion1>ET12-16-2016-052248</eventTemplateInMutualAgreementRegion1>
+<eventTemplate1WithoutNotificationInMutualAgreementRegion3>ET810-18-2016-085944</eventTemplate1WithoutNotificationInMutualAgreementRegion3>
+<eventTemplate2WithNotificationInMutualAgreementRegion3>ET910-18-2016-085944</eventTemplate2WithNotificationInMutualAgreementRegion3>
+<MultiRegionEventTemplate1WithoutNotificationInRegion>ET310-18-2016-085944</MultiRegionEventTemplate1WithoutNotificationInRegion>
+<MultiRegionEventTemplate2WithNotificationInRegion>ET410-18-2016-085944</MultiRegionEventTemplate2WithNotificationInRegion>
+<MultiRegionEventTemplate3WithoutNotificationInRegion1>ET610-18-2016-085944</MultiRegionEventTemplate3WithoutNotificationInRegion1>
+<MultiRegionEventTemplateWithAddress>ET510-18-2016-085944</MultiRegionEventTemplateWithAddress>
+<MultiRegionEventTemplate4WithNotificationInRegion1>ET710-18-2016-085944</MultiRegionEventTemplate4WithNotificationInRegion1>
+<EventTemplate1WithoutNotificationInRegion>ET110-18-2016-085944</EventTemplate1WithoutNotificationInRegion>
+<EventTemplate2WithNotificationInRegion>ET210-18-2016-085944</EventTemplate2WithNotificationInRegion>
+</testData>

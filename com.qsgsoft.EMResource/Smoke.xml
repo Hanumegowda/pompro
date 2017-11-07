@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke_Suite">
+	<test name="Smoke">
+		<classes>
+			<class name="RequirementGroups.Smoke.IntegrationWithEics" />
+			<class name="RequirementGroups.Smoke.CreatingAndManagingForms" />
+			<class name="RequirementGroups.Smoke.CreatingAndManagingViews" />
+			<class name="RequirementGroups.Smoke.CreatingAndManagingEvents" />
+			<class name="RequirementGroups.Smoke.IntegrationWithEMTrack" />
+			<class name="RequirementGroups.Smoke.SetupUsers" />
+			<class name="RequirementGroups.Smoke.SetupUserLinks" />
+			<class name="RequirementGroups.Smoke.StatusChangeNotification" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

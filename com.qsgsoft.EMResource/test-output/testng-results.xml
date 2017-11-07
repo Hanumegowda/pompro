@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="8" failed="19" total="30" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Smoke_Suite]" duration-ms="4529155" started-at="2016-07-28T07:38:10Z" finished-at="2016-07-28T08:53:39Z">
+    <groups>
+      <group name="Smoke186259">
+        <method signature="CreatingAndManagingViews.Smoke186259()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186259" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186259()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="Smoke186259" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+      </group> <!-- Smoke186259 -->
+      <group name="Forms">
+        <method signature="CreatingAndManagingForms.Smoke186197()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186197" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186195" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186197()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186197" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186195" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+      </group> <!-- Forms -->
+      <group name="Smoke185941">
+        <method signature="CreatingAndManagingEvents.Smoke185941()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@16532d6]" name="Smoke185941" class="RequirementGroups.Smoke.CreatingAndManagingEvents"/>
+        <method signature="CreatingAndManagingEvents.Smoke185941()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@67b872]" name="Smoke185941" class="RequirementGroups.Smoke.CreatingAndManagingEvents"/>
+      </group> <!-- Smoke185941 -->
+      <group name="Smoke183487">
+        <method signature="SetupUsers.Smoke183487()[pri:2, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183487" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183487()[pri:2, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183487" class="RequirementGroups.Smoke.SetupUsers"/>
+      </group> <!-- Smoke183487 -->
+      <group name="Views">
+        <method signature="CreatingAndManagingViews.Smoke186199()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186199" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186241()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186241" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186243()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186243" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186259()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186259" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186243()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="Smoke186243" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186259()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="Smoke186259" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+      </group> <!-- Views -->
+      <group name="Smoke183488">
+        <method signature="SetupUsers.Smoke183488()[pri:3, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183488" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183488()[pri:3, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183488" class="RequirementGroups.Smoke.SetupUsers"/>
+      </group> <!-- Smoke183488 -->
+      <group name="Smoke186199">
+        <method signature="CreatingAndManagingViews.Smoke186199()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186199" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+      </group> <!-- Smoke186199 -->
+      <group name="Smoke186243">
+        <method signature="CreatingAndManagingViews.Smoke186243()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186243" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186243()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="Smoke186243" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+      </group> <!-- Smoke186243 -->
+      <group name="Smoke">
+        <method signature="CreatingAndManagingEvents.Smoke185941()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@16532d6]" name="Smoke185941" class="RequirementGroups.Smoke.CreatingAndManagingEvents"/>
+        <method signature="CreatingAndManagingForms.Smoke186197()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186197" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186195" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186196" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke187097()[pri:1, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke187097" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingViews.Smoke186199()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186199" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186241()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186241" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186243()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186243" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186259()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186259" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="IntegrationWithEMTrack.Smoke186230()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@196751b]" name="Smoke186230" class="RequirementGroups.Smoke.IntegrationWithEMTrack"/>
+        <method signature="SetupUsers.Smoke183487()[pri:2, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183487" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183488()[pri:3, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183488" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183489()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183489" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183490" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183491" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="IntegrationWithEics.Smoke186548()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@16e8792]" name="Smoke186548" class="RequirementGroups.Smoke.IntegrationWithEics"/>
+        <method signature="CreatingAndManagingEvents.Smoke185941()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@67b872]" name="Smoke185941" class="RequirementGroups.Smoke.CreatingAndManagingEvents"/>
+        <method signature="CreatingAndManagingForms.Smoke186197()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186197" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186195" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186196" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke187097()[pri:1, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke187097" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingViews.Smoke186243()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="Smoke186243" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="CreatingAndManagingViews.Smoke186259()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="Smoke186259" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="IntegrationWithEMTrack.Smoke186230()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@43840]" name="Smoke186230" class="RequirementGroups.Smoke.IntegrationWithEMTrack"/>
+        <method signature="IntegrationWithEics.Smoke186548()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@6ae04d]" name="Smoke186548" class="RequirementGroups.Smoke.IntegrationWithEics"/>
+        <method signature="SetupUsers.Smoke183487()[pri:2, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183487" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183488()[pri:3, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183488" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183489()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183489" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183490" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183491" class="RequirementGroups.Smoke.SetupUsers"/>
+      </group> <!-- Smoke -->
+      <group name="Smoke183489">
+        <method signature="CreatingAndManagingViews.Smoke186241()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186241" class="RequirementGroups.Smoke.CreatingAndManagingViews"/>
+        <method signature="SetupUsers.Smoke183489()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183489" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183489()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183489" class="RequirementGroups.Smoke.SetupUsers"/>
+      </group> <!-- Smoke183489 -->
+      <group name="Smoke186548">
+        <method signature="IntegrationWithEics.Smoke186548()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@16e8792]" name="Smoke186548" class="RequirementGroups.Smoke.IntegrationWithEics"/>
+        <method signature="IntegrationWithEics.Smoke186548()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@6ae04d]" name="Smoke186548" class="RequirementGroups.Smoke.IntegrationWithEics"/>
+      </group> <!-- Smoke186548 -->
+      <group name="Events">
+        <method signature="CreatingAndManagingEvents.Smoke185941()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@16532d6]" name="Smoke185941" class="RequirementGroups.Smoke.CreatingAndManagingEvents"/>
+        <method signature="CreatingAndManagingEvents.Smoke185941()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@67b872]" name="Smoke185941" class="RequirementGroups.Smoke.CreatingAndManagingEvents"/>
+      </group> <!-- Events -->
+      <group name="Smoke186196">
+        <method signature="CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186196" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186196" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+      </group> <!-- Smoke186196 -->
+      <group name="Smoke186197">
+        <method signature="CreatingAndManagingForms.Smoke186197()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186197" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186197()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186197" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+      </group> <!-- Smoke186197 -->
+      <group name="Integration with other products">
+        <method signature="IntegrationWithEMTrack.Smoke186230()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@196751b]" name="Smoke186230" class="RequirementGroups.Smoke.IntegrationWithEMTrack"/>
+        <method signature="IntegrationWithEics.Smoke186548()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@16e8792]" name="Smoke186548" class="RequirementGroups.Smoke.IntegrationWithEics"/>
+        <method signature="IntegrationWithEMTrack.Smoke186230()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@43840]" name="Smoke186230" class="RequirementGroups.Smoke.IntegrationWithEMTrack"/>
+        <method signature="IntegrationWithEics.Smoke186548()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@6ae04d]" name="Smoke186548" class="RequirementGroups.Smoke.IntegrationWithEics"/>
+      </group> <!-- Integration with other products -->
+      <group name="Smoke186230">
+        <method signature="IntegrationWithEMTrack.Smoke186230()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@196751b]" name="Smoke186230" class="RequirementGroups.Smoke.IntegrationWithEMTrack"/>
+        <method signature="IntegrationWithEMTrack.Smoke186230()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@43840]" name="Smoke186230" class="RequirementGroups.Smoke.IntegrationWithEMTrack"/>
+      </group> <!-- Smoke186230 -->
+      <group name="setup">
+        <method signature="SetupUsers.Smoke183487()[pri:2, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183487" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183488()[pri:3, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183488" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183489()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183489" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183490" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183491" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183487()[pri:2, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183487" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183488()[pri:3, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183488" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183489()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183489" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183490" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183491" class="RequirementGroups.Smoke.SetupUsers"/>
+      </group> <!-- setup -->
+      <group name="Smoke183490">
+        <method signature="SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183490" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183490" class="RequirementGroups.Smoke.SetupUsers"/>
+      </group> <!-- Smoke183490 -->
+      <group name="Smoke186195">
+        <method signature="CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186195" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186195" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+      </group> <!-- Smoke186195 -->
+      <group name="Smoke187097">
+        <method signature="CreatingAndManagingForms.Smoke187097()[pri:1, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke187097" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke187097()[pri:1, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke187097" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+      </group> <!-- Smoke187097 -->
+      <group name="Smoke183491">
+        <method signature="SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183491" class="RequirementGroups.Smoke.SetupUsers"/>
+        <method signature="SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183491" class="RequirementGroups.Smoke.SetupUsers"/>
+      </group> <!-- Smoke183491 -->
+      <group name="forms">
+        <method signature="CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186196" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke187097()[pri:1, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke187097" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186196" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+        <method signature="CreatingAndManagingForms.Smoke187097()[pri:1, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke187097" class="RequirementGroups.Smoke.CreatingAndManagingForms"/>
+      </group> <!-- forms -->
+    </groups>
+    <test name="Smoke" duration-ms="2471978" started-at="2016-07-28T07:38:10Z" finished-at="2016-07-28T08:19:22Z">
+      <class name="RequirementGroups.Smoke.SetupUsers">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="setUpMethod" is-config="true" duration-ms="29983" started-at="2016-07-28T13:36:58Z" finished-at="2016-07-28T13:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="Smoke183489()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183489" duration-ms="201818" started-at="2016-07-28T13:37:28Z" finished-at="2016-07-28T13:40:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183489(SetupUsers.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke183489 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:37:28Z" finished-at="2016-07-28T13:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="tearDown" is-config="true" duration-ms="271" started-at="2016-07-28T13:40:50Z" finished-at="2016-07-28T13:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="Smoke183487()[pri:2, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183487" duration-ms="17098" started-at="2016-07-28T13:40:50Z" finished-at="2016-07-28T13:41:07Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: keys should be a string
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'QSG-LP-17', ip: '10.30.1.179', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir3508_15881}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a1e16672e853453bd197d5e041b4a74c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: keys should be a string
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'QSG-LP-17', ip: '10.30.1.179', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir3508_15881}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a1e16672e853453bd197d5e041b4a74c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at CAM.pages.HomePage.searchUser(HomePage.java:36)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183487(SetupUsers.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke183487 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:40:50Z" finished-at="2016-07-28T13:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="tearDown" is-config="true" duration-ms="220" started-at="2016-07-28T13:41:07Z" finished-at="2016-07-28T13:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="Smoke183488()[pri:3, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183488" duration-ms="490194" started-at="2016-07-28T13:41:07Z" finished-at="2016-07-28T13:49:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[UserName FIELD is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183488(SetupUsers.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke183488 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:41:07Z" finished-at="2016-07-28T13:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="tearDown" is-config="true" duration-ms="287" started-at="2016-07-28T13:49:18Z" finished-at="2016-07-28T13:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183490" duration-ms="0" started-at="2016-07-28T13:49:18Z" depends-on-methods="RequirementGroups.Smoke.SetupUsers.Smoke183488" finished-at="2016-07-28T13:49:18Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke183490 -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="tearDownClass" is-config="true" duration-ms="3530" started-at="2016-07-28T13:49:18Z" finished-at="2016-07-28T13:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="SKIP" signature="Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45]" name="Smoke183491" duration-ms="0" started-at="2016-07-28T13:49:18Z" depends-on-methods="RequirementGroups.Smoke.SetupUsers.Smoke183490" finished-at="2016-07-28T13:49:18Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@1b64c45] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke183491 -->
+      </class> <!-- RequirementGroups.Smoke.SetupUsers -->
+      <class name="RequirementGroups.Smoke.IntegrationWithEMTrack">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@196751b]" name="setUpMethod" is-config="true" duration-ms="28380" started-at="2016-07-28T13:35:21Z" finished-at="2016-07-28T13:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="Smoke186230()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@196751b]" name="Smoke186230" duration-ms="65813" started-at="2016-07-28T13:35:50Z" finished-at="2016-07-28T13:36:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bayshore Medical expected [Bayshore Medical] but found [selected hospital is other than expected]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bayshore Medical expected [Bayshore Medical] but found [selected hospital is other than expected]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at EMTrack.pages.Patient.selectHospital(Patient.java:62)
+	at EMTrack.pages.Patient.addPatientDetailes(Patient.java:105)
+	at RequirementGroups.Smoke.IntegrationWithEMTrack.Smoke186230(IntegrationWithEMTrack.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186230 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@196751b]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:35:50Z" finished-at="2016-07-28T13:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@196751b]" name="tearDown" is-config="true" duration-ms="240" started-at="2016-07-28T13:36:56Z" finished-at="2016-07-28T13:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@196751b]" name="tearDownClass" is-config="true" duration-ms="2203" started-at="2016-07-28T13:36:56Z" finished-at="2016-07-28T13:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.IntegrationWithEMTrack -->
+      <class name="RequirementGroups.Smoke.CreatingAndManagingViews">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="setUpMethod" is-config="true" duration-ms="21563" started-at="2016-07-28T13:21:49Z" finished-at="2016-07-28T13:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="Smoke186199()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186199" duration-ms="15" started-at="2016-07-28T13:22:11Z" finished-at="2016-07-28T13:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186199 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:22:11Z" finished-at="2016-07-28T13:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="tearDown" is-config="true" duration-ms="242" started-at="2016-07-28T13:22:11Z" finished-at="2016-07-28T13:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:22:11Z" finished-at="2016-07-28T13:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="Smoke186241()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186241" duration-ms="22373" started-at="2016-07-28T13:22:11Z" finished-at="2016-07-28T13:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186241 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="tearDown" is-config="true" duration-ms="264" started-at="2016-07-28T13:22:34Z" finished-at="2016-07-28T13:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:22:34Z" finished-at="2016-07-28T13:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="FAIL" signature="Smoke186243()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186243" duration-ms="198942" started-at="2016-07-28T13:22:34Z" finished-at="2016-07-28T13:25:53Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingViews.Smoke186243(CreatingAndManagingViews.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186243 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="tearDown" is-config="true" duration-ms="273" started-at="2016-07-28T13:25:53Z" finished-at="2016-07-28T13:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:25:53Z" finished-at="2016-07-28T13:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="FAIL" signature="Smoke186259()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="Smoke186259" duration-ms="184797" started-at="2016-07-28T13:25:53Z" finished-at="2016-07-28T13:28:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[UserName FIELD is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginAsUserAndAcknowledgeWebNotification(Login.java:97)
+	at RequirementGroups.Smoke.CreatingAndManagingViews.Smoke186259(CreatingAndManagingViews.java:165)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186259 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="tearDown" is-config="true" duration-ms="286" started-at="2016-07-28T13:28:58Z" finished-at="2016-07-28T13:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6e6d5e]" name="tearDownClass" is-config="true" duration-ms="3501" started-at="2016-07-28T13:28:58Z" finished-at="2016-07-28T13:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.CreatingAndManagingViews -->
+      <class name="RequirementGroups.Smoke.CreatingAndManagingForms">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="setUpMethod" is-config="true" duration-ms="24509" started-at="2016-07-28T13:14:46Z" finished-at="2016-07-28T13:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="Smoke186197()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186197" duration-ms="210187" started-at="2016-07-28T13:15:10Z" finished-at="2016-07-28T13:18:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke186197(CreatingAndManagingForms.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186197 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:15:10Z" finished-at="2016-07-28T13:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="tearDown" is-config="true" duration-ms="341" started-at="2016-07-28T13:18:40Z" finished-at="2016-07-28T13:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186195" duration-ms="0" started-at="2016-07-28T13:18:41Z" depends-on-methods="RequirementGroups.Smoke.CreatingAndManagingForms.Smoke186197" finished-at="2016-07-28T13:18:41Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186195 -->
+        <test-method status="SKIP" signature="Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke186196" duration-ms="0" started-at="2016-07-28T13:18:41Z" depends-on-methods="RequirementGroups.Smoke.CreatingAndManagingForms.Smoke186195" finished-at="2016-07-28T13:18:41Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186196 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:18:41Z" finished-at="2016-07-28T13:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="FAIL" signature="Smoke187097()[pri:1, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="Smoke187097" duration-ms="185703" started-at="2016-07-28T13:18:41Z" finished-at="2016-07-28T13:21:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[UserName FIELD is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke187097(CreatingAndManagingForms.java:241)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke187097 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="tearDown" is-config="true" duration-ms="360" started-at="2016-07-28T13:21:46Z" finished-at="2016-07-28T13:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@12cbfa]" name="tearDownClass" is-config="true" duration-ms="2688" started-at="2016-07-28T13:21:47Z" finished-at="2016-07-28T13:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.CreatingAndManagingForms -->
+      <class name="RequirementGroups.Smoke.CreatingAndManagingEvents">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@16532d6]" name="setUpMethod" is-config="true" duration-ms="26283" started-at="2016-07-28T13:29:02Z" finished-at="2016-07-28T13:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@16532d6]" name="setResultToFalse" is-config="true" duration-ms="1" started-at="2016-07-28T13:29:28Z" finished-at="2016-07-28T13:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="FAIL" signature="Smoke185941()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@16532d6]" name="Smoke185941" duration-ms="349491" started-at="2016-07-28T13:29:28Z" finished-at="2016-07-28T13:35:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at EMR.pages.Mails.verifyEmail(Mails.java:135)
+	at EMR.pages.Mails.verifyMailAndPagerNotificationsForAnEventCreated(Mails.java:880)
+	at RequirementGroups.Smoke.CreatingAndManagingEvents.Smoke185941(CreatingAndManagingEvents.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke185941 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@16532d6]" name="tearDown" is-config="true" duration-ms="307" started-at="2016-07-28T13:35:17Z" finished-at="2016-07-28T13:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@16532d6]" name="tearDownClass" is-config="true" duration-ms="3690" started-at="2016-07-28T13:35:18Z" finished-at="2016-07-28T13:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.CreatingAndManagingEvents -->
+      <class name="RequirementGroups.Smoke.IntegrationWithEics">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@16e8792]" name="setUpMethod" is-config="true" duration-ms="42087" started-at="2016-07-28T13:08:10Z" finished-at="2016-07-28T13:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@16e8792]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:08:52Z" finished-at="2016-07-28T13:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="FAIL" signature="Smoke186548()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@16e8792]" name="Smoke186548" duration-ms="346037" started-at="2016-07-28T13:08:52Z" finished-at="2016-07-28T13:14:38Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot find context with specified id"}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 427 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'QSG-LP-17', ip: '10.30.1.179', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir1212_2193}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6052bff4b3d07586f21bcf370e943d66
+*** Element info: {Using=xpath, value=//td/a[text()='Map']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot find context with specified id"}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 427 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'QSG-LP-17', ip: '10.30.1.179', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir1212_2193}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6052bff4b3d07586f21bcf370e943d66
+*** Element info: {Using=xpath, value=//td/a[text()='Map']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at qaFramework.webElements.WebElements.getOne(WebElements.java:32)
+	at EMR.pages.Shared.map(Shared.java:226)
+	at RequirementGroups.Smoke.IntegrationWithEics.Smoke186548(IntegrationWithEics.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186548 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@16e8792]" name="tearDown" is-config="true" duration-ms="1951" started-at="2016-07-28T13:14:38Z" finished-at="2016-07-28T13:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@16e8792]" name="tearDownClass" is-config="true" duration-ms="5848" started-at="2016-07-28T13:14:40Z" finished-at="2016-07-28T13:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.IntegrationWithEics -->
+    </test> <!-- Smoke -->
+    <test name="Smoke(failed)" duration-ms="2057017" started-at="2016-07-28T08:19:22Z" finished-at="2016-07-28T08:53:39Z">
+      <class name="RequirementGroups.Smoke.SetupUsers">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="setUpMethod" is-config="true" duration-ms="19246" started-at="2016-07-28T14:09:43Z" finished-at="2016-07-28T14:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="setResultToFalse" is-config="true" duration-ms="1" started-at="2016-07-28T14:10:03Z" finished-at="2016-07-28T14:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="FAIL" signature="Smoke183489()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183489" duration-ms="209866" started-at="2016-07-28T14:10:03Z" finished-at="2016-07-28T14:13:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183489(SetupUsers.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke183489 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="tearDown" is-config="true" duration-ms="369" started-at="2016-07-28T14:13:32Z" finished-at="2016-07-28T14:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="Smoke183487()[pri:2, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183487" duration-ms="15716" started-at="2016-07-28T14:13:33Z" finished-at="2016-07-28T14:13:48Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: keys should be a string
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 130 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'QSG-LP-17', ip: '10.30.1.179', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir5032_16057}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3c122db56616b13f710f38b3c751f74]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: keys should be a string
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 130 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'QSG-LP-17', ip: '10.30.1.179', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir5032_16057}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3c122db56616b13f710f38b3c751f74
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at CAM.pages.HomePage.searchUser(HomePage.java:36)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183487(SetupUsers.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke183487 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T14:13:33Z" finished-at="2016-07-28T14:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="tearDown" is-config="true" duration-ms="289" started-at="2016-07-28T14:13:48Z" finished-at="2016-07-28T14:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T14:13:49Z" finished-at="2016-07-28T14:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="FAIL" signature="Smoke183488()[pri:3, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183488" duration-ms="487874" started-at="2016-07-28T14:13:49Z" finished-at="2016-07-28T14:21:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[UserName FIELD is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.SetupUsers.Smoke183488(SetupUsers.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke183488 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="tearDown" is-config="true" duration-ms="282" started-at="2016-07-28T14:21:57Z" finished-at="2016-07-28T14:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183490" duration-ms="0" started-at="2016-07-28T14:21:57Z" depends-on-methods="RequirementGroups.Smoke.SetupUsers.Smoke183488" finished-at="2016-07-28T14:21:57Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SetupUsers.Smoke183490()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke183490 -->
+        <test-method status="SKIP" signature="Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="Smoke183491" duration-ms="0" started-at="2016-07-28T14:21:57Z" depends-on-methods="RequirementGroups.Smoke.SetupUsers.Smoke183490" finished-at="2016-07-28T14:21:57Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SetupUsers.Smoke183491()[pri:1, instance:RequirementGroups.Smoke.SetupUsers@115b42e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke183491 -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.SetupUsers@115b42e]" name="tearDownClass" is-config="true" duration-ms="3530" started-at="2016-07-28T14:21:57Z" finished-at="2016-07-28T14:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.SetupUsers -->
+      <class name="RequirementGroups.Smoke.IntegrationWithEMTrack">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@43840]" name="setUpMethod" is-config="true" duration-ms="20485" started-at="2016-07-28T14:08:16Z" finished-at="2016-07-28T14:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@43840]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T14:08:36Z" finished-at="2016-07-28T14:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="FAIL" signature="Smoke186230()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@43840]" name="Smoke186230" duration-ms="63370" started-at="2016-07-28T14:08:36Z" finished-at="2016-07-28T14:09:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bayshore Medical expected [Bayshore Medical] but found [selected hospital is other than expected]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bayshore Medical expected [Bayshore Medical] but found [selected hospital is other than expected]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at EMTrack.pages.Patient.selectHospital(Patient.java:62)
+	at EMTrack.pages.Patient.addPatientDetailes(Patient.java:105)
+	at RequirementGroups.Smoke.IntegrationWithEMTrack.Smoke186230(IntegrationWithEMTrack.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186230 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@43840]" name="tearDown" is-config="true" duration-ms="360" started-at="2016-07-28T14:09:39Z" finished-at="2016-07-28T14:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEMTrack@43840]" name="tearDownClass" is-config="true" duration-ms="3443" started-at="2016-07-28T14:09:40Z" finished-at="2016-07-28T14:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.IntegrationWithEMTrack -->
+      <class name="RequirementGroups.Smoke.CreatingAndManagingViews">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="setUpMethod" is-config="true" duration-ms="22145" started-at="2016-07-28T13:56:16Z" finished-at="2016-07-28T13:56:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="Smoke186259()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="Smoke186259" duration-ms="64792" started-at="2016-07-28T13:56:38Z" finished-at="2016-07-28T13:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186259 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:56:38Z" finished-at="2016-07-28T13:56:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="tearDown" is-config="true" duration-ms="268" started-at="2016-07-28T13:57:43Z" finished-at="2016-07-28T13:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="Smoke186243()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="Smoke186243" duration-ms="199930" started-at="2016-07-28T13:57:44Z" finished-at="2016-07-28T14:01:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingViews.Smoke186243(CreatingAndManagingViews.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186243 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:57:44Z" finished-at="2016-07-28T13:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="tearDown" is-config="true" duration-ms="297" started-at="2016-07-28T14:01:03Z" finished-at="2016-07-28T14:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingViews@6a3f77]" name="tearDownClass" is-config="true" duration-ms="3286" started-at="2016-07-28T14:01:04Z" finished-at="2016-07-28T14:01:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.CreatingAndManagingViews -->
+      <class name="RequirementGroups.Smoke.CreatingAndManagingForms">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="setUpMethod" is-config="true" duration-ms="18540" started-at="2016-07-28T13:49:22Z" finished-at="2016-07-28T13:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="FAIL" signature="Smoke186197()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186197" duration-ms="205588" started-at="2016-07-28T13:49:40Z" finished-at="2016-07-28T13:53:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.SelectRegion.selectRegionAndClickOnNext(SelectRegion.java:44)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke186197(CreatingAndManagingForms.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186197 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:49:40Z" finished-at="2016-07-28T13:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="tearDown" is-config="true" duration-ms="289" started-at="2016-07-28T13:53:06Z" finished-at="2016-07-28T13:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186195" duration-ms="0" started-at="2016-07-28T13:53:06Z" depends-on-methods="RequirementGroups.Smoke.CreatingAndManagingForms.Smoke186197" finished-at="2016-07-28T13:53:06Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CreatingAndManagingForms.Smoke186195()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186195 -->
+        <test-method status="SKIP" signature="Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke186196" duration-ms="0" started-at="2016-07-28T13:53:06Z" depends-on-methods="RequirementGroups.Smoke.CreatingAndManagingForms.Smoke186195" finished-at="2016-07-28T13:53:06Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CreatingAndManagingForms.Smoke186196()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186196 -->
+        <test-method status="FAIL" signature="Smoke187097()[pri:1, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="Smoke187097" duration-ms="186432" started-at="2016-07-28T13:53:06Z" finished-at="2016-07-28T13:56:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[UserName FIELD is not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: UserName FIELD is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at EMR.pages.Login.launchUrlAndVerifyUsernameField(Login.java:155)
+	at EMR.pages.Login.loginToApplication(Login.java:144)
+	at RequirementGroups.Smoke.CreatingAndManagingForms.Smoke187097(CreatingAndManagingForms.java:241)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke187097 -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T13:53:06Z" finished-at="2016-07-28T13:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="tearDown" is-config="true" duration-ms="284" started-at="2016-07-28T13:56:13Z" finished-at="2016-07-28T13:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingForms@bc464]" name="tearDownClass" is-config="true" duration-ms="3546" started-at="2016-07-28T13:56:13Z" finished-at="2016-07-28T13:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.CreatingAndManagingForms -->
+      <class name="RequirementGroups.Smoke.CreatingAndManagingEvents">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@67b872]" name="setUpMethod" is-config="true" duration-ms="19686" started-at="2016-07-28T14:22:00Z" finished-at="2016-07-28T14:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@67b872]" name="setResultToFalse" is-config="true" duration-ms="1" started-at="2016-07-28T14:22:20Z" finished-at="2016-07-28T14:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="FAIL" signature="Smoke185941()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@67b872]" name="Smoke185941" duration-ms="74895" started-at="2016-07-28T14:22:20Z" finished-at="2016-07-28T14:23:35Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at EMR.pages.Login.selectFrame(Login.java:81)
+	at EMR.pages.Login.clickOnCancelOfSecurityQuestionPage(Login.java:115)
+	at EMR.pages.Login.loginAsUserAndAcknowledgeWebNotification(Login.java:101)
+	at RequirementGroups.Smoke.CreatingAndManagingEvents.Smoke185941(CreatingAndManagingEvents.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke185941 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@67b872]" name="tearDown" is-config="true" duration-ms="286" started-at="2016-07-28T14:23:35Z" finished-at="2016-07-28T14:23:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.CreatingAndManagingEvents@67b872]" name="tearDownClass" is-config="true" duration-ms="3344" started-at="2016-07-28T14:23:35Z" finished-at="2016-07-28T14:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.CreatingAndManagingEvents -->
+      <class name="RequirementGroups.Smoke.IntegrationWithEics">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@6ae04d]" name="setUpMethod" is-config="true" duration-ms="18716" started-at="2016-07-28T14:01:07Z" finished-at="2016-07-28T14:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="setResultToFalse()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@6ae04d]" name="setResultToFalse" is-config="true" duration-ms="0" started-at="2016-07-28T14:01:26Z" finished-at="2016-07-28T14:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultToFalse -->
+        <test-method status="FAIL" signature="Smoke186548()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@6ae04d]" name="Smoke186548" duration-ms="406291" started-at="2016-07-28T14:01:26Z" finished-at="2016-07-28T14:08:12Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot find context with specified id"}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 498 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'QSG-LP-17', ip: '10.30.1.179', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir7332_23791}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ef41f06754d8f2a1ddaa9394cd2ef5b7
+*** Element info: {Using=xpath, value=//td/a[text()='Map']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot find context with specified id"}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 498 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'QSG-LP-17', ip: '10.30.1.179', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\Swetha\AppData\Local\Temp\scoped_dir7332_23791}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ef41f06754d8f2a1ddaa9394cd2ef5b7
+*** Element info: {Using=xpath, value=//td/a[text()='Map']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at qaFramework.webElements.WebElements.getOne(WebElements.java:32)
+	at EMR.pages.Shared.map(Shared.java:226)
+	at RequirementGroups.Smoke.IntegrationWithEics.Smoke186548(IntegrationWithEics.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke186548 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@6ae04d]" name="tearDown" is-config="true" duration-ms="311" started-at="2016-07-28T14:08:12Z" finished-at="2016-07-28T14:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RequirementGroups.Smoke.IntegrationWithEics@6ae04d]" name="tearDownClass" is-config="true" duration-ms="3201" started-at="2016-07-28T14:08:12Z" finished-at="2016-07-28T14:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RequirementGroups.Smoke.IntegrationWithEics -->
+    </test> <!-- Smoke(failed) -->
+  </suite> <!-- Failed suite [Smoke_Suite] -->
+</testng-results>
