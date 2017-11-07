@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Failed suite [HappyDay]]">
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="requirementGroup.ResourceHierarchies.NewCreatingAndDemoteResource">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay123342"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.ResourceHierarchies.NewCreatingAndDemoteResource -->
+      <class name="requirementGroup.EMResourceIntegartionWithEMTrack.UserInterfaceForManualIPNEntry">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testHappyDay163714"/>
+        </methods>
+      </class> <!-- requirementGroup.EMResourceIntegartionWithEMTrack.UserInterfaceForManualIPNEntry -->
+      <class name="requirementGroup.Credence.HappyDayLinkingEMResourceWithCORESandWebEOC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay147786"/>
+          <include name="testHappyDay144896"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.Credence.HappyDayLinkingEMResourceWithCORESandWebEOC -->
+      <class name="requirementGroup.Credence.HappyDayPasswordResetAndOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testHappyDay144908"/>
+        </methods>
+      </class> <!-- requirementGroup.Credence.HappyDayPasswordResetAndOthers -->
+      <class name="requirementGroup.Notifications.HappyDayExpiredStatusNotifications">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay142458"/>
+          <include name="testHappyDay142457"/>
+          <include name="testHappyDay140993"/>
+          <include name="testHappyDay142363"/>
+          <include name="testHappyDay140628"/>
+          <include name="testHappyDay142316"/>
+          <include name="setUp"/>
+          <include name="testHappyDay142314"/>
+        </methods>
+      </class> <!-- requirementGroup.Notifications.HappyDayExpiredStatusNotifications -->
+      <class name="requirementGroup.Credence.HappyDayLogout">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay144902"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.Credence.HappyDayLogout -->
+      <class name="requirementGroup.PreferencesStatusChangePrefs.HappyDayAddStatusChangePreferences">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay130844"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.PreferencesStatusChangePrefs.HappyDayAddStatusChangePreferences -->
+      <class name="requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS">
+        <methods>
+          <include name="testHappyDay145756"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay145758"/>
+          <include name="testHappyDay145755"/>
+          <include name="testCloseIncident"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS -->
+      <class name="requirementGroup.CreatingAndManagingViews.HappyDayCreatingAndManagingViews">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.CreatingAndManagingViews.HappyDayCreatingAndManagingViews -->
+      <class name="requirementGroup.LoginAndLogout.NewLoginAndLogout">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay126261"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.LoginAndLogout.NewLoginAndLogout -->
+      <class name="requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay144045"/>
+          <include name="testHappyDay144051"/>
+          <include name="testHappyDay144052"/>
+          <include name="testHappyDay144034"/>
+          <include name="testHappyDay144032"/>
+          <include name="testHappyDay144055"/>
+          <include name="testHappyDay144049"/>
+          <include name="setUp"/>
+          <include name="testHappyDay147972"/>
+          <include name="testHappyDay144277"/>
+        </methods>
+      </class> <!-- requirementGroup.EMResourceIntegartionWithEMTrack.HappyDayIncomingPatientNotification -->
+      <class name="requirementGroup.Notifications.HappyDayWebNotificationStatusUpdatePage">
+        <methods>
+          <include name="testHappyDay139735"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.Notifications.HappyDayWebNotificationStatusUpdatePage -->
+      <class name="requirementGroup.PreferencesEventNotificationsPreferences.NewSelectnotificationPreferencesForAnEventTemplate">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay118373"/>
+          <include name="setUp"/>
+          <include name="testHappyDay118372"/>
+        </methods>
+      </class> <!-- requirementGroup.PreferencesEventNotificationsPreferences.NewSelectnotificationPreferencesForAnEventTemplate -->
+      <class name="requirementGroup.ResourceHierarchies.NewCreatingSubResourceType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay104005"/>
+          <include name="testHappyDay104004"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.ResourceHierarchies.NewCreatingSubResourceType -->
+      <class name="requirementGroup.ResourceHierarchies.HappyDayNewCreatingSubResource">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay105623"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.ResourceHierarchies.HappyDayNewCreatingSubResource -->
+      <class name="requirementGroup.ResourceHierarchies.NewCreatingAndManagingEvents">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay107403"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.ResourceHierarchies.NewCreatingAndManagingEvents -->
+      <class name="requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers">
+        <methods>
+          <include name="testHappyDay71790"/>
+          <include name="testHappyDay70676"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay70686"/>
+          <include name="testHappyDay70677"/>
+          <include name="testHappyDay70685"/>
+        </methods>
+      </class> <!-- requirementGroup.EMResourceIntegartionWithEICS.HappyDayHICSIncidentViewInEMResource3Browsers -->
+      <class name="requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay145752"/>
+          <include name="testHappyDay145753"/>
+          <include name="testHappyDay145754"/>
+        </methods>
+      </class> <!-- requirementGroup.EMResourceIntegartionWithEICS.HappyDaySupportMultipleIncidentsFromEICS2Browsers -->
+      <class name="requirementGroup.EMResourceIntegartionWithEICS.HappyDayEMResourceFacilityStatusViewInEICS">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay70487"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- requirementGroup.EMResourceIntegartionWithEICS.HappyDayEMResourceFacilityStatusViewInEICS -->
+      <class name="requirementGroup.Notifications.HappyDayIncomingPatientNotifications">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHappyDay25652"/>
+          <include name="setUp"/>
+          <include name="testHappyDay25696"/>
+          <include name="testHappyDay25694"/>
+          <include name="testHappyDay25695"/>
+        </methods>
+      </class> <!-- requirementGroup.Notifications.HappyDayIncomingPatientNotifications -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [HappyDay]] -->

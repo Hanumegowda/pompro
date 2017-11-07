@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EdgeCase" verbose="10">
+  <test name="Test">
+    <classes>  
+    
+        <!-- Misc -->
+    <class name="requirementGroup.SettingUpRegions.NewEdgeCaseCreateRegion"/>
+    <class name="requirementGroup.RegionalInfoDocumentLibrary.EdgeCaseDeleteAFolder"/>
+    <class name="requirementGroup.SystemNotifications.EdgeCaseSystemNotification"/>
+    <class name="requirementGroup.CreatingAndManagingUsers.EdgeCaseChallengeQuestionSetup"/>
+    <class name="requirementGroup.RegionalInfoDocumentLibrary.NewEdgeCaseAddADocument"/>
+    <class name="requirementGroup.RegionalInfoDocumentLibrary.EdgeCaseCreateAFolder"/>
+    <class name="requirementGroup.RegionalInfoDocumentLibrary.EdgeCaseMoveADocument"/>
+    <class name="requirementGroup.HomeButton.EdgeCaseHomeButton"/>
+    <class name="requirementGroup.RegionalInfoDocumentLibrary.EdgeCaseDeleteADocument"/>
+    <class name="requirementGroup.PreferencesChangePassword.EdgeCaseChangePassword"/>
+    <class name="requirementGroup.CreatingAndManagingRegions.EdgeCaseManagingRegions"/>
+    <class name="requirementGroup.RegionalInfoCalendar.NewEdgeCaseCreateBulletinMessage"/>
+    
+      <!-- Forms Module  -->
+      <class name="requirementGroup.Forms.EdgeCaseFormNotification"/>
+      <class name="requirementGroup.Forms.EdgeCaseReceiveBlankForm"/>
+      <class name="requirementGroup.Reports.EdgeCaseFormDetailReport"/>
+      <class name="requirementGroup.Forms.EdgeCaseEditFrom"/>
+      <class name="requirementGroup.Reports.EdgeCaseFormSummaryReport"/>
+      <class name="requirementGroup.Forms.EdgeCaseDispatchForm"/>
+      <class name="requirementGroup.Forms.EdgeCaseForm"/>
+      <class name="requirementGroup.Reports.EdgeCaseFormReports"/>
+      <class name="requirementGroup.Forms.EdgeCaseDeleteV3FormQuestionnaire"/>
+      <class name="requirementGroup.Forms.EdgeCaseCreateForm"/>
+      <class name="requirementGroup.Reports.EdgeCaseFormDetailReportUpdated"/>
+      <class name="requirementGroup.Forms.EdgeCaseReceiveCompletedForm"/>
+      <class name="requirementGroup.Forms.EdgeCaseEditV3FormQuestionnaire"/>
+      <class name="requirementGroup.Forms.EdgeCaseCreateV3FormQuestionnaire"/>
+      <class name="requirementGroup.SettingUpUsers.EdgeCaseRightToConfigureForms"/>
+      <class name="requirementGroup.CreatingAndManagingForms.EdgeCaseMovingQuestionsAndChangingQuestionType"/>
+      
+      <!-- Roles -->
+      <class name="requirementGroup.CreatingAndManagingRoles.EdgeCaseCreateRole"/>
+      
+      <!-- Reports -->
+      <class name="requirementGroup.Reports.EdgeCaseNormalUsageReport"/>
+      <class name="requirementGroup.Reports.EdgeCaseApplicationUsageReport"/>
+      <class name="requirementGroup.Forms.EdgeCaseProvideSecurityForFormReport"/>
+      <class name="requirementGroup.Reports.EdgeCaseEventSnapshotReport"/>
+      <class name="requirementGroup.Reports.EdgeCaseEventDetailReport"/>
+      <class name="requirementGroup.Reports.EdgeCaseAdminReports"/>
+      <class name="requirementGroup.Reports.EdgeCaseStatusSnapshotReport"/>
+      <class name="requirementGroup.Reports.EdgeCaseResourceDetailReports"/>
+      <class name="requirementGroup.Reports.EdgeCaseNotificationHistoryReport"/>
+      
+      <!-- Events -->
+      <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseAdhocEvents"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.NewEdgeCaseProvidingSecurityToEventTemplat"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseCreateEventTemplate"/>
+      <class name="requirementGroup.SetUp.EdgeCaseSelectNotificationPreferencesForAnEventTemplate"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseMultiRegionEventsWithResourcesAndStatusTypes"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.NewEdgeCaseEditMultiRegionEvent"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseMultiRegionEvent"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseCreatingAndManagingEvents"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.NewEdgeCaseEditEventTemplate"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseEditEvent"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseCreateEvent"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseEndMultiRegionEvent"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseUsers"/>
+      <class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.EdgeCaseExcelViewsAndEvents"/>
+      <class name="requirementGroup.CreatingAndManagingEvents.EdgeCaseDirectedEvents"/>
+      
+      <!-- Status type -->
+      <class name="requirementGroup.Notifications.EdgeCaseWebNotificationStatusUpdatePage"/>
+      <class name="requirementGroup.SetUp.EdgeCaseStatusTypes1"/>
+      <class name="requirementGroup.SetUp.EdgeCaseStatusUpdate"/>
+      <class name="requirementGroup.MultiRegion.EdgeCaseStandardStatusTypeLabels"/>
+      <class name="requirementGroup.SettingUpStatusTypes.NewEdgeCaseCreateNumberStatusType"/>
+      <class name="requirementGroup.CreatingAndManagingUsers.EdgeCaseNewFeatureFor315"/>
+      <class name="requirementGroup.SetUp.EdgeCaseMultiStatusesLabel"/>
+      <class name="requirementGroup.SetUp.EdgeCaseStatusTypes"/>
+      <class name="requirementGroup.SetUp.EdgeCaseCreateDateStatusType"/>
+      <class name="requirementGroup.PreferencesStatusChangePrefs.EdgeCaseAddStatusChangePreferences"/>
+            
+      <!-- Roles -->
+      <class name="requirementGroup.CreatingAndManagingRoles.NewEdgeCaseEditRole"/>
+      <class name="requirementGroup.SetUp.EdgeCaseCreateAndManageRoles"/>
+      <class name="requirementGroup.SetUp.EdgeCaseCreateOrEditRole"/>
+      <class name="requirementGroup.CreatingAndManagingRoles.EdgeCaseAssigningUserToARole"/>
+      
+      <!-- Users -->
+      <class name="requirementGroup.CreatingAndManagingUsers.EdgeCaseUserList"/>
+      <class name="requirementGroup.CreatingAndManagingUsers.NewEdgeCaseProvideAccessToRegionsForAUser"/>
+      <class name="requirementGroup.SetUp.EdgeCaseWebServiceUsers"/>
+      <class name="requirementGroup.CreatingAndManagingUsers.NewEdgeCaseSwitchUser"/>
+      <class name="requirementGroup.CreatingAndManagingUsers.EdgeCaseCreateUser"/>
+      <class name="requirementGroup.SetUp.EdgeCaseDelegatedUserManagement"/>
+      
+      <!-- Views -->
+      <class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.EdgeCaseDeleteRegionView"/>
+      <class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.EdgeCaseManagingRegionViews"/>
+      <class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.EdgeCaseDeleteRegionView3Browser"/>
+      <class name="requirementGroup.ViewingAndmanagingEMResourceEntitiesOnTheViewInterface.EdgeCaseSettingUpOfRegionViews"/>
+      
+      <!-- Resource Type -->
+      <class name="requirementGroup.SettingUpResourceTypes.EdgeCaseCreateResourceType"/>
+      <class name="requirementGroup.SettingUpResourceTypes.NewEdgeCaseEditResourceType"/>
+
+      <!-- Resources -->
+      <class name="requirementGroup.SettingUpResources.NewEdgeCaseCreateResource"/>
+      <class name="requirementGroup.SettingUpResources.EdgeCaseProvideResourceRights"/>
+      <class name="requirementGroup.SettingUpResources.NewEdgeCaseEditResource"/>
+      
+      <!-- EMTrack -->
+      <class name="requirementGroup.EMResourceIntegartionWithEMTrack.EdgeCaseIncomingPatientNotification"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

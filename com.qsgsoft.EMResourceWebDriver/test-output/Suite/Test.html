@@ -1,0 +1,1930 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/26/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 06 18:55:04 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>27610 seconds (27610874 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay112346()'><b>testHappyDay112346</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that user provided with 'Edit Resources Only' right in a role and with update status right on a resource can create/edit a sub-resource under it.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;topSubNav&apos;]/h1&quot;}
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div[@id=&apos;topSubNav&apos;]/h1}
+Session ID: e338bb3d-246b-4541-b0f0-9a4e4921de49
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=30.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.SelectRegion.selectRegionAndNavigate(SelectRegion.java:77)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay112346(NewCreateRole.java:4453)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;topSubNav&apos;]/h1&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/qsg/AppData/Local/Temp/anonymous42429246817708716webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/qsg/AppData/Local/Temp/anonymous42429246817708716webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</pre></div><a href='#' onClick='toggleBox("stack-trace19890270", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace19890270'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;topSubNav&apos;]/h1&quot;}
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div[@id=&apos;topSubNav&apos;]/h1}
+Session ID: e338bb3d-246b-4541-b0f0-9a4e4921de49
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=30.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.SelectRegion.selectRegionAndNavigate(SelectRegion.java:77)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay112346(NewCreateRole.java:4453)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;topSubNav&apos;]/h1&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/qsg/AppData/Local/Temp/anonymous42429246817708716webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/qsg/AppData/Local/Temp/anonymous42429246817708716webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</pre></div></td>
+<td>264</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay118731()'><b>testHappyDay118731</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to generate Event Snapshot report.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@id=&apos;mainContainer&apos;]//table/tbody/tr/td[4][text()=&apos;Event10-06-2015-071908&apos;]/preceding-sibling::td/input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div[@id=&apos;mainContainer&apos;]//table/tbody/tr/td[4][text()=&apos;Event10-06-2015-071908&apos;]/preceding-sibling::td/input}
+Session ID: e9d8901c-7ab1-49e6-b592-a1f15424f403
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:18405/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.Report.selectEventRadioBtn(Report.java:306)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay118731(NewCreateUser.java:4433)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace24996973", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace24996973'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@id=&apos;mainContainer&apos;]//table/tbody/tr/td[4][text()=&apos;Event10-06-2015-071908&apos;]/preceding-sibling::td/input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div[@id=&apos;mainContainer&apos;]//table/tbody/tr/td[4][text()=&apos;Event10-06-2015-071908&apos;]/preceding-sibling::td/input}
+Session ID: e9d8901c-7ab1-49e6-b592-a1f15424f403
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:18405/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.Report.selectEventRadioBtn(Report.java:306)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay118731(NewCreateUser.java:4433)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>544</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay118733()'><b>testHappyDay118733</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to generate Event Snapshot report. </td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.Report.verifDataInHTMLEventSnapshotReport(Report.java:1000)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay118733(NewCreateRole.java:3583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace13462904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13462904'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.Report.verifDataInHTMLEventSnapshotReport(Report.java:1000)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay118733(NewCreateRole.java:3583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>660</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality.testHappyDay127691()'><b>testHappyDay127691</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality<br>Test method: Verify that user can reset password by answering the challenge password questions set for the user. </td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality.testHappyDay127691(NewForgotUserIDOrPasswordFunctionality.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace9856438", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9856438'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality.testHappyDay127691(NewForgotUserIDOrPasswordFunctionality.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>266</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality@24e39f</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser.testHappyDay127839()'><b>testHappyDay127839</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser<br>Test method: Verify that user receives a notification when the user's password is changed</td>
+<td><div><pre>org.openqa.selenium.InvalidSelectorException: The xpath expression &apos;//form[@name=&apos;messages&apos;]/table/tbody/tr/td[5]/a&apos; cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.95 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//form[@name=&apos;messages&apos;]/table/tbody/tr/td[5]/a}
+Session ID: 1f2a5f00-dcd2-4af5-9e53-36b83047fc67
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:15671/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:459)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+	at qaframework.lib.webElements.WebElements.get(WebElements.java:39)
+	at qaframework.lib.webElements.WebElements.isElementPresent(WebElements.java:150)
+	at lib.page.MailVerificationFunctions.NavToInbox(MailVerificationFunctions.java:106)
+	at requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser.testHappyDay127839(NewResetPasswordOfAUser.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1505226", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1505226'><pre>org.openqa.selenium.InvalidSelectorException: The xpath expression &apos;//form[@name=&apos;messages&apos;]/table/tbody/tr/td[5]/a&apos; cannot be evaluated or does notresult in a WebElement (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.95 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//form[@name=&apos;messages&apos;]/table/tbody/tr/td[5]/a}
+Session ID: 1f2a5f00-dcd2-4af5-9e53-36b83047fc67
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:15671/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:459)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+	at qaframework.lib.webElements.WebElements.get(WebElements.java:39)
+	at qaframework.lib.webElements.WebElements.isElementPresent(WebElements.java:150)
+	at lib.page.MailVerificationFunctions.NavToInbox(MailVerificationFunctions.java:106)
+	at requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser.testHappyDay127839(NewResetPasswordOfAUser.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>281</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser@dee55c</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser.testHappyDay127845()'><b>testHappyDay127845</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser<br>Test method:  Verify that user whose password is changed by another user in a region is notified via primary email</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser.testHappyDay127845(NewResetPasswordOfAUser.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace8918860", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8918860'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser.testHappyDay127845(NewResetPasswordOfAUser.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>265</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewResetPasswordOfAUser@dee55c</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality.testHappyDay127893()'><b>testHappyDay127893</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality<br>Test method: Verify that user can edit the challenge password questions set from Preferences > Challenge Password </td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality.testHappyDay127893(NewForgotUserIDOrPasswordFunctionality.java:280)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace33191798", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace33191798'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality.testHappyDay127893(NewForgotUserIDOrPasswordFunctionality.java:280)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>277</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality@24e39f</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66025()'><b>testHappyDay66025</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a Web Service user can be created.</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for frame to be available: TB_iframeContent
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Session ID: 52bbde07-c899-4b8a-b805-28088452f162
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:48037/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at lib.page.EventManagement.verWebNotificationframe(EventManagement.java:1410)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66025(NewCreateUser.java:356)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace17438715", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace17438715'><pre>org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for frame to be available: TB_iframeContent
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Session ID: 52bbde07-c899-4b8a-b805-28088452f162
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:48037/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at lib.page.EventManagement.verWebNotificationframe(EventManagement.java:1410)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66025(NewCreateUser.java:356)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>349</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66095()'><b>testHappyDay66095</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to configure region views.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //td[text()=&apos;EditedView1444140280143&apos;]/preceding-sibling::td/a[text()=&apos;Users&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//td[text()=&apos;EditedView1444140280143&apos;]/preceding-sibling::td/a[text()=&apos;Users&apos;]}
+Session ID: 3f54ce72-64d9-4c3b-b1f6-1c993cb3534a
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:27783/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at qaframework.lib.webElements.WebElements.mouseOver(WebElements.java:104)
+	at lib.page.ViewsList.clickOnUsersAssociatedWithMulRegView(ViewsList.java:918)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66095(NewCreateUser.java:2699)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace16911359", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16911359'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //td[text()=&apos;EditedView1444140280143&apos;]/preceding-sibling::td/a[text()=&apos;Users&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//td[text()=&apos;EditedView1444140280143&apos;]/preceding-sibling::td/a[text()=&apos;Users&apos;]}
+Session ID: 3f54ce72-64d9-4c3b-b1f6-1c993cb3534a
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:27783/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at qaframework.lib.webElements.WebElements.mouseOver(WebElements.java:104)
+	at lib.page.ViewsList.clickOnUsersAssociatedWithMulRegView(ViewsList.java:918)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66095(NewCreateUser.java:2699)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>517</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66134()'><b>testHappyDay66134</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to setup status types.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[@class=&apos;mainLink&apos;][text()=&apos;Setup&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.29 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//a[@class=&apos;mainLink&apos;][text()=&apos;Setup&apos;]}
+Session ID: 1867eb73-7d46-4a7d-b01d-b31d36cffa8c
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:28087/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.StatusTypeList.clickOnSetUp(StatusTypeList.java:84)
+	at lib.page.StatusTypeList.navigateToStatusTypeList(StatusTypeList.java:105)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66134(NewCreateUser.java:3894)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace17589336", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace17589336'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[@class=&apos;mainLink&apos;][text()=&apos;Setup&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.29 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//a[@class=&apos;mainLink&apos;][text()=&apos;Setup&apos;]}
+Session ID: 1867eb73-7d46-4a7d-b01d-b31d36cffa8c
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:28087/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.StatusTypeList.clickOnSetUp(StatusTypeList.java:84)
+	at lib.page.StatusTypeList.navigateToStatusTypeList(StatusTypeList.java:105)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66134(NewCreateUser.java:3894)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>466</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay66138()'><b>testHappyDay66138</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to setup status types.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;mainLink&apos;][text()=&apos;Setup&apos;]&quot;}
+Command duration or timeout: 60.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//a[@class=&apos;mainLink&apos;][text()=&apos;Setup&apos;]}
+Session ID: 426ddb85-98a3-47bc-abde-b739e951fcc6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=30.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.StatusTypeList.clickOnSetUp(StatusTypeList.java:84)
+	at lib.page.StatusTypeList.navigateToStatusTypeList(StatusTypeList.java:105)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay66138(NewCreateRole.java:515)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;mainLink&apos;][text()=&apos;Setup&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/qsg/AppData/Local/Temp/anonymous3080836264559780678webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/qsg/AppData/Local/Temp/anonymous3080836264559780678webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</pre></div><a href='#' onClick='toggleBox("stack-trace16454803", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16454803'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;mainLink&apos;][text()=&apos;Setup&apos;]&quot;}
+Command duration or timeout: 60.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//a[@class=&apos;mainLink&apos;][text()=&apos;Setup&apos;]}
+Session ID: 426ddb85-98a3-47bc-abde-b739e951fcc6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=30.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.StatusTypeList.clickOnSetUp(StatusTypeList.java:84)
+	at lib.page.StatusTypeList.navigateToStatusTypeList(StatusTypeList.java:105)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay66138(NewCreateRole.java:515)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;mainLink&apos;][text()=&apos;Setup&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/qsg/AppData/Local/Temp/anonymous3080836264559780678webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/qsg/AppData/Local/Temp/anonymous3080836264559780678webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</pre></div></td>
+<td>3946</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66669()'><b>testHappyDay66669</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to setup User accounts.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@id=&apos;topSubNav&apos;]/h1[text()=&apos;Region Default&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div[@id=&apos;topSubNav&apos;]/h1[text()=&apos;Region Default&apos;]}
+Session ID: ae08580a-c759-456d-be07-62453bfd3741
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:28120/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.RegionDefault.verifyRegionDefaultPage(RegionDefault.java:104)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66669(NewCreateUser.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace8098046", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8098046'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@id=&apos;topSubNav&apos;]/h1[text()=&apos;Region Default&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div[@id=&apos;topSubNav&apos;]/h1[text()=&apos;Region Default&apos;]}
+Session ID: ae08580a-c759-456d-be07-62453bfd3741
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:28120/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.RegionDefault.verifyRegionDefaultPage(RegionDefault.java:104)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66669(NewCreateUser.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>334</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.CreateUser.testHappyDay68200()'><b>testHappyDay68200</b><br>Test class: requirementGroup.CreatingAndManagingUsers.CreateUser<br>Test method:  Verify that a user can be provided the right to generate Monthly Status Assessment report.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@class=&apos;footer&apos;]/div[@class=&apos;right&apos;][text()=&apos;Report Created: 06 Oct 2015 09:31 CDT&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div[@class=&apos;footer&apos;]/div[@class=&apos;right&apos;][text()=&apos;Report Created: 06 Oct 2015 09:31 CDT&apos;]}
+Session ID: 5cf11a88-865c-48e2-b798-15f831bc021f
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:44881/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.Report.verifyFooterHTMLMonthlyAssesmentReport(Report.java:1690)
+	at requirementGroup.CreatingAndManagingUsers.CreateUser.testHappyDay68200(CreateUser.java:666)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace25730207", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace25730207'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@class=&apos;footer&apos;]/div[@class=&apos;right&apos;][text()=&apos;Report Created: 06 Oct 2015 09:31 CDT&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div[@class=&apos;footer&apos;]/div[@class=&apos;right&apos;][text()=&apos;Report Created: 06 Oct 2015 09:31 CDT&apos;]}
+Session ID: 5cf11a88-865c-48e2-b798-15f831bc021f
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:44881/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.Report.verifyFooterHTMLMonthlyAssesmentReport(Report.java:1690)
+	at requirementGroup.CreatingAndManagingUsers.CreateUser.testHappyDay68200(CreateUser.java:666)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>442</td>
+<td>requirementGroup.CreatingAndManagingUsers.CreateUser@1a3fb76</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.CreateUser.testHappyDay68201()'><b>testHappyDay68201</b><br>Test class: requirementGroup.CreatingAndManagingUsers.CreateUser<br>Test method: Verify that a user can be provided the right to generate Event Detail report.</td>
+<td><div><pre>java.lang.AssertionError: expected [Event Detail Report (Step 1 of 2)] but found [Event Detail Report (Step 2 of 2)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at lib.page.Report.verEventDetailReportPge2IsDisplayed(Report.java:527)
+	at requirementGroup.CreatingAndManagingUsers.CreateUser.testHappyDay68201(CreateUser.java:361)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace590418", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace590418'><pre>java.lang.AssertionError: expected [Event Detail Report (Step 1 of 2)] but found [Event Detail Report (Step 2 of 2)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at lib.page.Report.verEventDetailReportPge2IsDisplayed(Report.java:527)
+	at requirementGroup.CreatingAndManagingUsers.CreateUser.testHappyDay68201(CreateUser.java:361)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>582</td>
+<td>requirementGroup.CreatingAndManagingUsers.CreateUser@1a3fb76</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68358()'><b>testHappyDay68358</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to activate forms.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == input[value=&apos;Save&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=css selector, value=input[value=&apos;Save&apos;]}
+Session ID: 39c8ce84-253e-4090-bc37-2ae47f6439f1
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:46627/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:447)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.FormConfiguration.clickOnSaveOfFormSecuritySetting(FormConfiguration.java:597)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68358(NewCreateUser.java:1215)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace11145385", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11145385'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == input[value=&apos;Save&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=css selector, value=input[value=&apos;Save&apos;]}
+Session ID: 39c8ce84-253e-4090-bc37-2ae47f6439f1
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:46627/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:447)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.FormConfiguration.clickOnSaveOfFormSecuritySetting(FormConfiguration.java:597)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68358(NewCreateUser.java:1215)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>303</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68420()'><b>testHappyDay68420</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to initiate chat session.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[@id=&apos;regionName&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//a[@id=&apos;regionName&apos;]}
+Session ID: 8b662085-87de-4939-aa5a-656aade7a741
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:24745/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.SelectRegion.clickRegionLink(SelectRegion.java:93)
+	at lib.page.SelectRegion.selectRegionAndNavigate(SelectRegion.java:79)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68420(NewCreateUser.java:3398)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace14762929", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14762929'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[@id=&apos;regionName&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//a[@id=&apos;regionName&apos;]}
+Session ID: 8b662085-87de-4939-aa5a-656aade7a741
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:24745/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.SelectRegion.clickRegionLink(SelectRegion.java:93)
+	at lib.page.SelectRegion.selectRegionAndNavigate(SelectRegion.java:79)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68420(NewCreateUser.java:3398)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>315</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69156()'><b>testHappyDay69156</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to setup User accounts.</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.UsersList.verFullName(UsersList.java:942)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69156(NewCreateRole.java:5092)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace13390796", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13390796'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.UsersList.verFullName(UsersList.java:942)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69156(NewCreateRole.java:5092)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>715</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69184()'><b>testHappyDay69184</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method:  Verify that a user can be provided a role with right to generate Status Summary report.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //table/tbody/tr/td[2]/a[contains(text(),&apos;MST10/07/2015-012023&apos;)]/parent::td/preceding-sibling::td/input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//table/tbody/tr/td[2]/a[contains(text(),&apos;MST10/07/2015-012023&apos;)]/parent::td/preceding-sibling::td/input}
+Session ID: 14d19c5c-e414-46ee-8b58-a3a72319a525
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:22416/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.Report.selectStatusType(Report.java:1242)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69184(NewCreateRole.java:2682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace14276997", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14276997'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //table/tbody/tr/td[2]/a[contains(text(),&apos;MST10/07/2015-012023&apos;)]/parent::td/preceding-sibling::td/input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//table/tbody/tr/td[2]/a[contains(text(),&apos;MST10/07/2015-012023&apos;)]/parent::td/preceding-sibling::td/input}
+Session ID: 14d19c5c-e414-46ee-8b58-a3a72319a525
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=9, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:22416/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.Report.selectStatusType(Report.java:1242)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69184(NewCreateRole.java:2682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>560</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69194()'><b>testHappyDay69194</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to generate Status Detail report.</td>
+<td><div><pre>java.lang.AssertionError: expected [Status Detail Report (Step 1 of 2)] but found [Status Detail Report (Step 2 of 2)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at lib.page.Report.verStatusDetailReportPge2IsDisplayed(Report.java:822)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69194(NewCreateRole.java:3051)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace6375061", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace6375061'><pre>java.lang.AssertionError: expected [Status Detail Report (Step 1 of 2)] but found [Status Detail Report (Step 2 of 2)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at lib.page.Report.verStatusDetailReportPge2IsDisplayed(Report.java:822)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69194(NewCreateRole.java:3051)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>384</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69225()'><b>testHappyDay69225</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to generate Status Reason Detail report. </td>
+<td><div><pre>java.lang.AssertionError: expected [Status Reason Detail Report (Step 1 of 3)] but found [Status Reason Detail Report (Step 2 of 3)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at lib.page.Report.verStatusReasonDetailReportPge2IsDisplayed(Report.java:682)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69225(NewCreateRole.java:1257)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace21886634", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace21886634'><pre>java.lang.AssertionError: expected [Status Reason Detail Report (Step 1 of 3)] but found [Status Reason Detail Report (Step 2 of 3)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at lib.page.Report.verStatusReasonDetailReportPge2IsDisplayed(Report.java:682)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69225(NewCreateRole.java:1257)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>365</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69227()'><b>testHappyDay69227</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to generate Status Snapshot report.</td>
+<td><div><pre>java.io.FileNotFoundException: D:\eclipse\com.qsgsoft.EMResourceWebDriver\src\test\resources\DownloadFiles\TC69227_10-07-2015-014301.xlsx (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at qaframework.lib.UserDefinedFunctions.FileFormatConverter.convertXlsxToXls(FileFormatConverter.java:28)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69227(NewCreateRole.java:1646)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace14277441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14277441'><pre>java.io.FileNotFoundException: D:\eclipse\com.qsgsoft.EMResourceWebDriver\src\test\resources\DownloadFiles\TC69227_10-07-2015-014301.xlsx (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at qaframework.lib.UserDefinedFunctions.FileFormatConverter.convertXlsxToXls(FileFormatConverter.java:28)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69227(NewCreateRole.java:1646)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>468</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69235()'><b>testHappyDay69235</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to activate forms.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/h1[text()=&apos;Intermedix&apos;]&quot;}
+Command duration or timeout: 60.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div/h1[text()=&apos;Intermedix&apos;]}
+Session ID: 6bedf53f-eb16-46db-8369-f6f551072678
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=30.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.FormConfiguration.verTemplateDesignPage(FormConfiguration.java:255)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69235(NewCreateRole.java:1758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/h1[text()=&apos;Intermedix&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/qsg/AppData/Local/Temp/anonymous8237705101232654985webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/qsg/AppData/Local/Temp/anonymous8237705101232654985webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</pre></div><a href='#' onClick='toggleBox("stack-trace31552536", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace31552536'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/h1[text()=&apos;Intermedix&apos;]&quot;}
+Command duration or timeout: 60.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div/h1[text()=&apos;Intermedix&apos;]}
+Session ID: 6bedf53f-eb16-46db-8369-f6f551072678
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=30.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.FormConfiguration.verTemplateDesignPage(FormConfiguration.java:255)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69235(NewCreateRole.java:1758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/h1[text()=&apos;Intermedix&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/qsg/AppData/Local/Temp/anonymous8237705101232654985webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/qsg/AppData/Local/Temp/anonymous8237705101232654985webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</pre></div></td>
+<td>293</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69236()'><b>testHappyDay69236</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to configure form security.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/h1[text()=&apos;Intermedix&apos;]&quot;}
+Command duration or timeout: 60.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div/h1[text()=&apos;Intermedix&apos;]}
+Session ID: 5a788a66-dae0-457c-81c4-e8494be10122
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=30.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.FormConfiguration.verTemplateDesignPage(FormConfiguration.java:255)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69236(NewCreateRole.java:1936)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/h1[text()=&apos;Intermedix&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/qsg/AppData/Local/Temp/anonymous6499698693801513338webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/qsg/AppData/Local/Temp/anonymous6499698693801513338webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</pre></div><a href='#' onClick='toggleBox("stack-trace11259693", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11259693'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/h1[text()=&apos;Intermedix&apos;]&quot;}
+Command duration or timeout: 60.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+*** Element info: {Using=xpath, value=//div/h1[text()=&apos;Intermedix&apos;]}
+Session ID: 5a788a66-dae0-457c-81c4-e8494be10122
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=30.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.FormConfiguration.verTemplateDesignPage(FormConfiguration.java:255)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69236(NewCreateRole.java:1936)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/h1[text()=&apos;Intermedix&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;qsg-PC&apos;, ip: &apos;192.168.27.31&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_05&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/qsg/AppData/Local/Temp/anonymous6499698693801513338webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/qsg/AppData/Local/Temp/anonymous6499698693801513338webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</pre></div></td>
+<td>293</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay69710()'><b>testHappyDay69710</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to edit status change notification preferences. </td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay69710(NewCreateUser.java:4836)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace3756825", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3756825'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay69710(NewCreateUser.java:4836)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>560</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay98498()'><b>testHappyDay98498</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method:  Verify that a user can be provided the right to edit event notification preferences.</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay98498(NewCreateUser.java:2547)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace16075479", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16075479'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay98498(NewCreateUser.java:2547)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>656</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay98502()'><b>testHappyDay98502</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to edit event notification preferences.</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay98502(NewCreateRole.java:4012)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace27156783", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace27156783'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at lib.page.MailVerificationFunctions.logoutMail(MailVerificationFunctions.java:271)
+	at requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay98502(NewCreateRole.java:4012)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>686</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay112345()'><b>testHappyDay112345</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that user provided with 'Setup Resources' right in a role and with update status right on a resource can create/edit a sub-resource under it.</td>
+<td></td>
+<td>661</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality.testHappyDay127884()'><b>testHappyDay127884</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality<br>Test method: Verify that when user has access to multiple regions the changes done to the challenge setup are reflected across all the regions </td>
+<td></td>
+<td>412</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewForgotUserIDOrPasswordFunctionality@24e39f</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66123()'><b>testHappyDay66123</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to administer other region views.</td>
+<td></td>
+<td>225</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66152()'><b>testHappyDay66152</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to setup resource types.</td>
+<td></td>
+<td>192</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66155()'><b>testHappyDay66155</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to setup resource. </td>
+<td></td>
+<td>514</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66165()'><b>testHappyDay66165</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method:  Verify that a user can be provided the right 'Edit resources only'.</td>
+<td></td>
+<td>531</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66661()'><b>testHappyDay66661</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to setup status reasons. </td>
+<td></td>
+<td>153</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66918()'><b>testHappyDay66918</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to setup Roles.</td>
+<td></td>
+<td>149</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay66939()'><b>testHappyDay66939</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to view custom view.</td>
+<td></td>
+<td>207</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay67054()'><b>testHappyDay67054</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to maintain events.</td>
+<td></td>
+<td>322</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68091()'><b>testHappyDay68091</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to maintain event templates.</td>
+<td></td>
+<td>394</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68146()'><b>testHappyDay68146</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to generate Status Detail report.</td>
+<td></td>
+<td>411</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68159()'><b>testHappyDay68159</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to generate Status Reason Summary report. </td>
+<td></td>
+<td>312</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68196()'><b>testHappyDay68196</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to generate Status Reason Detail report.</td>
+<td></td>
+<td>433</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68197()'><b>testHappyDay68197</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to generate Status Snapshot report. </td>
+<td></td>
+<td>335</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68380()'><b>testHappyDay68380</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to configure form security. </td>
+<td></td>
+<td>257</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay68405()'><b>testHappyDay68405</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to Maintain Document Library.</td>
+<td></td>
+<td>509</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay69126()'><b>testHappyDay69126</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that a user can be provided the right to view user information only.</td>
+<td></td>
+<td>383</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69135()'><b>testHappyDay69135</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to administer other region views.</td>
+<td></td>
+<td>474</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69139()'><b>testHappyDay69139</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to setup resource.</td>
+<td></td>
+<td>418</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69155()'><b>testHappyDay69155</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to setup status reasons.</td>
+<td></td>
+<td>354</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69157()'><b>testHappyDay69157</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to view user information only.</td>
+<td></td>
+<td>602</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69158()'><b>testHappyDay69158</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to setup Roles.</td>
+<td></td>
+<td>290</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69175()'><b>testHappyDay69175</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to view custom view.</td>
+<td></td>
+<td>344</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69176()'><b>testHappyDay69176</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method:  Verify that a user can be provided a role with right to maintain events.</td>
+<td></td>
+<td>364</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69177()'><b>testHappyDay69177</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to maintain event templates.</td>
+<td></td>
+<td>439</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69267()'><b>testHappyDay69267</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to edit Regional Message Bulletin Board.</td>
+<td></td>
+<td>307</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69268()'><b>testHappyDay69268</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Verify that a user can be provided a role with right to Maintain Document Library.</td>
+<td></td>
+<td>652</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingRoles.NewCreateRole.testHappyDay69305()'><b>testHappyDay69305</b><br>Test class: requirementGroup.CreatingAndManagingRoles.NewCreateRole<br>Test method: Create a role ROL by selecting a status type ST and verify that the user with role ROL and with update right to the resource associated with status type ST can update the status of ST.</td>
+<td></td>
+<td>335</td>
+<td>requirementGroup.CreatingAndManagingRoles.NewCreateRole@f10c77</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.NewCreateUser.testHappyDay88053()'><b>testHappyDay88053</b><br>Test class: requirementGroup.CreatingAndManagingUsers.NewCreateUser<br>Test method: Verify that user can be created by providing only mandatory data.</td>
+<td></td>
+<td>431</td>
+<td>requirementGroup.CreatingAndManagingUsers.NewCreateUser@d21555</td></tr>
+<tr>
+<td title='requirementGroup.CreatingAndManagingUsers.CreateUser.testSmoke68391()'><b>testSmoke68391</b><br>Test class: requirementGroup.CreatingAndManagingUsers.CreateUser<br>Test method: Verify that a user can be provided the right to edit Regional Message Bulletin Board.</td>
+<td></td>
+<td>341</td>
+<td>requirementGroup.CreatingAndManagingUsers.CreateUser@1a3fb76</td></tr>
+</table><p>
+</body>
+</html>
