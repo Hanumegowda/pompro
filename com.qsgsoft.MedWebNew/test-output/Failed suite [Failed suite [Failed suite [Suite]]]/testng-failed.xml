@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]" parallel="tests">
+  <test name="Test(failed)(failed)(failed)(failed)" parallel="tests">
+    <classes>
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsQCSandbox">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay59393"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsQCSandbox -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay68564"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsEditAndFormatTemplates">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testHappyDay68600"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsEditAndFormatTemplates -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendStudiesToDICOMStorage">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay85522"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayImageManagementToolsSendStudiesToDICOMStorage -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayViewPatientsPageForStudies">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay68403"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayViewPatientsPageForStudies -->
+      <class name="requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateTemplatesInTemplateEditor">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay64432"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.ViewPatients.HappyDayWebReportsCreateTemplatesInTemplateEditor -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]] -->

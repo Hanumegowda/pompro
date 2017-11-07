@@ -1,0 +1,76 @@
+name=Zero Footprint Viewer
+
+quick_view_button=1
+view_by_plugin_button=0
+read_mark=0
+
+studies_table=
+[
+group_comp=1
+
+fields=
+[
+ Name=
+ [
+   TD[0010x0010]MPALO[S]
+ ]
+ Type=
+ [
+   TD[0018x0015]ALO[S]
+   TD[0008x1030]ALO[S]
+   TD[0018x1030]ALO[S]
+ ]
+ Station=
+ [
+   TD[0008x1010]MPAL
+ ]
+ Assigned=
+ [
+   TA[assigned]AC
+ ]
+ State=
+ [
+   TS[study_state|opened=Opened|pending=Pending|assigned=Assigned|answered=Answered|closed=Closed]O[R]
+ ]
+ Date=
+ [
+   TD[0008x0020]MD
+ ]
+ Time=
+ [
+   TD[0008x0030]MT
+ ]
+]
+
+group=
+[
+ Site=
+ [
+   TD[0008x0080]MP
+ ]
+ Modality=
+ [
+   TD[0008x0060]
+   TD[0008x1111]
+ ]
+ Station name=
+ [
+   TD[0008x1010]
+ ]
+]
+
+innerkey=
+[
+  TD[0008x0020]MDDD
+  TD[0008x0030]MTDD
+]
+
+key=
+[
+  TA[is_stat]MN
+  TD[0008x0080]
+  TD[0008x1010]
+  TD[0008x0060]
+]
+
+]

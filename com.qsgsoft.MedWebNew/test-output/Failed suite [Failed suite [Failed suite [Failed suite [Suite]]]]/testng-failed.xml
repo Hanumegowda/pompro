@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]]" parallel="none">
+  <test name="Test(failed)(failed)(failed)(failed)(failed)" parallel="none">
+    <classes>
+      <class name="requirementGroup.ControlPanelServices.HappyDayMedwebStatistics">
+        <methods>
+          <include name="setUp"/>
+          <include name="testHappyDay165867"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- requirementGroup.ControlPanelServices.HappyDayMedwebStatistics -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]] -->

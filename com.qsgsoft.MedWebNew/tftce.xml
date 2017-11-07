@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+<test name = "test1" >
+<classes>
+  <class name="requirementGroup.SmokeSuit.Users.HappyDayUserFilter">
+        <methods>
+          <include name="testHappyDay83928"/>
+          <include name="testHappyDay106196"/>
+        </methods>
+        </class>>
+</classes>
+</test>
+
+</suite>

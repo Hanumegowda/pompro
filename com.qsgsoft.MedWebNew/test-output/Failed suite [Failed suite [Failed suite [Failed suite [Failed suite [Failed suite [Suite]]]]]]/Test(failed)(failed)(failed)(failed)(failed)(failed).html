@@ -1,0 +1,715 @@
+<html>
+<head>
+<title>TestNG:  Test(failed)(failed)(failed)(failed)(failed)(failed)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test(failed)(failed)(failed)(failed)(failed)(failed)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/3/23</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 16:43:19 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>486 seconds (486308 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: session a9a32a89-6ee7-4236-abc3-d5687bd49a00 does not exist
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Medweb-QSG&apos;, ip: &apos;192.168.27.51&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: a9a32a89-6ee7-4236-abc3-d5687bd49a00
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:25165/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:469)
+	at qaframework.lib.testngExtensions.TestNG_UI_EXTENSIONSForOneBrowser.tearDown(TestNG_UI_EXTENSIONSForOneBrowser.java:83)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1958109112", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1958109112'><pre>org.openqa.selenium.remote.SessionNotFoundException: session a9a32a89-6ee7-4236-abc3-d5687bd49a00 does not exist
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Medweb-QSG&apos;, ip: &apos;192.168.27.51&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: a9a32a89-6ee7-4236-abc3-d5687bd49a00
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:25165/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:469)
+	at qaframework.lib.testngExtensions.TestNG_UI_EXTENSIONSForOneBrowser.tearDown(TestNG_UI_EXTENSIONSForOneBrowser.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:721)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.Maintenance.HappyDayRestore.setUp()'><b>setUp</b><br>Test class: requirementGroup.Maintenance.HappyDayRestore</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.Maintenance.HappyDayRestore@5ab5b91</td></tr>
+<tr>
+<td title='requirementGroup.ControlPanelServices.HappyDayMedwebStatistics.setUp()'><b>setUp</b><br>Test class: requirementGroup.ControlPanelServices.HappyDayMedwebStatistics</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ControlPanelServices.HappyDayMedwebStatistics@35088f7f</td></tr>
+<tr>
+<td title='requirementGroup.ControlPanelServices.HappyDayWorkflowProxy.setUp()'><b>setUp</b><br>Test class: requirementGroup.ControlPanelServices.HappyDayWorkflowProxy</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ControlPanelServices.HappyDayWorkflowProxy@4504f60c</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports.setUp()'><b>setUp</b><br>Test class: requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports@6614b5ba</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAddingDestination.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAddingDestination</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAddingDestination@59a6fab1</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAddingDestination.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAddingDestination</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAddingDestination@59a6fab1</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAddingDestination.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAddingDestination</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAddingDestination@59a6fab1</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor.setUp()'><b>setUp</b><br>Test class: requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor@6194a872</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor.setUp()'><b>setUp</b><br>Test class: requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor@6194a872</td></tr>
+<tr>
+<td title='requirementGroup.Maintenance.HappyDayBackup.setUp()'><b>setUp</b><br>Test class: requirementGroup.Maintenance.HappyDayBackup</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.Maintenance.HappyDayBackup@66bf066a</td></tr>
+<tr>
+<td title='requirementGroup.Maintenance.HappyDayBackup.setUp()'><b>setUp</b><br>Test class: requirementGroup.Maintenance.HappyDayBackup</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.Maintenance.HappyDayBackup@66bf066a</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports.setUp()'><b>setUp</b><br>Test class: requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports@73e4dd9</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.setUp()'><b>setUp</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.Maintenance.HappyDayRestore.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.Maintenance.HappyDayRestore</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.Maintenance.HappyDayRestore@5ab5b91</td></tr>
+<tr>
+<td title='requirementGroup.ControlPanelServices.HappyDayMedwebStatistics.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.ControlPanelServices.HappyDayMedwebStatistics</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ControlPanelServices.HappyDayMedwebStatistics@35088f7f</td></tr>
+<tr>
+<td title='requirementGroup.ControlPanelServices.HappyDayWorkflowProxy.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.ControlPanelServices.HappyDayWorkflowProxy</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ControlPanelServices.HappyDayWorkflowProxy@4504f60c</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports@6614b5ba</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAddingDestination.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAddingDestination</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAddingDestination@59a6fab1</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAddingDestination.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAddingDestination</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAddingDestination@59a6fab1</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAddingDestination.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAddingDestination</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAddingDestination@59a6fab1</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor@6194a872</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor@6194a872</td></tr>
+<tr>
+<td title='requirementGroup.Maintenance.HappyDayBackup.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.Maintenance.HappyDayBackup</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.Maintenance.HappyDayBackup@66bf066a</td></tr>
+<tr>
+<td title='requirementGroup.Maintenance.HappyDayBackup.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.Maintenance.HappyDayBackup</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.Maintenance.HappyDayBackup@66bf066a</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports@73e4dd9</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.tearDown()'><b>tearDown</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayImageManagementToolsQCSandbox.testHappyDay59393()'><b>testHappyDay59393</b><br>Test class: requirementGroup.ViewPatients.HappyDayImageManagementToolsQCSandbox<br>Test method: Verify that studies from an Aetitle are placed in the QC Sandbox when the option 'Place studies from this aetitle into the Trauma sandbox' is enabled in Destination Editor.</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please select studies!
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Medweb-QSG&apos;, ip: &apos;192.168.27.51&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: de9fe256-6db4-41a5-8910-b692bead50da
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:47730/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:495)
+	at lib.page.ViewPatients.delAllSelectedStudies1(ViewPatients.java:1049)
+	at requirementGroup.ViewPatients.HappyDayImageManagementToolsQCSandbox.testHappyDay59393(HappyDayImageManagementToolsQCSandbox.java:114)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1434302726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1434302726'><pre>org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please select studies!
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Medweb-QSG&apos;, ip: &apos;192.168.27.51&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: de9fe256-6db4-41a5-8910-b692bead50da
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:47730/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:495)
+	at lib.page.ViewPatients.delAllSelectedStudies1(ViewPatients.java:1049)
+	at requirementGroup.ViewPatients.HappyDayImageManagementToolsQCSandbox.testHappyDay59393(HappyDayImageManagementToolsQCSandbox.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>162</td>
+<td>requirementGroup.ViewPatients.HappyDayImageManagementToolsQCSandbox@21b56b0b</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay68321()'><b>testHappyDay68321</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings<br>Test method: Verify that the HTML report editor opens when adding reports in Web Reporter page if 'Use HTML Report Editor' option is enabled in Local Settings.</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: session a9a32a89-6ee7-4236-abc3-d5687bd49a00 does not exist
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Medweb-QSG&apos;, ip: &apos;192.168.27.51&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: a9a32a89-6ee7-4236-abc3-d5687bd49a00
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:25165/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:905)
+	at requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay68321(HappyDayLocalSettings.java:421)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace618011515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace618011515'><pre>org.openqa.selenium.remote.SessionNotFoundException: session a9a32a89-6ee7-4236-abc3-d5687bd49a00 does not exist
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Medweb-QSG&apos;, ip: &apos;192.168.27.51&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: a9a32a89-6ee7-4236-abc3-d5687bd49a00
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:25165/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:905)
+	at requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay68321(HappyDayLocalSettings.java:421)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>178</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay68324()'><b>testHappyDay68324</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings<br>Test method: Verify that the digital signature appears at the bottom of a signed report when 'Add Digital Signature block to Signed reports' option is enabled.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //td[contains(text(),&apos;PFQ000206S&apos;)]//preceding-sibling::td//input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Medweb-QSG&apos;, ip: &apos;192.168.27.51&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//td[contains(text(),&apos;PFQ000206S&apos;)]//preceding-sibling::td//input}
+Session ID: 39d5506e-95c5-4159-9909-5f409f601afd
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:35160/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.ViewPatients.deSelThisStudyReadCheckBox(ViewPatients.java:875)
+	at requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay68324(HappyDayLocalSettings.java:688)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace243118298", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace243118298'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //td[contains(text(),&apos;PFQ000206S&apos;)]//preceding-sibling::td//input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Medweb-QSG&apos;, ip: &apos;192.168.27.51&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//td[contains(text(),&apos;PFQ000206S&apos;)]//preceding-sibling::td//input}
+Session ID: 39d5506e-95c5-4159-9909-5f409f601afd
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:35160/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at qaframework.lib.webElements.WebElements.getOne(WebElements.java:34)
+	at lib.page.ViewPatients.deSelThisStudyReadCheckBox(ViewPatients.java:875)
+	at requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay68324(HappyDayLocalSettings.java:688)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>90</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='requirementGroup.RISPatientSchedule.HappyDayPatientRegistration.testHappyDay62719()'><b>testHappyDay62719</b><br>Test class: requirementGroup.RISPatientSchedule.HappyDayPatientRegistration<br>Test method: Verify that a new patient can be registered by entering all the data in the New Patient form.</td>
+<td></td>
+<td>30</td>
+<td>requirementGroup.RISPatientSchedule.HappyDayPatientRegistration@1f78a4e8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay100685()'><b>testHappyDay100685</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings<br>Test method: Verify that incoming study is marked as STAT and the same study records are replaced by fake data when both 'Mark Study as STA' & 'Anonymize Study' options are enabled in 'Add new alias' page.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.ControlPanelServices.HappyDayMedwebStatistics.testHappyDay165867()'><b>testHappyDay165867</b><br>Test class: requirementGroup.ControlPanelServices.HappyDayMedwebStatistics<br>Test method: Verify that the user can access the Statistics from the remote server on the host server if the status is 'Available'.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ControlPanelServices.HappyDayMedwebStatistics@35088f7f</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay167035()'><b>testHappyDay167035</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings<br>Test method: Verify that MTF code of the receiving server is added to the 'Accession Number' & 'DICOM Fields' when study received does not have MTF and 'Add MTF to Accession number and Medweb DICOM field' option is enabled in the receiving server </td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay167038()'><b>testHappyDay167038</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings<br>Test method: Verify that MTF code of the receiving server is added to the DICOM Fields only when study received does not have MTF and Add MTF to Medweb DICOM field only (7deb:0103) option is enabled in the receiving server.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay167039()'><b>testHappyDay167039</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings<br>Test method: Verify that MTF code of the receiving server is not added to the Accession Number nor to the DICOM Fields when receiving study does not have MTF and Disable MTF option is enabled in the receiving server.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay59406()'><b>testHappyDay59406</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings<br>Test method: Verify that an Accession number is automatically assigned for the incoming studies which are not having Accession number when option 'Assign unique Accession number to the study if this field is not set' is enabled.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.ControlPanelServices.HappyDayWorkflowProxy.testHappyDay68191()'><b>testHappyDay68191</b><br>Test class: requirementGroup.ControlPanelServices.HappyDayWorkflowProxy<br>Test method: Verify that when a valid rule for encryption and decryption is created, the tunnel listens on the lsitening port and trasmits data to the destination IP/port.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ControlPanelServices.HappyDayWorkflowProxy@4504f60c</td></tr>
+<tr>
+<td title='requirementGroup.Maintenance.HappyDayBackup.testHappyDay68278()'><b>testHappyDay68278</b><br>Test class: requirementGroup.Maintenance.HappyDayBackup<br>Test method: Verify that the backup file is created and stored in the Medweb Server when 'Local Storage' is selected in type of transport.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.Maintenance.HappyDayBackup@66bf066a</td></tr>
+<tr>
+<td title='requirementGroup.Maintenance.HappyDayBackup.testHappyDay68279()'><b>testHappyDay68279</b><br>Test class: requirementGroup.Maintenance.HappyDayBackup<br>Test method: Verify that the backup file is created and saved in the Remote server when 'Remote – Medweb Secure Tunnel' option is selected under 'Type of Transport'.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.Maintenance.HappyDayBackup@66bf066a</td></tr>
+<tr>
+<td title='requirementGroup.Maintenance.HappyDayRestore.testHappyDay68292()'><b>testHappyDay68292</b><br>Test class: requirementGroup.Maintenance.HappyDayRestore<br>Test method: Veirfy that the backup file saved is restored when 'Restore this entry' icon is clicked next to the backup file.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.Maintenance.HappyDayRestore@5ab5b91</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay68316()'><b>testHappyDay68316</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings<br>Test method: Verify that the DICOM fields specified in Remapping table is replaced with the value in Regexp field for arriving studies from the specified AE.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayLocalSettings.testHappyDay68326()'><b>testHappyDay68326</b><br>Test class: requirementGroup.DICOMSettings.HappyDayLocalSettings<br>Test method: Verify that the study is automatically marked as 'Read' when the option 'Mark study as 'Read' when the report is signed' is enabled.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayLocalSettings@d86b077</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAddingDestination.testHappyDay68366()'><b>testHappyDay68366</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAddingDestination<br>Test method: Verify that the studies are routed to destination server using DICOM Protocol when the option ' DICOM Protocol' is enabled under Transport.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAddingDestination@59a6fab1</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAddingDestination.testHappyDay68372()'><b>testHappyDay68372</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAddingDestination<br>Test method: Verify that the studies are routed to destination server using FTP over secure tunnel Protocol when the option 'FTP over Secure Tunnel (for slow/satellite links)' is enabled under Transport.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAddingDestination@59a6fab1</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAddingDestination.testHappyDay68373()'><b>testHappyDay68373</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAddingDestination<br>Test method: Verify that the studies are routed to destination server using DICOM over secure tunnel Protocol when the option 'DICOM over Secure Tunnel is enabled under Transport .</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAddingDestination@59a6fab1</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.testHappyDay68385()'><b>testHappyDay68385</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting<br>Test method: Verify that the study is routed to the destination AE if the study matches all the three rules.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.testHappyDay68387()'><b>testHappyDay68387</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting<br>Test method: Verify that only the signed reports of the study are routed when the 'Only signed reports' option is enabled under Route Reports section.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.testHappyDay68389()'><b>testHappyDay68389</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting<br>Test method: Verify that all the reports of the study are routed when the 'All reports' option is enabled under Route Reports section.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.DICOMSettings.HappyDayAetitleRouting.testHappyDay68393()'><b>testHappyDay68393</b><br>Test class: requirementGroup.DICOMSettings.HappyDayAetitleRouting<br>Test method: Verify that the studies are routed to the destination AE when an appropriate Match Filter is specified for the Attribute 'Patient name' .</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.DICOMSettings.HappyDayAetitleRouting@b68e546</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports.testHappyDay68465()'><b>testHappyDay68465</b><br>Test class: requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports<br>Test method: Verify that a study can be sent to an e-mail recipient when mandatory and non-mandatory (all) fields are filled in ‘Send study to recipient as PDF report by E-Fax/Mail’ page.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingPDFReports@73e4dd9</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports.testHappyDay68467()'><b>testHappyDay68467</b><br>Test class: requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports<br>Test method: Verify that the study can be sent as a MWW attachment when mandatory and non- mandatory fields(all) are filled.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayImageManagementToolsSendingMWWReports@6614b5ba</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor.testHappyDay68545()'><b>testHappyDay68545</b><br>Test class: requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor<br>Test method: Verify that a user with rights to add new reports is allowed to create reports in 'Standard Report Editor'.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor@6194a872</td></tr>
+<tr>
+<td title='requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor.testHappyDay68553()'><b>testHappyDay68553</b><br>Test class: requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor<br>Test method: Verify that a user with permission 'Attach documents to reports' is allowed to upload attachments to reports in Web reporter page.</td>
+<td></td>
+<td>0</td>
+<td>requirementGroup.ViewPatients.HappyDayWebReportsCreateReportsInReportEditor@6194a872</td></tr>
+</table><p>
+</body>
+</html>

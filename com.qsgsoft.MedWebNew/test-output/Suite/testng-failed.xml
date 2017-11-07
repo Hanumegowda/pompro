@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="ie"/>
+  <test name="chrometest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByMTFAndDate">
+        <methods>
+          <include name="testHappyDay69316"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByMTFAndDate -->
+    </classes>
+  </test> <!-- chrometest -->
+  <test name="ietest">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByMTFAndDate">
+        <methods>
+          <include name="testHappyDay69316"/>
+        </methods>
+      </class> <!-- requirementGroup.SmokeSuit.MedwebRadiologyStatistics.HappyDayStudiesStudiesReceivedByMTFAndDate -->
+    </classes>
+  </test> <!-- ietest -->
+</suite> <!-- Failed suite [Suite] -->
